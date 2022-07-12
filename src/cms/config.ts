@@ -14,9 +14,58 @@ export default {
     {
       name: 'pages',
       label: 'Pages',
+      folder: 'src/content/pages',
       create: true,
       slug: '{{slug}}',
       preview_path: 'pages/{{fields.slug}}',
+      fields: [
+        {
+          label: 'Title',
+          name: 'title',
+          widget: 'string',
+        },
+        {
+          label: 'Slug',
+          name: 'slug',
+          widget: 'string',
+        },
+        {
+          label: 'Draft',
+          name: 'draft',
+          widget: 'boolean',
+          default: true,
+        },
+        {
+          label: 'Publish Date',
+          name: 'date',
+          widget: 'datetime',
+        },
+        {
+          label: 'Description',
+          name: 'description',
+          widget: 'text',
+        },
+        {
+          label: 'Category',
+          name: 'category',
+          widget: 'string',
+        },
+        {
+          label: 'Image',
+          name: 'image',
+          widget: 'image',
+        },
+        {
+          label: 'Body',
+          name: 'body',
+          widget: 'markdown',
+        },
+        {
+          label: 'Tags',
+          name: 'tags',
+          widget: 'list',
+        },
+      ],
       files: [
         {
           label: 'Home',

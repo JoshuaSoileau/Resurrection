@@ -4,7 +4,7 @@ export default {
     name: 'github',
     repo: 'JoshuaSoileau/Resurrection',
     branch: 'master',
-    base_url: 'https://netlify-cms-vercel-oath.JoshuaSoileau.vercel.app'
+    base_url: 'https://netlify-cms-vercel-oath.vercel.app'
   },
   media_folder: 'public/img',
   public_folder: 'img',

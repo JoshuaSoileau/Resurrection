@@ -14,6 +14,9 @@ export default {
     {
       name: 'pages',
       label: 'Pages',
+      create: true,
+      slug: '{{slug}}',
+      preview_path: 'pages/{{fields.slug}}',
       files: [
         {
           label: 'Home',

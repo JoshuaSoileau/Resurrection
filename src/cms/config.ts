@@ -16,8 +16,8 @@ export default {
       label: 'Pages',
       folder: 'src/content/pages',
       create: true,
-      slug: '{{slug}}',
-      preview_path: 'pages/{{fields.slug}}',
+      slug: 'pages/{{slug}}',
+      preview_path: 'pages/preview/{{fields.slug}}',
       fields: [
         {
           label: 'Title',

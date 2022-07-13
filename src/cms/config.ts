@@ -16,8 +16,8 @@ export default {
       label: 'Pages',
       folder: 'src/content/pages',
       create: true,
-      slug: 'pages/{{slug}}',
-      preview_path: 'pages/preview/{{fields.slug}}',
+      slug: '{{slug}}',
+      preview_path: 'pages/{{fields.slug}}',
       fields: [
         {
           label: 'Title',
@@ -271,62 +271,6 @@ export default {
               multiple: true,
             },
           ],
-        },
-      ],
-    },
-    {
-      name: 'posts',
-      label: 'Posts',
-      folder: 'src/content/posts',
-      create: true,
-      slug: '{{slug}}',
-      preview_path: 'posts/{{fields.slug}}',
-      fields: [
-        {
-          label: 'Title',
-          name: 'title',
-          widget: 'string',
-        },
-        {
-          label: 'Slug',
-          name: 'slug',
-          widget: 'string',
-        },
-        {
-          label: 'Draft',
-          name: 'draft',
-          widget: 'boolean',
-          default: true,
-        },
-        {
-          label: 'Publish Date',
-          name: 'date',
-          widget: 'datetime',
-        },
-        {
-          label: 'Description',
-          name: 'description',
-          widget: 'text',
-        },
-        {
-          label: 'Category',
-          name: 'category',
-          widget: 'string',
-        },
-        {
-          label: 'Image',
-          name: 'image',
-          widget: 'image',
-        },
-        {
-          label: 'Body',
-          name: 'body',
-          widget: 'markdown',
-        },
-        {
-          label: 'Tags',
-          name: 'tags',
-          widget: 'list',
         },
       ],
     },

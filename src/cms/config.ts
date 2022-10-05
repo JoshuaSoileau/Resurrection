@@ -64,7 +64,7 @@ export default {
                     "label": "Tags",
                     "name": "tags",
                     "widget": "list"
-                }
+                },
                 {
                     "label": "Hero Section Version",
                     "name": "hero_version",

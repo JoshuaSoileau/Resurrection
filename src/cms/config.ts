@@ -18,7 +18,7 @@ export default {
             "create": true,
             "slug": "{{slug}}",
             "preview_path": "pages/{{fields.slug}}",
-            "fields": [
+            "fields": [ 
                 {
                     "label": "Title",
                     "name": "title",

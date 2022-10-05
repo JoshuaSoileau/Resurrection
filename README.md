@@ -61,3 +61,7 @@ To learn more about Next.js, take a look at the following resources:
 - [Tailwind CSS](https://tailwindcss.com/) - learn about Tailwind CSS
 - [Tailblocks](https://mertjf.github.io/tailblocks/) - ready-to-use Tailwind CSS blocks
 - [Serverless SaaS](https://serverless.page) - premium SaaS boilerplate
+
+## Running this locally
+
+Uncomment `"local_backend": true,` in `config.ts`, then run `npx netlify-cms-proxy-server` in one terminal window and `npm run dev` in another. The admin will publish to localhost, which will create the new `.md` files locally.

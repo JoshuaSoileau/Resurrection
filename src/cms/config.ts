@@ -252,20 +252,6 @@ export default {
                     "label": "Blog Description",
                     "name": "blog_description",
                     "widget": "string"
-                },
-                {
-                    "label": "Featured Posts",
-                    "name": "posts",
-                    "widget": "relation",
-                    "collection": "posts",
-                    "searchFields": [
-                        "title"
-                    ],
-                    "valueField": "{{slug}}",
-                    "displayFields": [
-                        "title"
-                    ],
-                    "multiple": true
                 }
             ],
         }

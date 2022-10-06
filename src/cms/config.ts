@@ -1,5 +1,4 @@
 import Contact1 from 'sections/Contact1/Contact1.field.json';
-console.log(Contact1);
 
 const HEROS = [
   {

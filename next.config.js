@@ -2,12 +2,11 @@ const fs = require('fs');
 const blogPostsFolder = './src/content/pages';
 
 const getPathsForPosts = () => {
-  return fs
+  const value = fs
     .readdirSync(blogPostsFolder)
     .map((blogName) => {
       const trimmedName = blogName.substring(0, blogName.length - 3);
 
-      console.log(trimmedName);
       return {
         [`/${trimmedName}`]: {
           page: '/',
@@ -20,22 +19,25 @@ const getPathsForPosts = () => {
     .reduce((acc, curr) => {
       return { ...acc, ...curr };
     }, {});
+
+  return value;
 };
 
-console.log(getPathsForPosts());
-
 module.exports = {
-  webpack: (cfg) => {
-    cfg.module.rules.push({
+  webpack: (configuration) => {
+    configuration.module.rules.push({
       test: /\.md$/,
-      loader: 'frontmatter-markdown-loader',
+      use: 'frontmatter-markdown-loader',
     });
-    return cfg;
+    return configuration;
   },
   async exportPathMap(defaultPathMap) {
-    return {
+    const value = {
       ...defaultPathMap,
       ...getPathsForPosts(),
     };
+
+    console.log(value);
+    return value;
   },
 };

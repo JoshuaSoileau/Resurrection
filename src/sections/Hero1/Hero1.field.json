@@ -1,0 +1,48 @@
+{
+  "label": "Hero 1",
+  "name": "Hero1",
+  "widget": "object",
+  "fields": [
+    {
+      "label": "Hide",
+      "name": "hide",
+      "widget": "boolean",
+      "default": false,
+      "required": false
+    },
+    {
+      "label": "Headline",
+      "name": "headline",
+      "widget": "string",
+      "default": "This is a headline"
+    },
+    {
+      "label": "Text",
+      "name": "text",
+      "widget": "string",
+      "default": "This is a lengthier version of text. It contains more characters than the headline.",
+      "required": false
+    },
+    {
+      "label": "Button text",
+      "name": "button_text",
+      "widget": "string",
+      "default": "Read more",
+      "required": false
+    },
+    {
+      "label": "Button URL",
+      "name": "button_url",
+      "widget": "string",
+      "default": "https://google.com",
+      "required": false
+    },
+    {
+      "label": "Background image",
+      "name": "image_url",
+      "widget": "image",
+      "default": "https://placehold.co/2000x800",
+      "required": false
+    }
+  ]
+}

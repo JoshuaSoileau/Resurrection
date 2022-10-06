@@ -5,6 +5,7 @@ module.exports = {
     mode: 'all',
     content: [
       './src/pages/**/*.{js,jsx,ts,tsx}',
+      './src/sections/**/*.{js,jsx,ts,tsx}',
       './src/components/**/*.{js,jsx,ts,tsx}',
       './next.config.js',
     ],

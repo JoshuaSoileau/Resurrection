@@ -33,9 +33,13 @@ async function compileSections() {
   console.log(configs);
 
   const COMPONENT_TEMPLATE = `import { Fragment } from 'react';
-${configs.map((name) => COMPONENT_TEMPLATE_IMPORTS.replaceAll('$$', name))}
+${configs
+  .map((name) => COMPONENT_TEMPLATE_IMPORTS.replaceAll('$$', name))
+  .join('')}
 const Types = {
-${configs.map((name) => COMPONENT_TEMPLATE_TYPES.replaceAll('$$', name))}};
+${configs
+  .map((name) => COMPONENT_TEMPLATE_TYPES.replaceAll('$$', name))
+  .join('')}};
 
 export default function Builder({ type, ...props }) {
   const Component = Types[type] || Fragment;
@@ -44,11 +48,13 @@ export default function Builder({ type, ...props }) {
 }
 `;
 
-  const CONFIG_TEMPLATE = `${configs.map((name) =>
-    CONFIG_TEMPLATE_IMPORTS.replaceAll('$$', name)
-  )}
+  const CONFIG_TEMPLATE = `${configs
+    .map((name) => CONFIG_TEMPLATE_IMPORTS.replaceAll('$$', name))
+    .join('')}
 const CONFIG = [
-  ${configs.map((name) => CONFIG_TEMPLATE_TYPES.replaceAll('$$', name))}];
+  ${configs
+    .map((name) => CONFIG_TEMPLATE_TYPES.replaceAll('$$', name))
+    .join('')}];
 
 export default CONFIG;
 `;

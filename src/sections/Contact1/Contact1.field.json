@@ -1,0 +1,25 @@
+{
+  "label": "Contact 1",
+  "name": "Contact1",
+  "widget": "object",
+  "fields": [
+    {
+      "label": "Map Share URL",
+      "name": "map_url",
+      "widget": "string",
+      "default": "https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+    },
+    {
+      "label": "Headline",
+      "name": "headline",
+      "widget": "string",
+      "default": "This is a headline"
+    },
+    {
+      "label": "Text",
+      "name": "text",
+      "widget": "string",
+      "default": "This is a lengthier version of text. It contains more characters than the headline."
+    }
+  ]
+}

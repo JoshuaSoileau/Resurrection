@@ -1,8 +1,7 @@
 import dynamic from 'next/dynamic';
 
 import config from 'cms/config';
-import HomePreview from 'cms/previews/HomePreview';
-import PostPreview from 'cms/previews/PostPreview';
+import Preview from 'cms/previews/Preview';
 import Spinner from 'components/icons/Spinner';
 
 const CMS = dynamic(
@@ -15,8 +14,8 @@ const CMS = dynamic(
       cms.registerPreviewStyle(
         'https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css'
       );
-      cms.registerPreviewTemplate('home', HomePreview);
-      cms.registerPreviewTemplate('posts', PostPreview);
+      cms.registerPreviewTemplate('home', Preview);
+      cms.registerPreviewTemplate('pages', Preview);
     }),
   {
     ssr: false,

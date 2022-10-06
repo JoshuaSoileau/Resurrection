@@ -9,7 +9,7 @@ image: img/screen-shot-2022-08-01-at-9.42.08-am.png
 tags:
   - tags
 hero_version: 1
-hero_title: hero title
+hero_title: hero title 2 asdf
 hero_description: h﻿ero description
 hero_image: img/screen-shot-2021-09-01-at-4.39.47-pm.png
 feature_version: 1

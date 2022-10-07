@@ -1,3 +1,4 @@
+const withTM = require('next-transpile-modules')(['react-markdown']);
 const fs = require('fs');
 const blogPostsFolder = './src/content/pages';
 
@@ -23,7 +24,7 @@ const getPathsForPosts = () => {
   return value;
 };
 
-module.exports = {
+module.exports = withTM({
   webpack: (configuration) => {
     configuration.module.rules.push({
       test: /\.md$/,
@@ -40,4 +41,4 @@ module.exports = {
     console.log(value);
     return value;
   },
-};
+});

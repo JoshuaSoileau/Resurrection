@@ -29,8 +29,6 @@ async function compileSections() {
     .filter((name) => name.includes('.field.json'))
     .map((name) => name.replace('.field.json', ''))
     .map((name) => name.split('/').slice(-1)[0]);
-  const names = configs;
-  console.log(configs);
 
   const COMPONENT_TEMPLATE = `import { Fragment } from 'react';
 ${configs

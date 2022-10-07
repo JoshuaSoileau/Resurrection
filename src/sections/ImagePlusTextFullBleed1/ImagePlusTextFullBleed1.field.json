@@ -1,0 +1,27 @@
+{
+  "label": "Image + text (full bleed) 1",
+  "name": "ImagePlusTextFullBleed1",
+  "widget": "object",
+  "fields": [
+    {
+      "label": "Hide",
+      "name": "hide",
+      "widget": "boolean",
+      "default": false,
+      "required": false
+    },
+    {
+      "label": "Content",
+      "name": "markdown_content",
+      "widget": "markdown",
+      "default": "This is a lengthier version of text. It contains more characters than the headline."
+    },
+    {
+      "label": "Image",
+      "name": "image_url",
+      "widget": "image",
+      "default": "https://images.unsplash.com/photo-1494621930069-4fd4b2e24a11?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=715&amp;q=80",
+      "required": false
+    }
+  ]
+}

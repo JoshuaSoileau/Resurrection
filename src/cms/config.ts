@@ -38,6 +38,7 @@ export default {
           label: 'Sections',
           name: 'sections',
           widget: 'list',
+          label_singular: 'new',
           types: [...SECTIONS],
         },
       ],

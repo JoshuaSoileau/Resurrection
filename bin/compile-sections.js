@@ -20,7 +20,7 @@ const COMPONENT_TEMPLATE_TYPES = `  $$: $$,
 `;
 const CONFIG_TEMPLATE_IMPORTS = `import $$ from 'sections/$$/$$.field.json';
 `;
-const CONFIG_TEMPLATE_TYPES = `$$,
+const CONFIG_TEMPLATE_TYPES = `  $$,
 `;
 
 async function compileSections() {
@@ -50,9 +50,9 @@ export default function Builder({ type, ...props }) {
     .map((name) => CONFIG_TEMPLATE_IMPORTS.replaceAll('$$', name))
     .join('')}
 const CONFIG = [
-  ${configs
-    .map((name) => CONFIG_TEMPLATE_TYPES.replaceAll('$$', name))
-    .join('')}];
+${configs
+  .map((name) => CONFIG_TEMPLATE_TYPES.replaceAll('$$', name))
+  .join('')}];
 
 export default CONFIG;
 `;

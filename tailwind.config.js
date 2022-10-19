@@ -54,6 +54,52 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      minWidth: (theme) => ({
+        ...theme('spacing'),
+
+        0: '0',
+        '1/6': '16.66%',
+        '1/4': '25%',
+        '3/4': '75%',
+        '1/2': '50%',
+        '1/3': '33.33%',
+        '2/3': '66.66%',
+
+        full: '100%',
+      }),
+      maxWidth: (theme) => ({
+        ...theme('spacing'),
+
+        0: '0',
+        '1/6': '16.66%',
+        '1/4': '25%',
+        '3/4': '75%',
+        '1/2': '50%',
+        '1/3': '33.33%',
+        '2/3': '66.66%',
+
+        full: '100%',
+      }),
+      screens: {
+        '3xs': '320px',
+        '2xs': '360px',
+        xs: '480px',
+      },
+      spacing: (theme) => ({
+        ...theme('screens'),
+        '1/2': '50%',
+        '2/3': '66.66%',
+        '100px': '100px',
+        '200px': '200px',
+        '300px': '300px',
+        '400px': '400px',
+        '500px': '500px',
+        '600px': '600px',
+      }),
+      transitionProperty: {
+        height: 'height',
+        spacing: 'margin, padding',
+      },
       typography: (theme) => ({
         default: {
           css: {

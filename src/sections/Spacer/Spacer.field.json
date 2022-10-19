@@ -1,0 +1,14 @@
+{
+  "label": "[Layout] Spacer",
+  "name": "Spacer",
+  "widget": "object",
+  "fields": [
+    {
+      "label": "Hide",
+      "name": "hide",
+      "widget": "boolean",
+      "default": false,
+      "required": false
+    }
+  ]
+}

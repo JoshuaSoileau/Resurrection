@@ -1,28 +1,52 @@
-import ReactMarkdown from 'react-markdown';
+import Markdown from '../../components/Markdown/Markdown';
+import { getSectionColor, getProseColor } from '../../components/color-utils';
 
-export default function Hero1({ hide, image_url, markdown_content, isAdmin }) {
+export default function Hero1({
+  alignment,
+  background_color,
+  hide,
+  image_url,
+  markdown_content,
+  max_content,
+  isAdmin,
+}) {
   if (hide) return '';
 
+  const bgColor = getSectionColor(background_color);
+  const proseColor = getProseColor(background_color);
+
   return (
-    <section className="bg-white dark:bg-gray-900">
-      <div className="flex justify-center">
-        <div
-          className="hidden bg-cover lg:block lg:w-2/5"
-          style={{
-            'background-image': `url('${image_url}')`,
-          }}
-        ></div>
+    <section className={bgColor}>
+      <div
+        className={`flex justify-center ${
+          !max_content ? 'container mx-auto' : ''
+        }`}
+      >
+        {alignment == 'Image on left' ? (
+          <div
+            className="hidden bg-cover lg:block lg:w-2/5"
+            style={{
+              backgroundImage: `url('${image_url}')`,
+            }}
+          ></div>
+        ) : (
+          ''
+        )}
         <div className="flex items-center w-full max-w-3xl p-32 mx-auto lg:px-12 lg:w-3/5">
-          <div className="w-full prose prose-xl">
-            {isAdmin ? (
-              <ReactMarkdown>{markdown_content}</ReactMarkdown>
-            ) : (
-              <article
-                dangerouslySetInnerHTML={{ __html: markdown_content }}
-              ></article>
-            )}
+          <div className={`w-full prose prose-l ${proseColor}`}>
+            <Markdown content={markdown_content} isAdmin={isAdmin} />
           </div>
         </div>
+        {alignment == 'Image on right' ? (
+          <div
+            className="hidden bg-cover lg:block lg:w-2/5"
+            style={{
+              backgroundImage: `url('${image_url}')`,
+            }}
+          ></div>
+        ) : (
+          ''
+        )}
       </div>
     </section>
   );

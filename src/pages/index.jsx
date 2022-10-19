@@ -8,7 +8,6 @@ import convertMarkdownToHtml from '../utils/convertMarkdownToHtml';
 export default class Home extends Component {
   render() {
     const { sections } = this.props;
-    console.log(sections);
     return sections.map(({ type, ...props }) => {
       return <Builder type={type} {...props} />;
     });

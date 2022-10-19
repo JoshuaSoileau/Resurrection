@@ -1,0 +1,34 @@
+{
+  "label": "[Text] Text w/ line",
+  "name": "TextCenteredPlusLine1",
+  "widget": "object",
+  "fields": [
+    {
+      "label": "Hide",
+      "name": "hide",
+      "widget": "boolean",
+      "default": false,
+      "required": false
+    },
+    {
+      "label": "Include line",
+      "name": "include_line",
+      "widget": "boolean",
+      "default": true,
+      "required": false
+    },
+    {
+      "label": "Text alignment",
+      "name": "alignment",
+      "widget": "select",
+      "options": ["left", "center", "right"],
+      "default": "center"
+    },
+    {
+      "label": "Content",
+      "name": "markdown_content",
+      "widget": "markdown",
+      "default": "#This is a title"
+    }
+  ]
+}

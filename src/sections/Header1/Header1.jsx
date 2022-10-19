@@ -59,6 +59,7 @@ export default function Header1() {
             </button>
             {links.map((link) => (
               <a
+                key={link.url}
                 href={link.url}
                 className="inline-block border-b-4 border-transparent hover:border-yellow-900"
               >

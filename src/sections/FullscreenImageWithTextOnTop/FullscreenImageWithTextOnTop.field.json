@@ -1,0 +1,66 @@
+{
+  "label": "[Images] Full screen image with text on top",
+  "name": "FullscreenImageWithTextOnTop",
+  "widget": "object",
+  "fields": [
+    {
+      "label": "Hide",
+      "name": "hide",
+      "widget": "boolean",
+      "default": false,
+      "required": false
+    },
+    {
+      "label": "Headline",
+      "name": "headline",
+      "widget": "string",
+      "default": "This is a headline",
+      "required": false
+    },
+    {
+      "label": "Text",
+      "name": "text",
+      "widget": "string",
+      "default": "This is a lengthier version of text. It contains more characters than the headline.",
+      "required": false
+    },
+    {
+      "label": "Button text",
+      "name": "button_text",
+      "widget": "string",
+      "default": "Read more",
+      "required": false
+    },
+    {
+      "label": "Button URL",
+      "name": "button_url",
+      "widget": "string",
+      "default": "https://google.com",
+      "required": false
+    },
+    {
+      "label": "Background image",
+      "name": "image_url",
+      "widget": "image",
+      "default": "https://images.unsplash.com/photo-1503516459261-40c66117780a"
+    },
+    {
+      "label": "Overlay color",
+      "name": "overlay_color",
+      "widget": "select",
+      "options": ["None", "Charcoal", "Orange", "Red", "Green", "Yellow"],
+      "default": "None"
+    },
+    {
+      "label": "Opacity",
+      "name": "opacity",
+      "widget": "number",
+      "default": 1,
+      "min": 0.1,
+      "max": 1.0,
+      "step": 0.1,
+      "value_type": "float",
+      "required": false
+    }
+  ]
+}

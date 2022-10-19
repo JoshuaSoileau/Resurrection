@@ -63,4 +63,17 @@ sections:
     image_url: img/99BEE4A4-8DAC-4A00-ACA5-91E97BAAE7FA_1_105_c.jpeg
     max_content: false
     background_color: Gray
+  - hide: false
+    button_url: https://google.com
+    markdown_content: |-
+      # Worship with us
+
+      We meet every Sunday at 1820 Eden Terrace Dr, Rock Hill, SC, 29730
+    opacity: 0.5
+    image_url: img/IMG_1662-scaled.jpeg
+    text: This is the body text.
+    headline: This is the headline
+    overlay_color: Charcoal
+    button_text: Read more
+    type: FullscreenImageWithTextOnTop
 ---

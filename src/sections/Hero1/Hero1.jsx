@@ -57,7 +57,7 @@ export default function Hero1({
           {button_text ? (
             <a
               href={button_url}
-              className="inline-block bg-yellow-800 text-white uppercase text-sm tracking-widest font-heading px-8 py-4"
+              className="inline-block bg-emerald-800 text-white uppercase text-sm tracking-widest font-heading px-8 py-4"
             >
               {button_text}
             </a>

@@ -35,7 +35,7 @@ export default function Header1() {
         </button>
         <div
           ref={menu}
-          className="fixed inset-0 w-full h-full bg-white z-50 text-yellow-900 hidden"
+          className="fixed inset-0 w-full h-full bg-white z-50 text-emerald-900 hidden"
         >
           <div className="container h-full mx-auto px-6 py-8 relative z-10 flex flex-col items-center justify-center text-2xl uppercase font-bold tracking-widest space-y-6">
             <button
@@ -61,13 +61,13 @@ export default function Header1() {
               <a
                 key={link.url}
                 href={link.url}
-                className="inline-block border-b-4 border-transparent hover:border-yellow-900"
+                className="inline-block border-b-4 border-transparent hover:border-emerald-900"
               >
                 {link.text}
               </a>
             ))}
           </div>
-          <div className="absolute inset-0 w-full h-full bg-yellow-900 bg-opacity-20"></div>
+          <div className="absolute inset-0 w-full h-full bg-emerald-900 bg-opacity-20"></div>
         </div>
       </div>
       <div className="flex items-center justify-center"></div>

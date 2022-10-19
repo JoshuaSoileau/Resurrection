@@ -34,13 +34,13 @@ export default function ImagePlusTextStylized({
         className={`${bgColor} p-12 md:p-24 flex justify-start items-center`}
       >
         <div className="max-w-md">
-          <div className="w-24 h-2 bg-yellow-800 mb-4"></div>
+          <div className="w-24 h-2 bg-emerald-800 mb-4"></div>
           <div className={`w-full prose prose-l ${proseColor}`}>
             <Markdown content={markdown_content} isAdmin={isAdmin} />
           </div>
           <a
             href="/blog/this-is-latest-post/"
-            className="inline-block border-2 border-yellow-800 font-light text-yellow-800 text-sm uppercase tracking-widest py-3 px-8 hover:bg-yellow-800 hover:text-white mt-8"
+            className="inline-block border-2 border-emerald-800 font-light text-emerald-800 text-sm uppercase tracking-widest py-3 px-8 hover:bg-emerald-800 hover:text-white mt-8"
           >
             Read more
           </a>

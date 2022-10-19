@@ -28,7 +28,7 @@ export default function Hero1({
         className={`max-w-xl mx-auto ${textAlignment[alignment]} py-24 md:py-32`}
       >
         {include_line ? (
-          <div className="w-24 h-2 bg-yellow-800 mb-4 inline-block"></div>
+          <div className="w-24 h-2 bg-emerald-800 mb-4 inline-block"></div>
         ) : (
           ''
         )}

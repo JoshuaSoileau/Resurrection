@@ -1,5 +1,5 @@
 {
-  "label": "Contact 1",
+  "label": "[Contact] Map",
   "name": "Contact1",
   "widget": "object",
   "fields": [
@@ -17,16 +17,17 @@
       "default": "https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
     },
     {
-      "label": "Headline",
-      "name": "headline",
-      "widget": "string",
-      "default": "This is a headline"
+      "label": "Include line",
+      "name": "include_line",
+      "widget": "boolean",
+      "default": true,
+      "required": false
     },
     {
-      "label": "Text",
-      "name": "text",
-      "widget": "string",
-      "default": "This is a lengthier version of text. It contains more characters than the headline."
+      "label": "Content",
+      "name": "markdown_content",
+      "widget": "markdown",
+      "default": "#This is a title\n\nAnd this is some more text below the title"
     }
   ]
 }

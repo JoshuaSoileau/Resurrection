@@ -1,4 +1,3 @@
-import Markdown from '../../components/Markdown/Markdown';
 import { getSectionColor, getProseColor } from '../../components/color-utils';
 
 const bgColors = {
@@ -30,10 +29,8 @@ export default function Hero1({
   button_text,
   button_url,
   image_url,
-  markdown_content,
   overlay_color,
   opacity = 0.7,
-  isAdmin,
 }) {
   if (hide) return '';
 
@@ -55,7 +52,7 @@ export default function Hero1({
         {button_text ? (
           <a
             href={button_url}
-            className="inline-block bg-emerald-800 text-white uppercase text-sm tracking-widest font-heading px-8 py-4"
+            className="inline-block border-2 border-white font-light text-white text-sm uppercase tracking-widest py-3 px-8 hover:bg-emerald-800 hover:text-white mt-8"
           >
             {button_text}
           </a>

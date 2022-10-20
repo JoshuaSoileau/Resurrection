@@ -8,9 +8,7 @@ const CMS = dynamic(
   (): any =>
     import('netlify-cms-app').then((cms: any) => {
       cms.init({ config });
-      cms.registerPreviewStyle(
-        'https://resurrection.vercel.app/_next/static/css/25fdb17ceb5802b7b0c0.css'
-      );
+      // cms.registerPreviewStyle('../css/tailwind.css');
       cms.registerPreviewStyle(
         'https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css'
       );

@@ -29,6 +29,7 @@ export default function Hero1({
   button_text,
   button_url,
   image_url,
+  isAdmin,
   logo_url,
   overlay_color,
   opacity = 0.7,
@@ -44,7 +45,12 @@ export default function Hero1({
       <div className={`-mt-24 relative w-full py-12 px-12 ${bgColor}`}>
         <div className="relative z-10 text-center py-24 md:py-48">
           {logo_url ? (
-            <img src={logo_url} className="max-w-2/3 md:max-w-600px mx-auto" />
+            <img
+              src={logo_url}
+              className={`max-w-2/3 md:max-w-600px mx-auto ${
+                isAdmin ? 'h-32' : ''
+              }`}
+            />
           ) : (
             ''
           )}

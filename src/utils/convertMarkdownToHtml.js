@@ -9,12 +9,12 @@ export default async function (sections) {
     Object.entries(sections),
     async (total, [key, value]) => {
       if (key.includes('arkdown')) {
-        // Use gray-matter to parse the post metadata section
-        const matterResult = matter(value);
-
         // Use remark to convert markdown into HTML string
         const processedContent = await remark().use(html).process(value);
         const contentHtml = processedContent.toString();
+        // console.log(key);
+        // console.log(value);
+        // console.log(contentHtml);
 
         return {
           ...total,

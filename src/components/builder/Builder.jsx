@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import Contact1 from 'sections/Contact1/Contact1';
+import ContactEmailSignup from 'sections/ContactEmailSignup/ContactEmailSignup';
 import FullscreenImageWithTextOnTop from 'sections/FullscreenImageWithTextOnTop/FullscreenImageWithTextOnTop';
 import Hero1 from 'sections/Hero1/Hero1';
 import ImageInThreeColumns from 'sections/ImageInThreeColumns/ImageInThreeColumns';
@@ -10,6 +11,7 @@ import TextCenteredPlusLine1 from 'sections/TextCenteredPlusLine1/TextCenteredPl
 
 const Types = {
   Contact1: Contact1,
+  ContactEmailSignup: ContactEmailSignup,
   FullscreenImageWithTextOnTop: FullscreenImageWithTextOnTop,
   Hero1: Hero1,
   ImageInThreeColumns: ImageInThreeColumns,

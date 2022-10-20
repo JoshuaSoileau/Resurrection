@@ -1,4 +1,3 @@
-import ReactMarkdown from 'react-markdown';
 import Markdown from '../../components/Markdown/Markdown';
 
 export default function Hero1({

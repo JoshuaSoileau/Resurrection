@@ -63,17 +63,50 @@ sections:
     image_url: img/99BEE4A4-8DAC-4A00-ACA5-91E97BAAE7FA_1_105_c.jpeg
     max_content: false
     background_color: Gray
-  - hide: false
-    button_url: https://google.com
+  - type: Spacer
+    hide: false
+  - type: Contact1
+    hide: false
+    map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13079.972502539167!2d-80.99647495338147!3d34.95678098181917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1666213161340!5m2!1sen!2sus
+    headline: This is a headline
+    text:
+      This is a lengthier version of text. It contains more characters than the
+      headline.
     markdown_content: |-
-      # Worship with us
+      # C﻿ome join us
 
-      We meet every Sunday at 1820 Eden Terrace Dr, Rock Hill, SC, 29730
-    opacity: 0.5
+
+
+
+
+      **W﻿eekly service**\
+      *S﻿undays 4pm*\
+      *1820 Eden Terrace,* \
+      *Rock Hill, SC 29730*
+    include_line: true
+  - type: ContactEmailSignup
+    hide: false
+    headline: Subscribe to our newsletter
+    subheadline: Stay up to date
+    button_url: https://google.com
     image_url: img/IMG_1662-scaled.jpeg
-    text: This is the body text.
-    headline: This is the headline
     overlay_color: Charcoal
-    button_text: Read more
-    type: FullscreenImageWithTextOnTop
+    opacity: 0.5
+  - type: TextCenteredPlusLine1
+    hide: false
+    include_line: false
+    alignment: left
+    markdown_content: >-
+      # Join the community
+
+
+
+
+      The very best way to feel the fellowship that makes our church so special is to make connections with other church members and get to know us a little bit better!
+
+
+      Our church family communicates through email (which you can join above), and in one giant GroupMe chat group. We use this group to share announcements, reminders for church events, prayer requests, and family updates.
+
+
+      If you'd like to join this GroupMe group, send an email to admin@resurrectionrockhill.org with your name, email, and phone number, and we'll send you an invitation.
 ---

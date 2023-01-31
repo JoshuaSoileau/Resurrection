@@ -1,3 +1,5 @@
+import tw from 'twin.macro';
+
 export default function Hero1({ hide, items, max_content }) {
   if (hide) return '';
 
@@ -5,33 +7,38 @@ export default function Hero1({ hide, items, max_content }) {
 
   return (
     <section
-      className={`flex flex-wrap bg-black ${
-        !max_content ? 'container mx-auto' : ''
-      }`}
+      css={[
+        tw`flex flex-wrap bg-black`,
+        max_content ? tw`container mx-auto` : '',
+      ]}
     >
-      {items.map((item) => {
+      {items.map(item => {
         const { text, image_url, link_url } = item;
 
         if (link_url)
           return (
             <a
+              key={link_url}
               href={link_url}
-              className="bg-black relative w-full md:w-auto md:flex-1 flex items-center justify-center h-72 font-heading text-white uppercase tracking-widest hover:opacity-75"
+              tw="bg-black relative w-full md:w-auto md:flex-1 flex items-center justify-center h-72 text-white uppercase tracking-widest hover:opacity-75"
             >
-              <div className="relative z-10">{text}</div>
+              <div tw="relative z-10">{text}</div>
               <img
                 src={image_url}
-                className="absolute inset-0 w-full h-full object-cover opacity-50"
+                tw="absolute inset-0 w-full h-full object-cover opacity-50"
               />
             </a>
           );
 
         return (
-          <div className="bg-black relative w-full md:w-auto md:flex-1 flex items-center justify-center h-64 font-heading text-white uppercase tracking-widest">
-            <div className="relative z-10">{text}</div>
+          <div
+            key={image_url}
+            tw="bg-black relative w-full md:w-auto md:flex-1 flex items-center justify-center h-64 text-white uppercase tracking-widest"
+          >
+            <div tw="relative z-10">{text}</div>
             <img
               src={image_url}
-              className="absolute inset-0 w-full h-full object-cover opacity-50"
+              tw="absolute inset-0 w-full h-full object-cover opacity-50"
             />
           </div>
         );

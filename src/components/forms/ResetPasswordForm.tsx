@@ -18,14 +18,14 @@ const ResetPasswordForm: React.FC = () => {
       <div className="rounded-md">
         <label
           htmlFor="email"
-          className="block text-sm font-medium leading-5 text-gray-700"
+          className="block  font-medium leading-5 text-gray-700"
         >
           Email address
         </label>
         <div className="mt-1 rounded-md">
           <input
             id="email"
-            className="block w-full px-3 py-2 placeholder-gray-400 transition duration-150 ease-in-out border border-gray-300 rounded-md shadow-sm appearance-none focus:outline-none focus:shadow-outline-blue focus:border-blue-300 sm:text-sm sm:leading-5"
+            className="block w-full px-3 py-2 placeholder-gray-400 transition duration-150 ease-in-out border border-gray-300 rounded-md shadow-sm appearance-none focus:outline-none focus:shadow-outline-blue focus:border-blue-300 sm: sm:leading-5"
             type="email"
             name="email"
             ref={register({

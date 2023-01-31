@@ -1,4 +1,5 @@
 import { getSectionColor, getProseColor } from '../../components/color-utils';
+import 'twin.macro';
 
 const bgColors = {
   None: '',
@@ -41,18 +42,16 @@ export default function Hero1({
   const opacityValue = opacityValues[opacity] || '';
 
   return (
-    <section className={`relative w-full py-12 px-12 ${bgColor}`}>
-      <div className="relative z-10 text-center py-12 md:py-24">
-        <h1 className="text-white text-center text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold mb-6">
+    <section css={[tw`relative w-full py-12 px-12`, tw(bgColor)]}>
+      <div tw="relative z-10 text-center py-12 md:py-24">
+        <h1 tw="text-white text-center text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6">
           {headline}
         </h1>
-        <p className="text-white mb-10 text-base md:text-lg font-bold">
-          {text}
-        </p>
+        <p tw="text-white mb-10 text-base md:text-lg font-bold">{text}</p>
         {button_text ? (
           <a
             href={button_url}
-            className="inline-block border-2 border-white font-light text-white text-sm uppercase tracking-widest py-3 px-8 hover:bg-emerald-800 hover:text-white mt-8"
+            tw="inline-block border-2 border-white font-light text-white  uppercase tracking-widest py-3 px-8 hover:bg-emerald-800 hover:text-white mt-8"
           >
             {button_text}
           </a>
@@ -62,7 +61,10 @@ export default function Hero1({
       </div>
       <img
         src={image_url}
-        className={`w-full h-full absolute inset-0 object-cover ${opacityValue}`}
+        css={[
+          tw`w-full h-full absolute inset-0 object-cover`,
+          tw(opacityValue),
+        ]}
       />
     </section>
   );

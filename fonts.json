@@ -1,0 +1,22 @@
+[
+  {
+    "title": "rubik",
+    "name": "Rubik",
+    "weights": [700]
+  },
+  {
+    "title": "poppins",
+    "name": "Poppins",
+    "weights": [300, 400, 500, 700, 900]
+  },
+  {
+    "title": "sans",
+    "name": "Open Sans",
+    "weights": [300, 400, 500, 700, 900]
+  },
+  {
+    "title": "serif",
+    "name": "Noto Serif",
+    "weights": [400, 700]
+  }
+]

@@ -22,7 +22,7 @@ const BlogCard: React.FC<{ post: Post; version: number }> = ({
           <span className="font-medium tracking-widest text-gray-900 title-font">
             {attributes.category}
           </span>
-          <span className="mt-1 text-sm text-gray-500">
+          <span className="mt-1  text-gray-500">
             {attributes.date &&
               new Date(attributes.date).toLocaleDateString().split('T')[0]}
           </span>

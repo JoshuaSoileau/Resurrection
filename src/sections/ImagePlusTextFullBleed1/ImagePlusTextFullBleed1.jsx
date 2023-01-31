@@ -1,4 +1,5 @@
 import Markdown from '../../components/Markdown/Markdown';
+import tw from 'twin.macro';
 import { getSectionColor, getProseColor } from '../../components/color-utils';
 
 export default function Hero1({
@@ -16,15 +17,16 @@ export default function Hero1({
   const proseColor = getProseColor(background_color);
 
   return (
-    <section className={bgColor}>
+    <section css={[bgColor]}>
       <div
-        className={`flex justify-center ${
-          !max_content ? 'container mx-auto' : ''
-        }`}
+        css={[
+          tw`flex justify-center`,
+          !max_content ? tw`container mx-auto` : '',
+        ]}
       >
         {alignment == 'Image on left' ? (
           <div
-            className="hidden bg-cover lg:block lg:w-2/5"
+            tw="hidden bg-cover lg:block lg:w-2/5"
             style={{
               backgroundImage: `url('${image_url}')`,
             }}
@@ -32,14 +34,14 @@ export default function Hero1({
         ) : (
           ''
         )}
-        <div className="flex items-center w-full max-w-3xl p-32 mx-auto lg:px-12 lg:w-3/5">
-          <div className={`w-full prose prose-l ${proseColor}`}>
+        <div tw="flex items-center w-full max-w-3xl p-32 mx-auto lg:px-12 lg:w-3/5">
+          <div css={[tw`w-full prose`, proseColor]}>
             <Markdown content={markdown_content} isAdmin={isAdmin} />
           </div>
         </div>
         {alignment == 'Image on right' ? (
           <div
-            className="hidden bg-cover lg:block lg:w-2/5"
+            tw="hidden bg-cover lg:block lg:w-2/5"
             style={{
               backgroundImage: `url('${image_url}')`,
             }}

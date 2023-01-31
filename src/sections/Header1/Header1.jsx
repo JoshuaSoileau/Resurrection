@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import 'twin.macro';
 
 const links = [
   { url: '/', text: 'Home' },
@@ -15,11 +16,11 @@ export default function Header1() {
   };
 
   return (
-    <div className="h-24 z-50 relative container mx-auto px-6 grid grid-cols-3">
-      <div x-data="{showMenu: false}" className="flex items-center">
+    <div tw="h-24 z-50 relative container mx-auto px-6 grid grid-cols-3">
+      <div x-data="{showMenu: false}" tw="flex items-center">
         <button onClick={onClick}>
           <svg
-            className="w-8 h-8 text-white"
+            tw="w-8 h-8 text-white"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -35,15 +36,12 @@ export default function Header1() {
         </button>
         <div
           ref={menu}
-          className="fixed inset-0 w-full h-full bg-white z-50 text-emerald-900 hidden"
+          tw="fixed inset-0 w-full h-full bg-white z-50 text-emerald-900 hidden"
         >
-          <div className="container h-full mx-auto px-6 py-8 relative z-10 flex flex-col items-center justify-center text-2xl uppercase font-bold tracking-widest space-y-6">
-            <button
-              onClick={onClick}
-              className="absolute top-0 left-0 mt-8 ml-6"
-            >
+          <div tw="container h-full mx-auto px-6 py-8 relative z-10 flex flex-col items-center justify-center text-2xl uppercase font-bold tracking-widest space-y-6">
+            <button onClick={onClick} tw="absolute top-0 left-0 mt-8 ml-6">
               <svg
-                className="w-8 h-8"
+                tw="w-8 h-8"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -57,24 +55,24 @@ export default function Header1() {
                 ></path>
               </svg>
             </button>
-            {links.map((link) => (
+            {links.map(link => (
               <a
                 key={link.url}
                 href={link.url}
-                className="inline-block border-b-4 border-transparent hover:border-emerald-900"
+                tw="inline-block border-b-4 border-transparent hover:border-emerald-900"
               >
                 {link.text}
               </a>
             ))}
           </div>
-          <div className="absolute inset-0 w-full h-full bg-emerald-900 bg-opacity-20"></div>
+          <div tw="absolute inset-0 w-full h-full bg-emerald-900 bg-opacity-20"></div>
         </div>
       </div>
-      <div className="flex items-center justify-center"></div>
-      <div className="flex items-center justify-end">
+      <div tw="flex items-center justify-center"></div>
+      <div tw="flex items-center justify-end">
         <a href="/contact">
           <svg
-            className="w-8 h-8 text-white"
+            tw="w-8 h-8 text-white"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

@@ -4,7 +4,7 @@ import html from 'remark-html';
 import { reduce } from 'awaity/esm';
 
 export default async function (sections) {
-  console.log(sections);
+  // console.log(sections);
   const value = await reduce(
     Object.entries(sections),
     async (total, [key, value]) => {
@@ -27,7 +27,7 @@ export default async function (sections) {
         [key]: value,
       };
     },
-    {}
+    {},
   );
 
   return value;

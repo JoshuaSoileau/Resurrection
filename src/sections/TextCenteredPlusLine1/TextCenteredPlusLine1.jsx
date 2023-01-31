@@ -1,4 +1,5 @@
 import Markdown from '../../components/Markdown/Markdown';
+import tw from 'twin.macro';
 
 export default function Hero1({
   alignment,
@@ -10,28 +11,28 @@ export default function Hero1({
   if (hide) return '';
 
   const lineAlignment = {
-    left: 'text-left',
-    center: 'text-center',
-    right: 'text-right',
+    left: tw`text-left`,
+    center: tw`text-center`,
+    right: tw`text-right`,
   };
 
   const textAlignment = {
-    left: 'text-left',
-    center: 'text-center',
-    right: 'text-right',
+    left: tw`text-left`,
+    center: tw`text-center`,
+    right: tw`text-right`,
   };
 
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section tw="bg-white">
       <div
-        className={`max-w-xl mx-auto ${textAlignment[alignment]} py-24 md:py-32`}
+        css={[tw`max-w-xl mx-auto  py-24 md:py-32`, textAlignment[alignment]]}
       >
         {include_line ? (
-          <div className="w-24 h-2 bg-emerald-800 mb-4 inline-block"></div>
+          <div tw="w-24 h-2 bg-emerald-800 mb-4 inline-block"></div>
         ) : (
           ''
         )}
-        <div className="w-full prose prose-l mx-auto">
+        <div tw="w-full prose prose-lg mx-auto">
           <Markdown content={markdown_content} isAdmin={isAdmin} />
         </div>
       </div>

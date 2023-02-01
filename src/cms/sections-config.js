@@ -3,6 +3,7 @@ import ContactEmailSignup from 'sections/ContactEmailSignup/ContactEmailSignup.f
 import FullscreenImageWithTextOnTop from 'sections/FullscreenImageWithTextOnTop/FullscreenImageWithTextOnTop.field.json';
 import Hero1 from 'sections/Hero1/Hero1.field.json';
 import ImageInThreeColumns from 'sections/ImageInThreeColumns/ImageInThreeColumns.field.json';
+import ImageInThreeColumnsWithSpace from 'sections/ImageInThreeColumnsWithSpace/ImageInThreeColumnsWithSpace.field.json';
 import ImagePlusTextFullBleed1 from 'sections/ImagePlusTextFullBleed1/ImagePlusTextFullBleed1.field.json';
 import ImagePlusTextStylized from 'sections/ImagePlusTextStylized/ImagePlusTextStylized.field.json';
 import Spacer from 'sections/Spacer/Spacer.field.json';
@@ -14,6 +15,7 @@ const CONFIG = [
   FullscreenImageWithTextOnTop,
   Hero1,
   ImageInThreeColumns,
+  ImageInThreeColumnsWithSpace,
   ImagePlusTextFullBleed1,
   ImagePlusTextStylized,
   Spacer,

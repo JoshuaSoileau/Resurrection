@@ -1,0 +1,57 @@
+{
+  "label": "[Images] Images in 3 columns with space",
+  "name": "ImageInThreeColumnsWithSpace",
+  "widget": "object",
+  "min": 1,
+  "fields": [
+    {
+      "label": "Hide",
+      "name": "hide",
+      "widget": "boolean",
+      "default": false,
+      "required": false
+    },
+    {
+      "label": "Images",
+      "name": "items",
+      "widget": "list",
+      "summary": "Image",
+      "fields": [
+        {
+          "label": "image",
+          "name": "image_url",
+          "widget": "image",
+          "default": "https://placehold.co/500x500"
+        },
+        {
+          "label": "Text",
+          "name": "text",
+          "widget": "string",
+          "default": "This is the text.",
+          "required": false
+        },
+        {
+          "label": "Link URL",
+          "name": "link_url",
+          "widget": "string",
+          "default": "https://google.com",
+          "required": false
+        }
+      ],
+      "default": [
+        {
+          "image_url": "https://placehold.co/500x500",
+          "text": "This is the text."
+        },
+        {
+          "image_url": "https://placehold.co/500x500",
+          "text": "This is the text."
+        },
+        {
+          "image_url": "https://placehold.co/500x500",
+          "text": "This is the text."
+        }
+      ]
+    }
+  ]
+}

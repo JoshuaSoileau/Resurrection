@@ -1,5 +1,5 @@
 {
-  "label": "[Images] Image w/stylized text",
+  "label": "{{markdown_content}} [Images] Image w/stylized text",
   "name": "ImagePlusTextStylized",
   "widget": "object",
   "fields": [

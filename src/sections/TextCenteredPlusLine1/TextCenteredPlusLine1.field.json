@@ -18,6 +18,13 @@
       "required": false
     },
     {
+      "label": "Dark mode",
+      "name": "dark_mode",
+      "widget": "boolean",
+      "default": false,
+      "required": false
+    },
+    {
       "label": "Text alignment",
       "name": "alignment",
       "widget": "select",

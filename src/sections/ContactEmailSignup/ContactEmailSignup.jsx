@@ -50,7 +50,7 @@ export default function ContactEmailSignup({
               <h2 tw="text-xs text-white tracking-widest font-medium mb-1">
                 {subheadline}
               </h2>
-              <h1 tw="text-white text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">
+              <h1 tw="text-white text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold">
                 {headline}
               </h1>
             </div>

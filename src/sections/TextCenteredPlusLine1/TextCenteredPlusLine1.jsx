@@ -4,6 +4,7 @@ import tw from 'twin.macro';
 export default function Hero1({
   alignment,
   hide,
+  dark_mode,
   include_line,
   markdown_content,
   isAdmin,
@@ -23,7 +24,7 @@ export default function Hero1({
   };
 
   return (
-    <section tw="bg-white">
+    <section css={[!dark_mode && tw`bg-white`, dark_mode && tw`bg-gray-900`]}>
       <div
         css={[tw`max-w-xl mx-auto  py-24 md:py-32`, textAlignment[alignment]]}
       >
@@ -32,7 +33,12 @@ export default function Hero1({
         ) : (
           ''
         )}
-        <div tw="w-full prose prose-lg mx-auto">
+        <div
+          css={[
+            tw`w-full prose prose-lg mx-auto`,
+            dark_mode && tw`prose-invert`,
+          ]}
+        >
           <Markdown content={markdown_content} isAdmin={isAdmin} />
         </div>
       </div>

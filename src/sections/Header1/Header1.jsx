@@ -1,5 +1,5 @@
-import { useRef } from 'react';
-import 'twin.macro';
+import { useRef, useState } from 'react';
+import tw from 'twin.macro';
 
 const links = [
   { url: '/', text: 'Home' },
@@ -10,9 +10,10 @@ const links = [
 
 export default function Header1() {
   const menu = useRef();
+  const [isOpen, setIsOpen] = useState(false);
 
   const onClick = () => {
-    menu.current.classList.toggle('hidden');
+    setIsOpen(!isOpen);
   };
 
   return (
@@ -36,7 +37,10 @@ export default function Header1() {
         </button>
         <div
           ref={menu}
-          tw="fixed inset-0 w-full h-full bg-white z-50 text-emerald-900 hidden"
+          css={[
+            tw`fixed inset-0 w-full h-full bg-white z-50 text-emerald-900`,
+            !isOpen && tw`hidden`,
+          ]}
         >
           <div tw="container h-full mx-auto px-6 py-8 relative z-10 flex flex-col items-center justify-center text-2xl uppercase font-bold tracking-widest space-y-6">
             <button onClick={onClick} tw="absolute top-0 left-0 mt-8 ml-6">

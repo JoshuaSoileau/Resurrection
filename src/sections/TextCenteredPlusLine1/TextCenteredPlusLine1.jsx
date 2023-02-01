@@ -26,7 +26,10 @@ export default function Hero1({
   return (
     <section css={[!dark_mode && tw`bg-white`, dark_mode && tw`bg-gray-900`]}>
       <div
-        css={[tw`max-w-xl mx-auto  py-24 md:py-32`, textAlignment[alignment]]}
+        css={[
+          tw`max-w-xl mx-auto  px-4 md:px-0 py-24 md:py-32`,
+          textAlignment[alignment],
+        ]}
       >
         {include_line ? (
           <div tw="w-24 h-2 bg-emerald-800 mb-4 inline-block"></div>
@@ -35,8 +38,8 @@ export default function Hero1({
         )}
         <div
           css={[
-            tw`w-full prose prose-lg mx-auto`,
-            dark_mode && tw`prose-invert`,
+            tw`w-full prose prose-sm md:prose lg:prose-lg mx-auto`,
+            dark_mode && tw`prose-invert md:prose-invert lg:prose-invert`,
           ]}
         >
           <Markdown content={markdown_content} isAdmin={isAdmin} />

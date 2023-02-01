@@ -26,17 +26,21 @@ export default function ImagePlusTextStylized({
 
   return (
     <section
-      className="josh-outer"
       css={[
         tw`grid grid-cols-1 lg:grid-cols-2`,
         !max_content ? tw`container mx-auto` : '',
       ]}
     >
       {alignment == 'Image on left' ? Image : ''}
-      <div css={[tw`p-12 md:p-24 flex justify-start items-center`, bgColor]}>
+      <div
+        css={[
+          tw`p-6 py-12 md:p-12 md:p-24 flex justify-start items-center`,
+          bgColor,
+        ]}
+      >
         <div tw="max-w-md">
           <div tw="w-24 h-2 bg-emerald-800 mb-4"></div>
-          <div css={[tw`w-full prose`, proseColor]}>
+          <div css={[tw`w-full prose-sm md:prose`, proseColor]}>
             <Markdown content={markdown_content} isAdmin={isAdmin} />
           </div>
           <a

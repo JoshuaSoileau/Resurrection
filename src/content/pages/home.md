@@ -31,6 +31,29 @@ sections:
     markdown_content: '# An Anglican Church plant in Rock Hill, SC'
     alignment: center
     dark_mode: true
+  - type: ImagePlusTextFullBleed1
+    hide: false
+    alignment: Image on left
+    markdown_content: >-
+      # Epiphany at Resurrection
+
+
+      Epiphany is the season of the Church when we celebrate Christ being revealed as the Savior of the whole world, for both Jew and Gentile.
+
+
+      This celebration starts with the day of Epiphany when the Church remembers the Magi coming from the east, following the star to see the Christ.
+
+
+      The season of Epiphany continues until the beginning of Lent, which starts on February 22 this year.
+
+
+      Come celebrate with us as we remember that Christ came, not only as the promised Messiah for Israel, to save all of creation.
+
+
+      Childcare is provided for the smallest of those joining us and there is a time of lesson and crafts for children in grades K-5th.
+    image_url: img/3FEA0497-23AD-4D8A-8E0B-5064F0E80FC2_1_105_c.jpeg
+    max_content: true
+    background_color: Gray
   - type: Spacer
     hide: false
   - type: ImagePlusTextStylized
@@ -85,11 +108,7 @@ sections:
       This is a lengthier version of text. It contains more characters than the
       headline.
     markdown_content: |-
-      # C﻿ome join us
-
-
-
-
+      # C﻿ome visit us
 
       **W﻿eekly service**\
       *S﻿undays 4pm*\
@@ -104,6 +123,16 @@ sections:
     image_url: img/IMG_1662-scaled.jpeg
     overlay_color: Charcoal
     opacity: 0.5
+  - hide: false
+    button_url: https://google.com
+    opacity: 0.7
+    image_url: ''
+    text_alignment: Left
+    subheadline: ''
+    headline: Or catch up with past newsletters.
+    overlay_color: Charcoal
+    button_text: Read previous editions
+    type: BannerWithButton
   - type: TextCenteredPlusLine1
     hide: false
     include_line: false
@@ -121,4 +150,16 @@ sections:
 
 
       If you'd like to join this GroupMe group, send an email to admin@resurrectionrockhill.org with your name, email, and phone number, and we'll send you an invitation.
+  - type: Footer1
+    hide: false
+    logo_url: img/logo-all-white.png
+    disclaimer: © Company name. All Rights Reserved.
+    background_color: Charcoal
+    links:
+      - text: Home
+        url: /
+      - text: About
+        url: /new-here
+      - text: Contact
+        url: '#contact'
 ---

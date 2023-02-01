@@ -1,5 +1,6 @@
 {
   "label": "[Images] Image w/text",
+  "summary": "{{fields.markdown_content}}",
   "name": "ImagePlusTextFullBleed1",
   "widget": "object",
   "fields": [

@@ -1,5 +1,6 @@
 {
   "label": "[Text] Text w/ line",
+  "summary": "{{fields.markdown_content}}",
   "name": "TextCenteredPlusLine1",
   "widget": "object",
   "fields": [

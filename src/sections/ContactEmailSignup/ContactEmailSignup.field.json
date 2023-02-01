@@ -1,5 +1,6 @@
 {
   "label": "[Contact] Email signup w/background image",
+  "summary": "{{fields.headline}}",
   "name": "ContactEmailSignup",
   "widget": "object",
   "fields": [

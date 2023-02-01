@@ -18,15 +18,10 @@ export default function Hero1({
 
   return (
     <section css={[bgColor]}>
-      <div
-        css={[
-          tw`flex justify-center`,
-          !max_content ? tw`container mx-auto` : '',
-        ]}
-      >
+      <div css={[tw`flex justify-center`, !max_content ? tw`mx-auto` : '']}>
         {alignment == 'Image on left' ? (
           <div
-            tw="hidden bg-cover lg:block lg:w-2/5"
+            tw="hidden bg-cover md:block md:w-2/5"
             style={{
               backgroundImage: `url('${image_url}')`,
             }}
@@ -34,14 +29,20 @@ export default function Hero1({
         ) : (
           ''
         )}
-        <div tw="flex items-center w-full max-w-3xl p-32 mx-auto lg:px-12 lg:w-3/5">
+        <div
+          css={[
+            tw`flex items-center w-full max-w-3xl p-32 mx-auto md:pr-12 md:w-3/5`,
+            alignment == 'Image on right' && tw`mr-0`,
+            alignment !== 'Image on right' && tw`ml-0`,
+          ]}
+        >
           <div css={[tw`w-full prose`, proseColor]}>
             <Markdown content={markdown_content} isAdmin={isAdmin} />
           </div>
         </div>
         {alignment == 'Image on right' ? (
           <div
-            tw="hidden bg-cover lg:block lg:w-2/5"
+            tw="hidden bg-cover md:block md:w-2/5"
             style={{
               backgroundImage: `url('${image_url}')`,
             }}

@@ -20,13 +20,13 @@ const Contact1 = ({ map_url, include_line, isAdmin, markdown_content }) => {
         ></iframe>
       </div>
       <div tw="container px-5 py-24 mx-auto flex">
-        <div tw="lg:w-1/3 md:w-1/2 bg-white p-12 md:p-20 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 min-w-20">
+        <div tw="lg:w-1/3 md:w-1/2 bg-white p-12 lg:p-20 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 min-w-20">
           {include_line ? (
             <div tw="w-24 h-2 bg-emerald-800 mb-4 inline-block"></div>
           ) : (
             ''
           )}
-          <div tw="w-full prose mx-auto">
+          <div tw="w-full prose-sm md:prose mx-auto">
             <Markdown content={markdown_content} isAdmin={isAdmin} />
           </div>
         </div>

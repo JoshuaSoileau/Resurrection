@@ -1,5 +1,6 @@
 {
   "label": "[Contact] Map",
+  "summary": "{{fields.markdown_content}}",
   "name": "Contact1",
   "widget": "object",
   "fields": [

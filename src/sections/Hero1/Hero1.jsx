@@ -43,16 +43,18 @@ export default function Hero1({
   return (
     <section>
       <Header1 />
-      <div css={[tw`-mt-24 relative w-full py-12 px-12`, bgColor]}>
+      <div css={[tw`-mt-24 relative w-full p-4 md:p-12`, bgColor]}>
         <div tw="relative z-10 text-center py-24 md:py-48">
           {logo_url ? (
-            <img
-              src={logo_url}
-              css={[
-                tw`max-w-2/3 md:max-w-600px mx-auto`,
-                isAdmin ? tw`h-32` : '',
-              ]}
-            />
+            <div tw="container w-full p-4 md:p-12 mx-auto">
+              <img
+                src={logo_url}
+                css={[
+                  tw`max-w-full md:max-w-600px mx-auto`,
+                  isAdmin ? tw`h-32` : '',
+                ]}
+              />
+            </div>
           ) : (
             ''
           )}
@@ -73,7 +75,7 @@ export default function Hero1({
             ''
           )}
         </div>
-        <div tw="relative z-10 mx-auto max-w-4xl flex justify-between uppercase text-white tracking-widest">
+        <div tw="relative z-10 mx-auto max-w-4xl flex flex-col xs:flex-row justify-between uppercase text-white tracking-widest">
           <a href="/pages/about-us" tw="border-b border-white">
             Find out more
           </a>{' '}

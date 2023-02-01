@@ -1,7 +1,8 @@
 {
-  "label": "{{markdown_content}} [Images] Image w/stylized text",
+  "label": "[Images] Image w/stylized text",
+  "summary": "{{fields.markdown_content}}",
   "name": "ImagePlusTextStylized",
-  "widget": "object",
+  "widget": "list",
   "fields": [
     {
       "label": "Hide",

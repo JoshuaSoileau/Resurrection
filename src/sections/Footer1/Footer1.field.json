@@ -1,0 +1,69 @@
+{
+  "label": "[Footer]",
+  "name": "Footer1",
+  "widget": "object",
+  "fields": [
+    {
+      "label": "Hide",
+      "name": "hide",
+      "widget": "boolean",
+      "default": false,
+      "required": false
+    },
+    {
+      "label": "Logo",
+      "name": "logo_url",
+      "widget": "image",
+      "default": "https://placehold.co/300x200",
+      "required": false
+    },
+    {
+      "label": "Disclaimer",
+      "name": "disclaimer",
+      "widget": "string",
+      "default": "© Company name. All Rights Reserved.",
+      "required": false
+    },
+    {
+      "label": "Background color",
+      "name": "background_color",
+      "widget": "select",
+      "options": ["None", "Charcoal", "Orange", "Red", "Green", "Yellow"],
+      "default": "Charcoal"
+    },
+    {
+      "label": "Links",
+      "name": "links",
+      "widget": "list",
+      "require": false,
+      "fields": [
+        {
+          "label": "Text",
+          "name": "text",
+          "widget": "string",
+          "default": "Link"
+        },
+        {
+          "label": "URL",
+          "name": "url",
+          "widget": "string",
+          "default": "https://google.com"
+        }
+      ],
+      "default": [
+        {
+          "text": "Link",
+          "url": "https://google.com"
+        },
+        {
+          "text": "Link",
+          "url": "https://google.com"
+        },
+        {
+          "text": "Link",
+          "url": "https://google.com"
+        }
+      ]
+    }
+  ]
+}

@@ -46,7 +46,7 @@ export default function ContactEmailSignup({
       <div tw="relative z-10 text-center py-12 md:py-6 container mx-auto">
         <div tw="text-gray-600">
           <div tw="container px-2 mx-auto flex items-center md:flex-row flex-col">
-            <div tw="flex flex-col w-full md:w-auto md:text-left text-center">
+            <div tw="flex flex-col flex-grow w-full md:w-auto md:text-left text-center">
               <h2 tw="text-xs text-white tracking-widest font-medium mb-1">
                 {subheadline}
               </h2>
@@ -55,7 +55,7 @@ export default function ContactEmailSignup({
               </h1>
             </div>
             <div tw="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4 w-1/2">
-              <div tw="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+              <div tw="flex lg:w-2/3 w-full sm:flex-row flex-col ml-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
                 <div tw="relative flex-grow w-full">
                   <input
                     type="email"

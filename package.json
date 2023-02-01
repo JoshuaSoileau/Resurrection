@@ -1,6 +1,7 @@
 {
   "name": "nextwind",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "admin": "npx netlify-cms-proxy-server",
     "build": "next build",

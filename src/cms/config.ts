@@ -11,7 +11,7 @@ export default {
   local_backend: true,
   media_folder: 'public/img',
   public_folder: 'img',
-  logo_url: 'https://demo.serverless.page/img/logo-cms.jpg',
+  logo_url: 'https://resurrection.vercel.app/img/logo-favicon-2.jpeg',
   site_url: 'http://localhost:3000',
   collections: [
     {

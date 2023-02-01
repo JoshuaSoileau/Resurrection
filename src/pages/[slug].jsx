@@ -26,16 +26,16 @@ export async function getStaticProps({ params }) {
 
   sections = await map(
     sections,
-    async (section) => await convertMarkdownToHtml(section)
+    async section => await convertMarkdownToHtml(section),
   );
 
   return { props: { ...attributes, sections } };
 }
 
 export const getStaticPaths = async () => {
-  const postSlugs = ((context) => {
+  const postSlugs = (context => {
     const keys = context.keys();
-    const data = keys.map((key) => {
+    const data = keys.map(key => {
       const slug = key.replace(/^.*[\\\/]/, '').slice(0, -3);
 
       return slug;
@@ -43,7 +43,7 @@ export const getStaticPaths = async () => {
     return data;
   })(require.context('../content/pages', true, /\.md$/));
 
-  const paths = postSlugs.map((slug) => {
+  const paths = postSlugs.map(slug => {
     return `/${slug}`;
   });
 

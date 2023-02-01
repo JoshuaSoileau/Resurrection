@@ -2,6 +2,7 @@
   "name": "nextwind",
   "version": "1.0.0",
   "scripts": {
+    "admin": "npx netlify-cms-proxy-server",
     "build": "next build",
     "compile-sections": "node ./bin/compile-sections.js",
     "dev": "npm run compile-sections && next dev",

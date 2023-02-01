@@ -1,5 +1,5 @@
 import { AppProps } from 'next/app';
-import 'css/tailwind.css';
+// import 'css/tailwind.css';
 import { useEffect } from 'react';
 import LoadFonts from '../../LoadFonts';
 import GlobalStyles from './../components/GlobalStyles';

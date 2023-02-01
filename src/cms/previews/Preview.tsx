@@ -1,17 +1,28 @@
-import { ComponentType } from 'react';
+import { ComponentType, useEffect } from 'react';
 import Builder from 'components/builder/Builder';
+import GlobalStyles from './../../components/GlobalStyles';
+import LoadFonts from '../../../LoadFonts';
 
 const HomePreview: ComponentType<any> = ({ entry, widgetsFor }) => {
-  return widgetsFor('sections').map((section) => {
-    const sectionAsJson = section?.toJS() || {};
+  useEffect(() => {
+    LoadFonts();
+  }, []);
 
-    if (!sectionAsJson) return '';
-    const { data } = sectionAsJson || {};
-    if (!data) return '';
-    const { type, ...props } = data;
+  return (
+    <>
+      <GlobalStyles />
+      {widgetsFor('sections').map(section => {
+        const sectionAsJson = section?.toJS() || {};
 
-    return <Builder type={type} {...props} isAdmin={true} />;
-  });
+        if (!sectionAsJson) return '';
+        const { data } = sectionAsJson || {};
+        if (!data) return '';
+        const { type, ...props } = data;
+
+        return <Builder type={type} {...props} isAdmin={true} />;
+      })}
+    </>
+  );
 };
 
 export default HomePreview;

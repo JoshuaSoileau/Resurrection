@@ -3,26 +3,33 @@ import dynamic from 'next/dynamic';
 import config from 'cms/config';
 import Preview from 'cms/previews/Preview';
 import Spinner from 'components/icons/Spinner';
+import withStyledComponentsRendered from './../../withStyledComponentsRendered';
 
 const CMS = dynamic(
   (): any =>
     import('netlify-cms-app').then((cms: any) => {
       cms.init({ config });
       // cms.registerPreviewStyle('../css/tailwind.css');
-      cms.registerPreviewStyle(
-        'https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css'
+      // cms.registerPreviewStyle(
+      //   'https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css'
+      // );
+      // cms.registerPreviewStyle(
+      //   'https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css'
+      // );
+      cms.registerPreviewTemplate(
+        'home',
+        withStyledComponentsRendered(Preview),
       );
-      cms.registerPreviewStyle(
-        'https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css'
+      cms.registerPreviewTemplate(
+        'pages',
+        withStyledComponentsRendered(Preview),
       );
-      cms.registerPreviewTemplate('home', Preview);
-      cms.registerPreviewTemplate('pages', Preview);
     }),
   {
     ssr: false,
     // eslint-disable-next-line react/display-name
     loading: () => <Spinner width="20" fill="white" className="animate-spin" />,
-  }
+  },
 );
 
 const AdminPage: React.FC = () => {

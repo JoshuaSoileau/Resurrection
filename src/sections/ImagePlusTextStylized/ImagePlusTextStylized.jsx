@@ -28,7 +28,7 @@ export default function ImagePlusTextStylized({
     <section
       className="josh-outer"
       css={[
-        tw`grid grid-cols-1 md:grid-cols-2`,
+        tw`grid grid-cols-1 lg:grid-cols-2`,
         !max_content ? tw`container mx-auto` : '',
       ]}
     >

@@ -4,7 +4,7 @@ slug: home
 sections:
   - button_url: ''
     opacity: 0.5
-    image_url: img/pedro-lima-HtwsbbClBOs-unsplash-scaled.jpg
+    image_url: img/cropped-IMG_0879-scaled-1.jpeg
     text: ''
     headline: ''
     overlay_color: Charcoal

@@ -4,6 +4,7 @@ import { getSectionColor, getProseColor } from '../../components/color-utils';
 
 export default function Hero1({
   alignment,
+  anchor,
   background_color,
   hide,
   image_url,
@@ -11,6 +12,7 @@ export default function Hero1({
   isAdmin,
   markdown_content,
   max_content,
+  text_size,
 }) {
   if (hide) return '';
 
@@ -18,7 +20,7 @@ export default function Hero1({
   const proseColor = getProseColor(background_color);
 
   return (
-    <section css={[bgColor]}>
+    <section css={[bgColor]} id={anchor}>
       <div css={[tw`flex justify-center`, !max_content ? tw`mx-auto` : '']}>
         {alignment == 'Image on left' ? (
           <div
@@ -37,7 +39,13 @@ export default function Hero1({
             alignment !== 'Image on right' && tw`ml-0`,
           ]}
         >
-          <div css={[tw`w-full prose`, proseColor]}>
+          <div
+            css={[
+              tw`w-full prose`,
+              proseColor,
+              text_size == 'Large' && tw`prose-lg`,
+            ]}
+          >
             {include_line ? (
               <div tw="w-24 h-2 bg-emerald-800 mb-4 inline-block"></div>
             ) : (

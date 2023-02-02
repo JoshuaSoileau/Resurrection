@@ -25,6 +25,7 @@ const opacityValues = {
 };
 
 export default function Hero1({
+  anchor,
   button_text,
   button_url,
   headline,
@@ -46,7 +47,7 @@ export default function Hero1({
   const opacityValue = opacityValues[opacity] || '';
 
   return (
-    <section>
+    <section id={anchor}>
       <Header1 />
       <div css={[tw`-mt-24 relative w-full p-4 md:p-12`, bgColor]}>
         <div tw="relative z-10 text-center py-24 md:py-48">

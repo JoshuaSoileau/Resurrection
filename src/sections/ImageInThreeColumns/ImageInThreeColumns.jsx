@@ -1,6 +1,6 @@
 import tw from 'twin.macro';
 
-export default function Hero1({ hide, items, max_content }) {
+export default function Hero1({ anchor, hide, items, max_content }) {
   if (hide) return '';
 
   // TODO -- figure out recursive "field" markdown parsing.
@@ -11,6 +11,7 @@ export default function Hero1({ hide, items, max_content }) {
         tw`flex flex-wrap bg-black`,
         max_content ? tw`container mx-auto` : '',
       ]}
+      id={anchor}
     >
       {items.map(item => {
         const { image_url, link_url, text } = item;

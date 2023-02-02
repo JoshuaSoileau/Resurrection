@@ -12,6 +12,13 @@
       "required": false
     },
     {
+      "label": "Anchor link url",
+      "name": "anchor",
+      "widget": "string",
+      "default": "",
+      "required": false
+    },
+    {
       "label": "Map Share URL",
       "name": "map_url",
       "widget": "string",

@@ -4,6 +4,7 @@ import { getSectionColor, getProseColor } from '../../components/color-utils';
 
 export default function ImagePlusTextStylized({
   alignment,
+  anchor,
   background_color,
   hide,
   image_url,
@@ -30,6 +31,7 @@ export default function ImagePlusTextStylized({
         tw`grid grid-cols-1 lg:grid-cols-2`,
         !max_content ? tw`container mx-auto` : '',
       ]}
+      id={anchor}
     >
       {alignment == 'Image on left' ? Image : ''}
       <div

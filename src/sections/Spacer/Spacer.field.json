@@ -9,6 +9,13 @@
       "widget": "boolean",
       "default": false,
       "required": false
+    },
+    {
+      "label": "Anchor link url",
+      "name": "anchor",
+      "widget": "string",
+      "default": "",
+      "required": false
     }
   ]
 }

@@ -3,9 +3,15 @@ import SectionConfig from './Contact1.field.json';
 import Markdown from '../../components/Markdown/Markdown';
 import tw from 'twin.macro';
 
-const Contact1 = ({ include_line, isAdmin, map_url, markdown_content }) => {
+const Contact1 = ({
+  anchor,
+  include_line,
+  isAdmin,
+  map_url,
+  markdown_content,
+}) => {
   return (
-    <section tw="text-gray-600 relative">
+    <section id={anchor} tw="text-gray-600 relative">
       <div tw="absolute inset-0 bg-gray-600">
         <iframe
           frameBorder="0"

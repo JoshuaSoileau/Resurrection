@@ -1,9 +1,10 @@
+import Link from 'next/link';
 import { useRef, useState } from 'react';
 import tw from 'twin.macro';
 
 const links = [
   { url: '/', text: 'Home' },
-  { url: '/leadership', text: 'leadership' },
+  { url: '/new-here', text: 'New here?' },
   { url: '/about-us', text: 'About' },
   { url: '/contact-us', text: 'Contact us' },
 ];
@@ -60,13 +61,11 @@ export default function Header1() {
               </svg>
             </button>
             {links.map(link => (
-              <a
-                href={link.url}
-                key={link.url}
-                tw="inline-block border-b-4 border-transparent hover:border-emerald-900"
-              >
-                {link.text}
-              </a>
+              <Link href={link.url} key={link.url}>
+                <span tw="inline-block border-b-4 border-transparent hover:border-emerald-900 cursor-pointer">
+                  {link.text}
+                </span>
+              </Link>
             ))}
           </div>
           <div tw="absolute inset-0 w-full h-full bg-emerald-900 bg-opacity-20"></div>
@@ -74,7 +73,7 @@ export default function Header1() {
       </div>
       <div tw="flex items-center justify-center"></div>
       <div tw="flex items-center justify-end">
-        <a href="/contact">
+        <a href="#contact">
           <svg
             fill="none"
             stroke="currentColor"

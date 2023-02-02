@@ -1,6 +1,7 @@
 import tw from 'twin.macro';
 
 export default function ImageInThreeColumnsWithSpace({
+  anchor,
   hide,
   items,
   max_content,
@@ -13,6 +14,7 @@ export default function ImageInThreeColumnsWithSpace({
         tw`grid grid-cols-1 md:grid-cols-3`,
         max_content ? tw`container mx-auto` : '',
       ]}
+      id={anchor}
     >
       {items.map(item => {
         const { image_url, link_url, text } = item;

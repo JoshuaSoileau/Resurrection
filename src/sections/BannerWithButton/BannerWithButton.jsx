@@ -15,6 +15,7 @@ const opacityValues = {
 };
 
 export default function ContactEmailSignup({
+  anchor,
   button_text,
   button_url,
   headline,
@@ -32,7 +33,7 @@ export default function ContactEmailSignup({
   const opacityValue = opacityValues[opacity] || '';
 
   return (
-    <section css={[tw`relative z-10 w-full`, bgColor]}>
+    <section css={[tw`relative z-10 w-full`, bgColor]} id={anchor}>
       <div tw="relative z-10 text-center py-12 md:py-6 container mx-auto">
         <div tw="text-gray-600">
           <div tw="container px-2 mx-auto flex items-center md:flex-row flex-col">

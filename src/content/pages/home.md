@@ -121,6 +121,7 @@ sections:
       *1820 Eden Terrace,* \
       *Rock Hill, SC 29730*
     include_line: true
+    anchor: contact
   - type: ContactEmailSignup
     hide: false
     headline: Subscribe to our newsletter

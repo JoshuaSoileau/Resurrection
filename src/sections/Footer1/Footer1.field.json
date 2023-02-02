@@ -11,6 +11,13 @@
       "required": false
     },
     {
+      "label": "Anchor link url",
+      "name": "anchor",
+      "widget": "string",
+      "default": "",
+      "required": false
+    },
+    {
       "label": "Logo",
       "name": "logo_url",
       "widget": "image",

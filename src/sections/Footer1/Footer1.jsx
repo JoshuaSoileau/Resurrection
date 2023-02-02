@@ -10,6 +10,7 @@ const bgColors = {
 };
 
 export default function Hero1({
+  anchor,
   background_color,
   disclaimer,
   hide,
@@ -21,7 +22,7 @@ export default function Hero1({
   const bgColor = bgColors[background_color] || '';
 
   return (
-    <footer css={[tw`p-4 md:px-6 md:py-8`, bgColor]}>
+    <footer css={[tw`p-4 md:px-6 md:py-8`, bgColor]} id={anchor}>
       <div tw="sm:flex sm:items-center sm:justify-between">
         <a href="/" tw="flex items-center mb-4 sm:mb-0">
           <img src={logo_url} tw="h-8 mr-3" />

@@ -8,7 +8,7 @@ import {
 
 export default function Hero1({
   alignment,
-  dark_mode,
+  anchor,
   hide,
   image_url,
   include_line,
@@ -36,7 +36,7 @@ export default function Hero1({
   const opacityValue = getOpacityValue(opacity);
 
   return (
-    <section css={[tw`relative`, bgColor]}>
+    <section css={[tw`relative`, bgColor]} id={anchor}>
       {image_url && (
         <img
           css={[tw`w-full h-full absolute inset-0 object-cover`, opacityValue]}

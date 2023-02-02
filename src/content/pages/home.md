@@ -160,7 +160,7 @@ sections:
   - type: Footer1
     hide: false
     logo_url: img/z-logo-all-white.png
-    disclaimer: © Company name. All Rights Reserved.
+    disclaimer: © Resurrection Anglican Church. All Rights Reserved.
     background_color: Charcoal
     links:
       - text: Home

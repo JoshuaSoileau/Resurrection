@@ -25,10 +25,10 @@ export default function Header1() {
   };
 
   useEffect(() => {
-    router.events.on('hashChangeStart', closeMenu);
+    router?.events?.on('hashChangeStart', closeMenu);
 
-    return () => router.events.off('hashChangeStart', closeMenu);
-  }, [router.events]);
+    return () => router?.events?.off('hashChangeStart', closeMenu);
+  }, [router?.events]);
 
   return (
     <div tw="h-24 z-50 relative container mx-auto px-6 grid grid-cols-3">

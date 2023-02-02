@@ -3,20 +3,20 @@ import SectionConfig from './Contact1.field.json';
 import Markdown from '../../components/Markdown/Markdown';
 import tw from 'twin.macro';
 
-const Contact1 = ({ map_url, include_line, isAdmin, markdown_content }) => {
+const Contact1 = ({ include_line, isAdmin, map_url, markdown_content }) => {
   return (
     <section tw="text-gray-600 relative">
       <div tw="absolute inset-0 bg-gray-600">
         <iframe
-          width="100%"
-          height="100%"
           frameBorder="0"
+          height="100%"
           marginHeight="0"
           marginWidth="0"
-          title="map"
           scrolling="no"
           src={map_url}
+          title="map"
           tw="pointer-events-none opacity-70"
+          width="100%"
         ></iframe>
       </div>
       <div tw="container px-5 py-24 mx-auto flex">

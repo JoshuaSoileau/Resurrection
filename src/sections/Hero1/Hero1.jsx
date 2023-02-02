@@ -24,16 +24,20 @@ const opacityValues = {
 };
 
 export default function Hero1({
-  headline,
-  hide,
-  text,
   button_text,
   button_url,
+  headline,
+  hide,
   image_url,
   isAdmin,
+  left_text,
+  left_url,
   logo_url,
-  overlay_color,
   opacity = 0.7,
+  overlay_color,
+  right_text,
+  right_url,
+  text,
 }) {
   if (hide) return '';
 
@@ -48,11 +52,11 @@ export default function Hero1({
           {logo_url ? (
             <div tw="container w-full p-4 md:p-12 mx-auto">
               <img
-                src={logo_url}
                 css={[
                   tw`max-w-full md:max-w-600px mx-auto`,
                   isAdmin ? tw`h-32` : '',
                 ]}
+                src={logo_url}
               />
             </div>
           ) : (
@@ -76,16 +80,24 @@ export default function Hero1({
           )}
         </div>
         <div tw="relative z-10 mx-auto max-w-4xl flex flex-col xs:flex-row justify-between uppercase text-white tracking-widest">
-          <a href="/pages/about-us" tw="border-b border-white">
-            Find out more
-          </a>{' '}
-          <a href="/contact" tw="border-b border-white">
-            Get in touch
-          </a>
+          {left_text ? (
+            <a href={left_url} tw="border-b border-white">
+              {left_text}
+            </a>
+          ) : (
+            <div />
+          )}
+          {right_text ? (
+            <a href={right_url} tw="border-b border-white">
+              {right_text}
+            </a>
+          ) : (
+            <div />
+          )}
         </div>
         <img
-          src={image_url}
           css={[tw`w-full h-full absolute inset-0 object-cover`, opacityValue]}
+          src={image_url}
         />
       </div>
     </section>

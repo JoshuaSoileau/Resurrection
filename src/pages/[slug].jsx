@@ -4,12 +4,12 @@ import convertMarkdownToHtml from '../utils/convertMarkdownToHtml';
 
 import Builder from 'components/builder/Builder';
 
-const Page = ({ title, image, sections }) => {
+const Page = ({ image, sections, title }) => {
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta property="og:image" content={image} />
+        <meta content={image} property="og:image" />
       </Head>
       {sections?.map(({ type, ...props }) => {
         return <Builder type={type} {...props} />;

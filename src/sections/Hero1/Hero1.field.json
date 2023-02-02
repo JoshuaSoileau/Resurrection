@@ -46,6 +46,34 @@
       "required": false
     },
     {
+      "label": "Left link text",
+      "name": "left_text",
+      "widget": "string",
+      "default": "Learn more",
+      "required": false
+    },
+    {
+      "label": "Left link URL",
+      "name": "left_url",
+      "widget": "string",
+      "default": "https://google.com",
+      "required": false
+    },
+    {
+      "label": "Right link text",
+      "name": "right_text",
+      "widget": "string",
+      "default": "Get in touch",
+      "required": false
+    },
+    {
+      "label": "Right URL",
+      "name": "right_url",
+      "widget": "string",
+      "default": "https://google.com",
+      "required": false
+    },
+    {
       "label": "Background image",
       "name": "image_url",
       "widget": "image",

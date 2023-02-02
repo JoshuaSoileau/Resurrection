@@ -3,11 +3,11 @@ import tw from 'twin.macro';
 
 export default function Hero1({
   alignment,
-  hide,
   dark_mode,
+  hide,
   include_line,
-  markdown_content,
   isAdmin,
+  markdown_content,
 }) {
   if (hide) return '';
 

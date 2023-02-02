@@ -13,13 +13,13 @@ export default function Hero1({ hide, items, max_content }) {
       ]}
     >
       {items.map(item => {
-        const { text, image_url, link_url } = item;
+        const { image_url, link_url, text } = item;
 
         if (link_url)
           return (
             <a
-              key={link_url}
               href={link_url}
+              key={link_url}
               tw="bg-black relative w-full md:w-auto md:flex-1 flex items-center justify-center h-72 text-white uppercase tracking-widest hover:opacity-75"
             >
               <div tw="relative z-10">{text}</div>

@@ -7,9 +7,9 @@ export default function Hero1({
   background_color,
   hide,
   image_url,
+  isAdmin,
   markdown_content,
   max_content,
-  isAdmin,
 }) {
   if (hide) return '';
 
@@ -21,10 +21,10 @@ export default function Hero1({
       <div css={[tw`flex justify-center`, !max_content ? tw`mx-auto` : '']}>
         {alignment == 'Image on left' ? (
           <div
-            tw="hidden bg-cover md:block md:w-2/5"
             style={{
               backgroundImage: `url('${image_url}')`,
             }}
+            tw="hidden bg-cover md:block md:w-2/5"
           ></div>
         ) : (
           ''
@@ -42,10 +42,10 @@ export default function Hero1({
         </div>
         {alignment == 'Image on right' ? (
           <div
-            tw="hidden bg-cover md:block md:w-2/5"
             style={{
               backgroundImage: `url('${image_url}')`,
             }}
+            tw="hidden bg-cover md:block md:w-2/5"
           ></div>
         ) : (
           ''

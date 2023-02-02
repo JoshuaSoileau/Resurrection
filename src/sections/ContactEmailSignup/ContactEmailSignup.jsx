@@ -24,14 +24,14 @@ const opacityValues = {
 };
 
 export default function ContactEmailSignup({
-  headline,
-  hide,
-  subheadline,
   button_text,
   button_url,
+  headline,
+  hide,
   image_url,
-  overlay_color,
   opacity = 0.7,
+  overlay_color,
+  subheadline,
 }) {
   if (hide) return '';
 
@@ -58,11 +58,11 @@ export default function ContactEmailSignup({
               <div tw="flex lg:w-2/3 w-full sm:flex-row flex-col ml-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
                 <div tw="relative flex-grow w-full">
                   <input
-                    type="email"
                     id="email"
                     name="email"
                     placeholder="JaneDoe@gmail.com"
                     tw="w-full bg-white focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out h-12"
+                    type="email"
                   />
                 </div>
                 <button tw="inline-block border-2 border-white font-light text-white  uppercase tracking-widest py-3 px-8 hover:bg-emerald-800 hover:text-white mt-8">
@@ -74,8 +74,8 @@ export default function ContactEmailSignup({
         </div>
       </div>
       <img
-        src={image_url}
         css={[tw`w-full h-full absolute inset-0 object-cover`, opacityValue]}
+        src={image_url}
       />
     </section>
   );

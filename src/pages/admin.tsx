@@ -28,7 +28,7 @@ const CMS = dynamic(
   {
     ssr: false,
     // eslint-disable-next-line react/display-name
-    loading: () => <Spinner width="20" fill="white" className="animate-spin" />,
+    loading: () => <Spinner className="animate-spin" fill="white" width="20" />,
   },
 );
 

@@ -7,9 +7,9 @@ export default function ImagePlusTextStylized({
   background_color,
   hide,
   image_url,
+  isAdmin,
   markdown_content,
   max_content,
-  isAdmin,
 }) {
   if (hide) return '';
 

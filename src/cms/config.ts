@@ -20,7 +20,7 @@ export default {
       folder: 'src/content/pages',
       create: true,
       slug: '{{slug}}',
-      preview_path: 'pages/{{fields.slug}}',
+      preview_path: '{{fields.slug}}',
       fields: [
         {
           label: 'Title',

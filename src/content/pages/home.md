@@ -71,7 +71,7 @@ sections:
       Children are a big part of Resurrection. They currently make up a *third* of our congregation!
 
 
-      We offer nursery and children’s church where there are age-appropriate lessons and activities for preschool-5th grade. This takes place during the scripture reading and sermon. 
+      We offer nursery and children’s church where there are age-appropriate lessons and activities for preschool-5th grade. This takes place during the scripture reading and sermon.
 
 
 
@@ -89,7 +89,7 @@ sections:
 
 
 
-      We are an Anglican congregation. We follow a flow of worship known as "liturgical" but we like to say our worship is birthed from Scripture and also draws from some of the earliest forms of worship as the Church was growing. 
+      We are an Anglican congregation. We follow a flow of worship known as "liturgical" but we like to say our worship is birthed from Scripture and also draws from some of the earliest forms of worship as the Church was growing.
 
 
       We gather on Sundays to *Experience the Trinity*, which is the catalyst that enables us, along with other opportunities during the week, to grow as the church and *Embody Community*, and allows us to be unified in the goal of taking the light into the darkness and *Engage the City*.

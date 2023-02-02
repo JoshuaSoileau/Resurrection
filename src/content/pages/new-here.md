@@ -11,95 +11,92 @@ sections:
     button_text: ''
     type: Hero1
     logo_url: ''
-  - type: Spacer
-    hide: false
-  - type: ImageInThreeColumns
-    hide: false
-    items:
-      - image_url: img/28c34d44-9469-4946-843e-d75f6df72c25.jpg
-        text: Experience the Trinity
-      - image_url: img/76E4DC3C-01CA-4D06-B48C-8AC0C054E0D2_1_105_c.jpeg
-        text: Embody Community
-      - image_url: img/nate-steele-FPdkDrq9X-4-unsplash-scaled-e1656592848355.jpg
-        text: Engage the city
-    max_content: true
-  - type: Spacer
-    hide: false
   - type: TextCenteredPlusLine1
     hide: false
     include_line: true
-    markdown_content: '# An Anglican Church plant in Rock Hill, SC'
-    alignment: center
     dark_mode: true
-  - type: ImagePlusTextFullBleed1
-    hide: false
+    alignment: center
+    markdown_content: >-
+      # Welcome!
+
+
+      W﻿e're so glad you're here. If it's your first time visiting, here's a little info to help get you acquainted with what to expect.
+    overlay_color: Charcoal
+  - hide: false
     alignment: Image on left
     markdown_content: >-
-      # Epiphany at Resurrection
+      # S﻿unday worship
 
 
-      Epiphany is the season of the Church when we celebrate Christ being revealed as the Savior of the whole world, for both Jew and Gentile.
-
-
-      This celebration starts with the day of Epiphany when the Church remembers the Magi coming from the east, following the star to see the Christ.
-
-
-      The season of Epiphany continues until the beginning of Lent, which starts on February 22 this year.
-
-
-      Come celebrate with us as we remember that Christ came, not only as the promised Messiah for Israel, to save all of creation.
-
-
-      Childcare is provided for the smallest of those joining us and there is a time of lesson and crafts for children in grades K-5th.
-    image_url: img/3FEA0497-23AD-4D8A-8E0B-5064F0E80FC2_1_105_c.jpeg
-    max_content: true
-    background_color: Gray
-  - type: Spacer
-    hide: false
-  - type: ImagePlusTextStylized
-    hide: false
-    alignment: Image on left
-    markdown_content: >-
-      # Children's Ministry
-
-
-      Children are a big part of Resurrection. They currently make up a *third* of our congregation!
-
-
-      We offer nursery and children’s church where there are age-appropriate lessons and activities for preschool-5th grade. This takes place during the scripture reading and sermon. 
-
-
-
-
-      They do participate with the rest of us during the other parts of the service, particularly communion. We feel this is a good balance to keep them active and engaged, assisting in their spiritual formation, as well as giving their parents an opportunity to worship.
-    image_url: img/IMG_8866.jpg
+      Worship begins promptly at 4:00pm at Rogers Memorial ARP Church at 1820 Eden Terrace, Rock Hill, SC 29730 (across from Sullivan Middle School).
+    image_url: img/img_8881.jpeg
+    include_line: true
+    background_color: White
+    text_size: Large
+    type: ImagePlusTextFullBleed1
     max_content: false
-    background_color: Gray
-  - type: ImagePlusTextStylized
-    hide: false
+  - hide: false
     alignment: Image on right
     markdown_content: >-
-      # T﻿he Anglican Way
+      When you arrive, greeters will be happy to show you where to go! If you
+      have a little one, someone will show you where the children go for
+      children’s church but the children start and finish with us in the
+      sanctuary.
 
 
-
-
-      We are an Anglican congregation. We follow a flow of worship known as "liturgical" but we like to say our worship is birthed from Scripture and also draws from some of the earliest forms of worship as the Church was growing. 
-
-
-      We gather on Sundays to *Experience the Trinity*, which is the catalyst that enables us, along with other opportunities during the week, to grow as the church and *Embody Community*, and allows us to be unified in the goal of taking the light into the darkness and *Engage the City*.
-    image_url: img/99BEE4A4-8DAC-4A00-ACA5-91E97BAAE7FA_1_105_c.jpeg
+      Our greeters will offer you a gift as well as a copy of the [Book of Common Prayer](https://bcp2019.anglicanchurch.net/) (if you prefer to hold a book instead of use the screens). They’ll also answer any questions you may have and introduce you to our pastor.
+    image_url: img/IMG_8548.jpeg
+    include_line: false
+    background_color: White
+    text_size: Large
+    type: ImagePlusTextFullBleed1
     max_content: false
-    background_color: Gray
-  - type: ImageInThreeColumnsWithSpace
+  - type: TextCenteredPlusLine1
     hide: false
-    items:
-      - image_url: img/IMG_8582.jpg
-        text: ''
-      - image_url: img/62AA5018-27CD-4924-BDD6-F8BB5B2E682E_1_105_c.jpeg
-        text: ''
-      - image_url: img/243240976_4115467808580055_3709599852756987891_n.jpeg
-        text: ''
+    include_line: true
+    alignment: left
+    markdown_content: >-
+      # O﻿ur music
+
+
+      Musically, the worship service will be blended with both old and new (a fancy term would be “ancient-future”). We will sing hymns regularly but also the most recent worship songs.
+
+
+      O﻿ur worship leaders curate our songs to fit the season and best instill the holy spirit in our congregation.
+    image_url: img/pedro-lima-HtwsbbClBOs-unsplash-scaled.jpg
+    overlay_color: Charcoal
+    opacity: 0.2
+  - type: TextCenteredPlusLine1
+    hide: false
+    include_line: true
+    alignment: left
+    markdown_content: >-
+      # What happens during worship?
+
+
+      Our worship services are completely drawn from scripture and are rooted in ancient traditions almost as old the Church herself. These services follow a calendar that moves us through seasons of remembering our Savior’s story that impacts our story. Our worship services flow through the same parts every week:
+
+
+      1. Celebrating entering God’s presence. We do this by singing songs celebrating God’s presence in our midst, remembering Christ’s summary of what it means to be a part of the Church and praying together for the rest of the service.
+
+      2. Hearing God’s word. We read a lot of God’s word. We hear an Old Testament passage, we recite a Psalm passage, we hear a New Testament epistle passage. The reading of God’s word culminates in hearing a passage from one of the four gospels. And we do this by hearing the reading from the middle of the congregation, a memorial of the fact that our Savior came into our midst and walked among us to save us.
+
+      3. Responding to God’s word. We do several things in our response to God’s word. It starts with a sermon on one of the passages read. Our response continues with reciting the Nicene Creed to remind us in whom we believe. We pray for ourselves and others, we confess our sins and hear that we are forgiven and we take a moment to share peace and love with others in the congregation.
+
+      4. Feasting at the Son’s Table. Celebrating the Eucharist (Lord’s Supper/Holy Communion) every week is very essential to us. Instituted by our Lord and Savior the night he was handed over to die for our sins, this remembrance fills us physically and spiritually as we once again look to the truth that Jesus died for us and through him we are reconciled to the Father.
+
+      5. Going to serve God. We thank God for feeding us, we receive a blessing and we celebrate that God sends us out into the world, to do what St. Francis of Assisi wrote: “We are called to heal wounds, we are called to unite what is broken, and we are called to lead home those who have lost their way.”
+    image_url: ''
+    overlay_color: None
+    opacity: 0.7
+  - type: TextCenteredPlusLine1
+    hide: false
+    include_line: true
+    alignment: center
+    markdown_content: "# W﻿e can't wait to meet you!"
+    image_url: img/243169684_4115493155244187_5333892671376568698_n.jpeg
+    overlay_color: Charcoal
+    opacity: 0.1
   - type: Contact1
     hide: false
     map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13079.972502539167!2d-80.99647495338147!3d34.95678098181917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1666213161340!5m2!1sen!2sus
@@ -153,7 +150,7 @@ sections:
   - type: Footer1
     hide: false
     logo_url: img/logo-all-white.png
-    disclaimer: © Company name. All Rights Reserved.
+    disclaimer: © Resurrection Anglican Church. All Rights Reserved.
     background_color: Charcoal
     links:
       - text: Home

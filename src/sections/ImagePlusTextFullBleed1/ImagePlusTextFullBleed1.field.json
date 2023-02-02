@@ -26,6 +26,14 @@
       "default": "Image on left"
     },
     {
+      "label": "Text size",
+      "name": "text_size",
+      "widget": "select",
+      "options": ["Normal", "Large"],
+      "default": "Normal",
+      "required": false
+    },
+    {
       "label": "Content",
       "name": "markdown_content",
       "widget": "markdown",

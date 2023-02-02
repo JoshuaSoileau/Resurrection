@@ -14,7 +14,6 @@ const Page = ({ image, sections, title }) => {
       {sections?.map(({ type, ...props }) => {
         return <Builder type={type} {...props} />;
       })}
-      ;
     </>
   );
 };

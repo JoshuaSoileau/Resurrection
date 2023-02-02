@@ -1,5 +1,6 @@
 import Header1 from '../Header1/Header1';
 import tw from 'twin.macro';
+import Link from 'next/link';
 
 const bgColors = {
   None: '',
@@ -81,16 +82,18 @@ export default function Hero1({
         </div>
         <div tw="relative z-10 mx-auto max-w-4xl flex flex-row justify-between uppercase text-white tracking-widest">
           {left_text ? (
-            <a href={left_url} tw="border-b border-white">
-              {left_text}
-            </a>
+            <Link href={left_url}>
+              <span tw="border-b border-white cursor-pointer">{left_text}</span>
+            </Link>
           ) : (
             <div />
           )}
           {right_text ? (
-            <a href={right_url} tw="border-b border-white">
-              {right_text}
-            </a>
+            <Link href={right_url}>
+              <span tw="border-b border-white cursor-pointer">
+                {right_text}
+              </span>
+            </Link>
           ) : (
             <div />
           )}

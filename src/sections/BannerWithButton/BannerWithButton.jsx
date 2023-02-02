@@ -29,8 +29,6 @@ export default function ContactEmailSignup({
 
   const bgColor = getSectionColor(overlay_color);
   const proseColor = getProseColor(overlay_color);
-
-  // const bgColor = bgColors[overlay_color] || '';
   const opacityValue = opacityValues[opacity] || '';
 
   return (

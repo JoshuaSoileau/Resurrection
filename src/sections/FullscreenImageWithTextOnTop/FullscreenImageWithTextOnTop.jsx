@@ -24,14 +24,14 @@ const opacityValues = {
 };
 
 export default function Hero1({
-  headline,
-  hide,
-  text,
   button_text,
   button_url,
+  headline,
+  hide,
   image_url,
-  overlay_color,
   opacity = 0.7,
+  overlay_color,
+  text,
 }) {
   if (hide) return '';
 
@@ -60,11 +60,11 @@ export default function Hero1({
         )}
       </div>
       <img
-        src={image_url}
         css={[
           tw`w-full h-full absolute inset-0 object-cover`,
           tw(opacityValue),
         ]}
+        src={image_url}
       />
     </section>
   );

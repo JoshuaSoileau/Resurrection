@@ -14,13 +14,13 @@ sections:
     left_url: /new-here
     button_text: ''
     type: Hero1
-    logo_url: img/logo-white-no-border.png
+    logo_url: img/z-logo-white-no-border.png
   - type: Spacer
     hide: false
   - type: ImageInThreeColumns
     hide: false
     items:
-      - image_url: img/28c34d44-9469-4946-843e-d75f6df72c25.jpg
+      - image_url: img/5C3B81A2-D895-4ACB-9B20-A8AA037E700A_1_105_c.jpeg
         text: Experience the Trinity
       - image_url: img/76E4DC3C-01CA-4D06-B48C-8AC0C054E0D2_1_105_c.jpeg
         text: Embody Community
@@ -35,6 +35,7 @@ sections:
     markdown_content: '# An Anglican Church plant in Rock Hill, SC'
     alignment: center
     dark_mode: true
+    overlay_color: Charcoal
   - type: ImagePlusTextFullBleed1
     hide: false
     alignment: Image on left
@@ -77,7 +78,7 @@ sections:
 
 
       They do participate with the rest of us during the other parts of the service, particularly communion. We feel this is a good balance to keep them active and engaged, assisting in their spiritual formation, as well as giving their parents an opportunity to worship.
-    image_url: img/IMG_8866.jpg
+    image_url: img/IMG_8833.jpeg
     max_content: false
     background_color: Gray
   - type: ImagePlusTextStylized
@@ -99,7 +100,7 @@ sections:
   - type: ImageInThreeColumnsWithSpace
     hide: false
     items:
-      - image_url: img/IMG_8582.jpg
+      - image_url: img/IMG_8582.jpeg
         text: ''
       - image_url: img/62AA5018-27CD-4924-BDD6-F8BB5B2E682E_1_105_c.jpeg
         text: ''
@@ -129,7 +130,7 @@ sections:
     overlay_color: Charcoal
     opacity: 0.5
   - hide: false
-    button_url: https://google.com
+    button_url: https://us16.campaign-archive.com/home/?u=3cd12dec7449507aececbf84e&id=0522a11d77
     opacity: 0.7
     image_url: ''
     text_alignment: Left
@@ -157,7 +158,7 @@ sections:
       If you'd like to join this GroupMe group, send an email to admin@resurrectionrockhill.org with your name, email, and phone number, and we'll send you an invitation.
   - type: Footer1
     hide: false
-    logo_url: img/logo-all-white.png
+    logo_url: img/z-logo-all-white.png
     disclaimer: © Company name. All Rights Reserved.
     background_color: Charcoal
     links:

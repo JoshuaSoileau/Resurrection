@@ -4,12 +4,12 @@ export const getIcon = (i: number, size: number = 5) => {
     case 0:
       return (
         <svg
+          className={`w-${size} h-${size}`}
           fill="none"
           stroke="currentColor"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="2"
-          className={`w-${size} h-${size}`}
           viewBox="0 0 24 24"
         >
           <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -18,12 +18,12 @@ export const getIcon = (i: number, size: number = 5) => {
     case 1:
       return (
         <svg
+          className={`w-${size} h-${size}`}
           fill="none"
           stroke="currentColor"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="2"
-          className={`w-${size} h-${size}`}
           viewBox="0 0 24 24"
         >
           <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
@@ -33,12 +33,12 @@ export const getIcon = (i: number, size: number = 5) => {
     case 2:
       return (
         <svg
+          className={`w-${size} h-${size}`}
           fill="none"
           stroke="currentColor"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="2"
-          className={`w-${size} h-${size}`}
           viewBox="0 0 24 24"
         >
           <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
@@ -47,12 +47,12 @@ export const getIcon = (i: number, size: number = 5) => {
     case 3:
       return (
         <svg
+          className={`w-${size} h-${size}`}
           fill="none"
           stroke="currentColor"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="2"
-          className={`w-${size} h-${size}`}
           viewBox="0 0 24 24"
         >
           <circle cx="12" cy="5" r="3"></circle>
@@ -62,12 +62,12 @@ export const getIcon = (i: number, size: number = 5) => {
     default:
       return (
         <svg
+          className={`w-${size} h-${size}`}
           fill="none"
           stroke="currentColor"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="2"
-          className={`w-${size} h-${size}`}
           viewBox="0 0 24 24"
         >
           <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>

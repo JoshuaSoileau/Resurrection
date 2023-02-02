@@ -40,12 +40,12 @@ const BlogCard: React.FC<{ post: Post; version: number }> = ({
             Learn More
             <svg
               className="w-4 h-4 ml-2"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="2"
               fill="none"
+              stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
             >
               <path d="M5 12h14"></path>
               <path d="M12 5l7 7-7 7"></path>
@@ -74,12 +74,12 @@ const BlogCard: React.FC<{ post: Post; version: number }> = ({
             Learn More
             <svg
               className="w-4 h-4 ml-2"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="2"
               fill="none"
+              stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
             >
               <path d="M5 12h14"></path>
               <path d="M12 5l7 7-7 7"></path>
@@ -93,10 +93,10 @@ const BlogCard: React.FC<{ post: Post; version: number }> = ({
   return (
     <div className="flex flex-col h-full overflow-hidden border-2 border-gray-200 rounded-lg">
       <img
-        className="object-cover object-center w-full lg:h-48 md:h-36"
-        src={attributes.image}
         alt="blog"
+        className="object-cover object-center w-full lg:h-48 md:h-36"
         loading="lazy"
+        src={attributes.image}
       />
       <div className="p-6">
         <h2 className="mb-1 text-xs font-medium tracking-widest text-gray-500 title-font">
@@ -114,12 +114,12 @@ const BlogCard: React.FC<{ post: Post; version: number }> = ({
             Read more
             <svg
               className="w-4 h-4 ml-2"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="2"
               fill="none"
+              stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
             >
               <path d="M5 12h14"></path>
               <path d="M12 5l7 7-7 7"></path>

@@ -6,9 +6,9 @@ interface ButtonProps {
 }
 
 const Button = ({
+  children,
   isLoading = false,
   title,
-  children,
   ...buttonProps
 }: ButtonProps &
   React.ButtonHTMLAttributes<HTMLButtonElement>): JSX.Element => {
@@ -18,7 +18,7 @@ const Button = ({
       {...buttonProps}
     >
       {isLoading ? (
-        <Spinner width="20" fill="white" className="animate-spin" />
+        <Spinner className="animate-spin" fill="white" width="20" />
       ) : (
         title
       )}

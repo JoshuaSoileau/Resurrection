@@ -4,8 +4,8 @@ const SEO = () => (
   <Head>
     <title>NextWind</title>
     <meta
-      name="description"
       content="A flexible landing page + blog template"
+      name="description"
     ></meta>
     <meta
       content="https://serverless.page/img/serverless-saas.png"
@@ -20,44 +20,44 @@ const SEO = () => (
     ></meta>
 
     {/* Twitter */}
-    <meta name="twitter:title" content="NextWind"></meta>
+    <meta content="NextWind" name="twitter:title"></meta>
     <meta
-      name="twitter:description"
       content="A flexible landing page + blog template"
+      name="twitter:description"
     ></meta>
     <meta
-      name="twitter:image"
       content="https://serverless.page/img/serverless-saas.png"
+      name="twitter:image"
     ></meta>
-    <meta name="twitter:card" content="summary_large_image"></meta>
-    <meta name="twitter:image:alt" content="Serverless SaaS"></meta>
+    <meta content="summary_large_image" name="twitter:card"></meta>
+    <meta content="Serverless SaaS" name="twitter:image:alt"></meta>
 
     {/* Favicon */}
     <link
+      href="/favicon/apple-touch-icon.png"
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/favicon/apple-touch-icon.png"
     />
     <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
       href="/favicon/favicon-32x32.png"
-    />
-    <link
       rel="icon"
+      sizes="32x32"
       type="image/png"
-      sizes="16x16"
-      href="/favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="/favicon/site.webmanifest" />
     <link
-      rel="mask-icon"
-      href="/favicon/safari-pinned-tab.svg"
-      color="#5bbad5"
+      href="/favicon/favicon-16x16.png"
+      rel="icon"
+      sizes="16x16"
+      type="image/png"
     />
-    <meta name="msapplication-TileColor" content="#2b5797"></meta>
-    <meta name="theme-color" content="#ffffff"></meta>
+    <link href="/favicon/site.webmanifest" rel="manifest" />
+    <link
+      color="#5bbad5"
+      href="/favicon/safari-pinned-tab.svg"
+      rel="mask-icon"
+    />
+    <meta content="#2b5797" name="msapplication-TileColor"></meta>
+    <meta content="#ffffff" name="theme-color"></meta>
 
     {/* Google Analytics */}
     {/* <script

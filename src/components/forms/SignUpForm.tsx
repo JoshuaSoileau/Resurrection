@@ -10,7 +10,7 @@ export interface SignUpData {
 }
 
 const SignUpForm: React.FC = () => {
-  const { register, errors, handleSubmit } = useForm();
+  const { errors, handleSubmit, register } = useForm();
   const [isLoading, setIsLoading] = useState(false);
 
   const onSubmit = (data: SignUpData): void => {
@@ -23,15 +23,14 @@ const SignUpForm: React.FC = () => {
     <form onSubmit={handleSubmit(onSubmit)}>
       <div className="rounded-md">
         <label
-          htmlFor="name"
           className="block  font-medium leading-5 text-gray-700"
+          htmlFor="name"
         >
           Name
         </label>
         <input
-          id="name"
           className="block w-full px-3 py-2 placeholder-gray-400 transition duration-150 ease-in-out border border-gray-300 rounded-md shadow-sm appearance-none focus:outline-none focus:shadow-outline-blue focus:border-blue-300 sm: sm:leading-5"
-          type="text"
+          id="name"
           name="name"
           ref={register({
             required: 'Please enter an name',
@@ -40,6 +39,7 @@ const SignUpForm: React.FC = () => {
               message: 'name should have at least 3 characters',
             },
           })}
+          type="text"
         />
         {errors.name && (
           <p className="mt-2 text-xs text-red-600">{errors.name.message}</p>
@@ -47,16 +47,15 @@ const SignUpForm: React.FC = () => {
       </div>
       <div className="mt-4">
         <label
-          htmlFor="email"
           className="block  font-medium leading-5 text-gray-700"
+          htmlFor="email"
         >
           Email address
         </label>
         <div className="mt-1 rounded-md">
           <input
-            id="email"
             className="block w-full px-3 py-2 placeholder-gray-400 transition duration-150 ease-in-out border border-gray-300 rounded-md shadow-sm appearance-none focus:outline-none focus:shadow-outline-blue focus:border-blue-300 sm: sm:leading-5"
-            type="email"
+            id="email"
             name="email"
             ref={register({
               required: 'Please enter an email',
@@ -65,6 +64,7 @@ const SignUpForm: React.FC = () => {
                 message: 'Not a valid email',
               },
             })}
+            type="email"
           />
           {errors.email && (
             <div className="mt-2 text-xs text-red-600">
@@ -75,16 +75,15 @@ const SignUpForm: React.FC = () => {
       </div>
       <div className="mt-4">
         <label
-          htmlFor="password"
           className="block  font-medium leading-5 text-gray-700"
+          htmlFor="password"
         >
           Password
         </label>
         <div className="mt-1 rounded-md">
           <input
-            id="password"
             className="block w-full px-3 py-2 placeholder-gray-400 transition duration-150 ease-in-out border border-gray-300 rounded-md shadow-sm appearance-none focus:outline-none focus:shadow-outline-blue focus:border-blue-300 sm: sm:leading-5"
-            type="password"
+            id="password"
             name="password"
             ref={register({
               required: 'Please enter a password',
@@ -93,6 +92,7 @@ const SignUpForm: React.FC = () => {
                 message: 'Should have at least 6 characters',
               },
             })}
+            type="password"
           />
           {errors.password && (
             <div className="mt-2 text-xs text-red-600">
@@ -104,7 +104,7 @@ const SignUpForm: React.FC = () => {
 
       <div className="mt-4">
         <span className="block w-full rounded-md shadow-sm">
-          <Button title="Sign up" type="submit" isLoading={isLoading} />
+          <Button isLoading={isLoading} title="Sign up" type="submit" />
         </span>
       </div>
     </form>

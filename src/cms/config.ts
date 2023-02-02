@@ -12,7 +12,7 @@ export default {
   media_folder: 'public/img',
   public_folder: 'img',
   logo_url: 'https://resurrection.vercel.app/img/z-logo-favicon-2.jpeg',
-  site_url: 'http://localhost:3000',
+  site_url: 'http://resurrection.vercel.app',
   collections: [
     {
       name: 'pages',

@@ -12,9 +12,10 @@ const getPathsForPosts = () => {
 
       return {
         [`/${trimmedName}`]: {
-          page: '/',
+          page: `/${trimmedName}`,
           query: {
             slug: trimmedName,
+            __nextDefaultLocale: 'en',
           },
         },
       };
@@ -42,7 +43,7 @@ module.exports = withTwin(
         ...getPathsForPosts(),
       };
 
-      // console.log(value);
+      console.log(value);
       return value;
     },
   }),

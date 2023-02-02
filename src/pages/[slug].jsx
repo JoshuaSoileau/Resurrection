@@ -29,7 +29,7 @@ export async function getStaticProps({ params }) {
     async section => await convertMarkdownToHtml(section),
   );
 
-  return { props: { ...attributes, sections } };
+  return { props: { ...attributes, sections, slug: params.slug } };
 }
 
 export const getStaticPaths = async () => {

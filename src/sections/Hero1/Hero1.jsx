@@ -79,7 +79,7 @@ export default function Hero1({
             ''
           )}
         </div>
-        <div tw="relative z-10 mx-auto max-w-4xl flex flex-col xs:flex-row justify-between uppercase text-white tracking-widest">
+        <div tw="relative z-10 mx-auto max-w-4xl flex flex-row justify-between uppercase text-white tracking-widest">
           {left_text ? (
             <a href={left_url} tw="border-b border-white">
               {left_text}

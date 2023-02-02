@@ -3,11 +3,15 @@ title: Home
 slug: home
 sections:
   - button_url: ''
+    left_text: New here?
     opacity: 0.5
     image_url: img/IMG_8302.jpg
+    right_url: /donate
     text: ''
+    right_text: Donate
     headline: ''
     overlay_color: Charcoal
+    left_url: /new-here
     button_text: ''
     type: Hero1
     logo_url: img/logo-white-no-border.png
@@ -54,6 +58,7 @@ sections:
     image_url: img/3FEA0497-23AD-4D8A-8E0B-5064F0E80FC2_1_105_c.jpeg
     max_content: true
     background_color: Gray
+    include_line: true
   - type: Spacer
     hide: false
   - type: ImagePlusTextStylized
@@ -131,11 +136,11 @@ sections:
     subheadline: ''
     headline: Or catch up with past newsletters.
     overlay_color: Charcoal
-    button_text: Read previous editions
+    button_text: Read previous editions →
     type: BannerWithButton
   - type: TextCenteredPlusLine1
     hide: false
-    include_line: false
+    include_line: true
     alignment: left
     markdown_content: >-
       # Join the community

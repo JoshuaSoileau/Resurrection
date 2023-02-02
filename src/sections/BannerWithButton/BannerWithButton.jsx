@@ -59,7 +59,7 @@ export default function ContactEmailSignup({
             )}
             <a
               href={button_url}
-              tw="inline-flex text-white text-sm border-b border-white  uppercase tracking-widest hover:text-white"
+              tw="inline-flex text-white text-sm border-b border-white  uppercase tracking-widest hover:text-white mt-4 md:mt-0"
             >
               {button_text}
             </a>

@@ -31,17 +31,17 @@ export default function Hero1({
           textAlignment[alignment],
         ]}
       >
-        {include_line ? (
-          <div tw="w-24 h-2 bg-emerald-800 mb-4 inline-block"></div>
-        ) : (
-          ''
-        )}
         <div
           css={[
             tw`w-full prose prose-sm md:prose lg:prose-lg mx-auto`,
             dark_mode && tw`prose-invert md:prose-invert lg:prose-invert`,
           ]}
         >
+          {include_line ? (
+            <div tw="w-24 h-2 bg-emerald-800 mb-4 inline-block"></div>
+          ) : (
+            ''
+          )}
           <Markdown content={markdown_content} isAdmin={isAdmin} />
         </div>
       </div>

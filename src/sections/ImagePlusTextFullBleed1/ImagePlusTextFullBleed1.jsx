@@ -7,6 +7,7 @@ export default function Hero1({
   background_color,
   hide,
   image_url,
+  include_line,
   isAdmin,
   markdown_content,
   max_content,
@@ -31,12 +32,17 @@ export default function Hero1({
         )}
         <div
           css={[
-            tw`flex items-center w-full max-w-3xl p-32 mx-auto md:pr-12 md:w-3/5`,
+            tw`flex items-center w-full max-w-3xl p-12 md:p-24 lg:p-32 mx-auto md:pr-12 md:w-3/5`,
             alignment == 'Image on right' && tw`mr-0`,
             alignment !== 'Image on right' && tw`ml-0`,
           ]}
         >
           <div css={[tw`w-full prose`, proseColor]}>
+            {include_line ? (
+              <div tw="w-24 h-2 bg-emerald-800 mb-4 inline-block"></div>
+            ) : (
+              ''
+            )}
             <Markdown content={markdown_content} isAdmin={isAdmin} />
           </div>
         </div>

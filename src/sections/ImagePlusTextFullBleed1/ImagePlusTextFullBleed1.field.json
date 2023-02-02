@@ -12,6 +12,13 @@
       "required": false
     },
     {
+      "label": "Include line",
+      "name": "include_line",
+      "widget": "boolean",
+      "default": true,
+      "required": false
+    },
+    {
       "label": "Alignment",
       "name": "alignment",
       "widget": "select",

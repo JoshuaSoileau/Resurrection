@@ -150,7 +150,7 @@ sections:
       If you'd like to join this GroupMe group, send an email to admin@resurrectionrockhill.org with your name, email, and phone number, and we'll send you an invitation.
   - type: Footer1
     hide: false
-    logo_url: img/logo-all-white.png
+    logo_url: img/z-logo-all-white.png
     disclaimer: © Resurrection Anglican Church. All Rights Reserved.
     background_color: Charcoal
     links:

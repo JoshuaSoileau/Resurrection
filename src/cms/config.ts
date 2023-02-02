@@ -43,5 +43,43 @@ export default {
         },
       ],
     },
+    {
+      name: 'navigation',
+      label: 'Navigation',
+      files: [
+        {
+          file: 'src/content/navigation/header.md',
+          label: 'Header links',
+          name: 'header',
+          fields: [
+            {
+              label: 'Links',
+              name: 'links',
+              widget: 'list',
+              fields: [
+                { label: 'Text', name: 'text', widget: 'string' },
+                { label: 'URL', name: 'url', widget: 'string' },
+              ],
+            },
+          ],
+        },
+        {
+          file: 'src/content/navigation/footer.md',
+          label: 'Footer links',
+          name: 'footer',
+          fields: [
+            {
+              label: 'Links',
+              name: 'links',
+              widget: 'list',
+              fields: [
+                { label: 'Text', name: 'text', widget: 'string' },
+                { label: 'URL', name: 'url', widget: 'string' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
 };

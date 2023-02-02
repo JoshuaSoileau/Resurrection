@@ -1,4 +1,5 @@
 import tw from 'twin.macro';
+import getNavigationItems from 'utils/getNavigationItems';
 
 const bgColors = {
   None: '',
@@ -9,17 +10,17 @@ const bgColors = {
   Yellow: tw`bg-yellow-300`,
 };
 
-export default function Hero1({
+export default function Footer1({
   anchor,
   background_color,
   disclaimer,
   hide,
-  links,
   logo_url,
 }) {
   if (hide) return '';
 
   const bgColor = bgColors[background_color] || '';
+  const links = getNavigationItems('footer');
 
   return (
     <footer css={[tw`p-4 md:px-6 md:py-8`, bgColor]} id={anchor}>

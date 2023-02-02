@@ -1,21 +1,34 @@
 import Link from 'next/link';
-import { useRef, useState } from 'react';
+import { useRouter } from 'next/router';
+import { useEffect, useRef, useState } from 'react';
 import tw from 'twin.macro';
+import getNavigationItems from '../../utils/getNavigationItems';
 
-const links = [
-  { url: '/', text: 'Home' },
-  { url: '/new-here', text: 'New here?' },
-  { url: '/about-us', text: 'About' },
-  { url: '/contact-us', text: 'Contact us' },
-];
+// const links = [
+//   { url: '/', text: 'Home' },
+//   { url: '/new-here', text: 'New here?' },
+//   { url: '/about-us', text: 'About' },
+//   { url: '/contact-us', text: 'Contact us' },
+// ];
 
 export default function Header1() {
   const menu = useRef();
   const [isOpen, setIsOpen] = useState(false);
+  const links = getNavigationItems('header');
+  const router = useRouter();
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
   const onClick = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    router.events.on('hashChangeStart', closeMenu);
+
+    return () => router.events.off('hashChangeStart', closeMenu);
+  }, [router.events]);
 
   return (
     <div tw="h-24 z-50 relative container mx-auto px-6 grid grid-cols-3">
@@ -61,7 +74,7 @@ export default function Header1() {
               </svg>
             </button>
             {links.map(link => (
-              <Link href={link.url} key={link.url}>
+              <Link href={link.url} key={link.url} onClick={onClick}>
                 <span tw="inline-block border-b-4 border-transparent hover:border-emerald-900 cursor-pointer">
                   {link.text}
                 </span>
@@ -73,7 +86,7 @@ export default function Header1() {
       </div>
       <div tw="flex items-center justify-center"></div>
       <div tw="flex items-center justify-end">
-        <a href="#contact">
+        <Link href="#contact" onClick={onClick}>
           <svg
             fill="none"
             stroke="currentColor"
@@ -88,7 +101,7 @@ export default function Header1() {
               strokeWidth="2"
             ></path>
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -16,6 +16,7 @@ export default function Hero1({
   markdown_content,
   opacity,
   overlay_color,
+  padding,
 }) {
   if (hide) return '';
 
@@ -31,6 +32,15 @@ export default function Hero1({
     right: tw`text-right`,
   };
 
+  const paddingY = {
+    Large: tw`py-24 md:py-32`,
+    Medium: tw`py-14 md:py-20`,
+    Small: tw`py-6 md:py-12`,
+    Tiny: tw`py-2`,
+  };
+
+  const textMarginTop = include_line ? '' : tw`mt-6`;
+
   const bgColor = getSectionColor(overlay_color);
   const proseColor = getProseColor(overlay_color);
   const opacityValue = getOpacityValue(opacity);
@@ -45,14 +55,16 @@ export default function Hero1({
       )}
       <div
         css={[
-          tw`max-w-xl mx-auto  px-4 md:px-0 py-24 md:py-32`,
+          tw`max-w-xl mx-auto  px-4 md:px-0`,
           textAlignment[alignment],
+          paddingY[padding] || paddingY['Large'],
         ]}
       >
         <div
           css={[
             tw`w-full prose prose-sm md:prose lg:prose-lg mx-auto relative`,
             proseColor,
+            textMarginTop,
           ]}
         >
           {include_line ? (

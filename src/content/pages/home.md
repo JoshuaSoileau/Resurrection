@@ -56,6 +56,9 @@ sections:
 
 
       Childcare is provided for the smallest of those joining us and there is a time of lesson and crafts for children in grades K-5th.
+
+
+      *\-﻿ Father Bill Scott*
     image_url: img/3FEA0497-23AD-4D8A-8E0B-5064F0E80FC2_1_105_c.jpeg
     max_content: true
     background_color: Gray

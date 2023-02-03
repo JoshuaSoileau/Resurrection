@@ -42,7 +42,7 @@
       "label": "Background image",
       "name": "image_url",
       "widget": "image",
-      "default": "https://images.unsplash.com/photo-1503516459261-40c66117780a",
+      "default": "",
       "required": false
     },
     {
@@ -59,6 +59,14 @@
         "Yellow"
       ],
       "default": "Charcoal",
+      "required": false
+    },
+    {
+      "label": "Padding",
+      "name": "padding",
+      "widget": "select",
+      "options": ["Large", "Medium", "Small", "Tiny"],
+      "default": "Large",
       "required": false
     },
     {

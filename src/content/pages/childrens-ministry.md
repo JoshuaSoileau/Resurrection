@@ -46,7 +46,7 @@ sections:
       # C﻿hildren's church
 
 
-      We are blessed with a diverse congregation with folks from every phase of life, but we are particularly thankful to count multiple young families among our flock. 
+      We are blessed with a diverse congregation of folks from every phase of life, but we are particularly thankful to count multiple young families among our flock. 
 
 
       As of Fall 2022, children & upcoming young adults account for nearly 1/3 of our congregation! And we take seriously the call of God to raise them in truth.

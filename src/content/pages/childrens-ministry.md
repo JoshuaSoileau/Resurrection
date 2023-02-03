@@ -51,7 +51,7 @@ sections:
 
       As of Fall 2022, children & upcoming young adults account for nearly 1/3 of our congregation! And we take seriously the call of God to raise them in truth.
     image_url: img/z-IMG_8488.PNG
-    max_content: true
+    max_content: false
     background_color: Gray
   - type: ImagePlusTextStylized
     hide: false
@@ -65,7 +65,7 @@ sections:
 
       The rest of the worship time they spend with us, particularly communion. We feel this is a good balance to keep them active and engaged, assisting in their spiritual formation, as well as giving their parents an opportunity to worship.
     image_url: img/2BF0423E-BFCB-4BE4-8B64-00613BC8E525_1_105_c.jpeg
-    max_content: true
+    max_content: false
     background_color: Gray
   - hide: false
     alignment: center
@@ -116,7 +116,7 @@ sections:
 
       T﻿hey meet monthly for events that trade from camaraderie and team building, to regular public service, to instill a love of giving to our kids.
     image_url: img/24655788-E87B-45B8-BD3C-599371C37D09_1_105_c.jpeg
-    max_content: true
+    max_content: false
     background_color: Charcoal
   - type: ImagePlusTextStylized
     hide: false
@@ -132,7 +132,7 @@ sections:
 
       O﻿n these days, the young adults actually lead children's church and teach our young ones the weekly lesson themselves as the teachers. In addition, our older kids also read the old & new testament readings during our full church service, as a way to get them more engaged & interested in liturgy!
     image_url: img/IMG_8886.jpeg
-    max_content: true
+    max_content: false
     background_color: Charcoal
   - type: Contact1
     hide: false

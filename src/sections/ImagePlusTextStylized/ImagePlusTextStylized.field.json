@@ -19,6 +19,13 @@
       "required": false
     },
     {
+      "label": "Include line",
+      "name": "include_line",
+      "widget": "boolean",
+      "default": true,
+      "required": false
+    },
+    {
       "label": "Alignment",
       "name": "alignment",
       "widget": "select",
@@ -51,6 +58,20 @@
       "widget": "select",
       "options": ["White", "Gray", "Charcoal", "Dark Green"],
       "default": "White"
+    },
+    {
+      "label": "Button text",
+      "name": "button_text",
+      "widget": "string",
+      "default": "Read more",
+      "required": false
+    },
+    {
+      "label": "Button URL",
+      "name": "button_url",
+      "widget": "string",
+      "default": "https://google.com",
+      "required": false
     }
   ]
 }

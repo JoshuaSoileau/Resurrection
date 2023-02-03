@@ -6,8 +6,11 @@ export default function ImagePlusTextStylized({
   alignment,
   anchor,
   background_color,
+  button_text,
+  button_url,
   hide,
   image_url,
+  include_line,
   isAdmin,
   markdown_content,
   max_content,
@@ -41,16 +44,24 @@ export default function ImagePlusTextStylized({
         ]}
       >
         <div tw="max-w-md">
-          <div tw="w-24 h-2 bg-emerald-800 mb-4"></div>
           <div css={[tw`w-full prose-sm md:prose`, proseColor]}>
+            {include_line ? (
+              <div tw="w-24 h-2 bg-emerald-800 mb-4 inline-block"></div>
+            ) : (
+              ''
+            )}
             <Markdown content={markdown_content} isAdmin={isAdmin} />
           </div>
-          <a
-            href="/blog/this-is-latest-post/"
-            tw="inline-block border-2 border-emerald-800 font-light text-emerald-800  uppercase tracking-widest py-3 px-8 hover:bg-emerald-800 hover:text-white mt-8"
-          >
-            Read more
-          </a>
+          {button_text ? (
+            <a
+              href={button_url}
+              tw="inline-block border-2 border-emerald-800 font-light text-emerald-800  uppercase tracking-widest py-3 px-8 hover:bg-emerald-800 hover:text-white mt-8"
+            >
+              {button_text}
+            </a>
+          ) : (
+            ''
+          )}
         </div>
       </div>
       {alignment == 'Image on right' ? Image : ''}

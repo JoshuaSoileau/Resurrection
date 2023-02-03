@@ -9,12 +9,12 @@ sections:
     right_url: /donate
     text: ""
     right_text: ""
-    headline: Resurrection Kids
+    headline: Children's Ministry
     overlay_color: Charcoal
     left_url: /new-here
     button_text: ""
     type: Hero1
-    logo_url: ""
+    logo_url: img/z-Group-20-2.png
   - hide: false
     alignment: center
     markdown_content: >-
@@ -29,31 +29,6 @@ sections:
     overlay_color: Gray
     anchor: ""
     type: TextCenteredPlusLine1
-  - hide: false
-    alignment: Image on left
-    markdown_content: >-
-      We are blessed with a diverse congregation with folks from every phase of
-      life, but we are particularly thankful to count multiple young families
-      among our flock. 
-
-
-      As of Fall 2022, children & upcoming young adults account for nearly 1/3 of our congregation!
-    image_url: img/IMG_8745.jpeg
-    include_line: false
-    background_color: White
-    text_size: Normal
-    anchor: ""
-    type: ImagePlusTextFullBleed1
-    max_content: false
-  - hide: false
-    alignment: center
-    markdown_content: "\n\n\n\n"
-    opacity: 0.7
-    image_url: img/1ED81A25-E677-4042-B9B5-7DF39954D6FDIMG_7229-scaled.jpeg
-    include_line: false
-    overlay_color: Charcoal
-    anchor: ""
-    type: TextCenteredPlusLine1
   - type: ImageInThreeColumnsWithSpace
     hide: false
     items:
@@ -63,6 +38,102 @@ sections:
         text: ""
       - image_url: img/243240976_4115467808580055_3709599852756987891_n.jpeg
         text: ""
+  - type: ImagePlusTextStylized
+    hide: false
+    anchor: ""
+    alignment: Image on left
+    markdown_content: >-
+      # C﻿hildren's church
+
+
+      We are blessed with a diverse congregation with folks from every phase of life, but we are particularly thankful to count multiple young families among our flock. 
+
+
+      As of Fall 2022, children & upcoming young adults account for nearly 1/3 of our congregation! And we take seriously the call of God to raise them in truth.
+    image_url: img/z-IMG_8488.PNG
+    max_content: true
+    background_color: Gray
+  - type: ImagePlusTextStylized
+    hide: false
+    anchor: ""
+    alignment: Image on right
+    markdown_content: >-
+      We offer nursery and children's church where there are age-appropriate
+      lessons and activities for preschool-5th grade. This takes place during
+      the scripture reading and sermon.
+
+
+      The rest of the worship time they spend with us, particularly communion. We feel this is a good balance to keep them active and engaged, assisting in their spiritual formation, as well as giving their parents an opportunity to worship.
+    image_url: img/2BF0423E-BFCB-4BE4-8B64-00613BC8E525_1_105_c.jpeg
+    max_content: true
+    background_color: Gray
+  - hide: false
+    alignment: center
+    markdown_content: "# O﻿ur curriculum"
+    opacity: 0.3
+    image_url: img/IMG_8745.jpeg
+    include_line: true
+    overlay_color: Charcoal
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - type: ImagePlusTextStylized
+    hide: false
+    anchor: ""
+    alignment: Image on left
+    markdown_content: >-
+      We use [God’s Big Story](https://www.anglicannetwork.ca/gods-big-story)
+      (GBS) as our curriculum for our children. Developed by a group in the
+      [Anglican Network in Canada](https://www.anglicannetwork.ca/), GBS is a
+      phenomenal resource that is both sacramental and liturgical.
+
+
+      O﻿ur children's director has combed through the publicly available resources, and tweaked the lessons & materials to specifically fit the needs of our children.
+
+
+      From their website: “God’s Big Story (GBS) invites children to enter into the narrative of God’s abounding faithfulness and love for all of his beloved children. Our aim is that children and their teachers might hear the gospel of Jesus Christ, know Jesus as their Lord and Saviour and experience the fullness of new life in Christ as part of His body, the church.”
+    image_url: img/z-GodsBigStoryLogo.png
+    max_content: false
+    background_color: Gray
+  - hide: false
+    alignment: center
+    markdown_content: "# Young adult ministry"
+    opacity: 0.2
+    image_url: img/IMG_8302.jpg
+    include_line: true
+    overlay_color: Charcoal
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - type: ImagePlusTextStylized
+    hide: false
+    anchor: ""
+    alignment: Image on left
+    markdown_content: >-
+      # G1 Club
+
+
+      O﻿ur youth, led by our Deacon Jean Roach, is named G1 Club, to teach our young adults that God comes first.
+
+
+      T﻿hey meet monthly for events that trade from camaraderie and team building, to regular public service, to instill a love of giving to our kids.
+    image_url: img/24655788-E87B-45B8-BD3C-599371C37D09_1_105_c.jpeg
+    max_content: true
+    background_color: Charcoal
+  - type: ImagePlusTextStylized
+    hide: false
+    anchor: ""
+    alignment: Image on right
+    markdown_content: >-
+      In addition to G1 outings, we also have a fantastic new tradition that
+      teaches our young adults leadership & initiative.
+
+
+      For every month that includes 5 Sundays (which happens 4 times in a calendar year), our young adults are more heavily involved in our weekly church service.
+
+
+      O﻿n these days, the young adults actually lead children's church and teach our young ones the weekly lesson themselves as the teachers. In addition, our older kids also read the old & new testament readings during our full church service, as a way to get them more engaged & interested in liturgy!
+    image_url: img/IMG_8886.jpeg
+    max_content: true
+    background_color: Charcoal
   - type: Contact1
     hide: false
     map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13079.972502539167!2d-80.99647495338147!3d34.95678098181917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1666213161340!5m2!1sen!2sus

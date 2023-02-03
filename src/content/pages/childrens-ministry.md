@@ -15,88 +15,15 @@ sections:
     button_text: ""
     type: Hero1
     logo_url: ""
-  - type: Spacer
-    hide: false
-  - type: ImageInThreeColumns
-    hide: false
-    items:
-      - image_url: img/5C3B81A2-D895-4ACB-9B20-A8AA037E700A_1_105_c.jpeg
-        text: Experience the Trinity
-      - image_url: img/76E4DC3C-01CA-4D06-B48C-8AC0C054E0D2_1_105_c.jpeg
-        text: Embody Community
-      - image_url: img/nate-steele-FPdkDrq9X-4-unsplash-scaled-e1656592848355.jpg
-        text: Engage the city
-    max_content: true
-  - type: Spacer
-    hide: false
-  - type: TextCenteredPlusLine1
-    hide: false
-    include_line: true
-    markdown_content: "# An Anglican Church plant in Rock Hill, SC"
+  - hide: false
     alignment: center
-    dark_mode: true
-    overlay_color: Charcoal
-  - type: ImagePlusTextFullBleed1
-    hide: false
-    alignment: Image on left
-    markdown_content: >-
-      # Epiphany at Resurrection
-
-
-      Epiphany is the season of the Church when we celebrate Christ being revealed as the Savior of the whole world, for both Jew and Gentile.
-
-
-      This celebration starts with the day of Epiphany when the Church remembers the Magi coming from the east, following the star to see the Christ.
-
-
-      The season of Epiphany continues until the beginning of Lent, which starts on February 22 this year.
-
-
-      Come celebrate with us as we remember that Christ came, not only as the promised Messiah for Israel, to save all of creation.
-
-
-      Childcare is provided for the smallest of those joining us and there is a time of lesson and crafts for children in grades K-5th.
-    image_url: img/3FEA0497-23AD-4D8A-8E0B-5064F0E80FC2_1_105_c.jpeg
-    max_content: true
-    background_color: Gray
+    markdown_content: "#This is a title"
+    opacity: 0.7
+    image_url: ""
     include_line: true
-  - type: Spacer
-    hide: false
-  - type: ImagePlusTextStylized
-    hide: false
-    alignment: Image on left
-    markdown_content: >-
-      # Children's Ministry
-
-
-      Children are a big part of Resurrection. They currently make up a *third* of our congregation!
-
-
-      We offer nursery and children’s church where there are age-appropriate lessons and activities for preschool-5th grade. This takes place during the scripture reading and sermon.
-
-
-
-
-      They do participate with the rest of us during the other parts of the service, particularly communion. We feel this is a good balance to keep them active and engaged, assisting in their spiritual formation, as well as giving their parents an opportunity to worship.
-    image_url: img/IMG_8833.jpeg
-    max_content: false
-    background_color: Gray
-  - type: ImagePlusTextStylized
-    hide: false
-    alignment: Image on right
-    markdown_content: >-
-      # T﻿he Anglican Way
-
-
-
-
-      We are an Anglican congregation. We follow a flow of worship known as "liturgical" but we like to say our worship is birthed from Scripture and also draws from some of the earliest forms of worship as the Church was growing.
-
-
-      We gather on Sundays to *Experience the Trinity*, which is the catalyst that enables us, along with other opportunities during the week, to grow as the church and *Embody Community*, and allows us to be unified in the goal of taking the light into the darkness and *Engage the City*.
-    image_url: img/99BEE4A4-8DAC-4A00-ACA5-91E97BAAE7FA_1_105_c.jpeg
-    max_content: false
-    background_color: Gray
+    overlay_color: None
+    anchor: ""
+    type: TextCenteredPlusLine1
   - type: ImageInThreeColumnsWithSpace
     hide: false
     items:
@@ -121,14 +48,22 @@ sections:
       *Rock Hill, SC 29730*
     include_line: true
     anchor: contact
-  - type: ContactEmailSignup
-    hide: false
-    headline: Subscribe to our newsletter
-    subheadline: Stay up to date
+  - hide: false
     button_url: https://google.com
-    image_url: img/IMG_1662-scaled.jpeg
-    overlay_color: Charcoal
+    markdown_content: >-
+      # but Jesus said, “Let the little children come to me and do not hinder
+      them, for to such belongs the kingdom of heaven.”
+
+
+
+
+      \-- Matthew 19:14
     opacity: 0.5
+    image_url: img/IMG_1662-scaled.jpeg
+    subheadline: Stay up to date
+    headline: Subscribe to our newsletter
+    overlay_color: Charcoal
+    type: ContactEmailSignup
   - hide: false
     button_url: https://us16.campaign-archive.com/home/?u=3cd12dec7449507aececbf84e&id=0522a11d77
     opacity: 0.7

@@ -17,11 +17,25 @@ sections:
     logo_url: ""
   - hide: false
     alignment: center
-    markdown_content: "#This is a title"
+    markdown_content: >-
+      # but Jesus said, “Let the little children come to me and do not hinder
+      them, for to such belongs the kingdom of heaven.”
+
+
+      ﻿*\- Matthew 19:14*
     opacity: 0.7
     image_url: ""
     include_line: true
-    overlay_color: None
+    overlay_color: Gray
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - hide: false
+    alignment: center
+    markdown_content: "\n\n\n\n"
+    opacity: 0.7
+    image_url: img/1ED81A25-E677-4042-B9B5-7DF39954D6FDIMG_7229-scaled.jpeg
+    include_line: false
+    overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1
   - type: ImageInThreeColumnsWithSpace

@@ -30,6 +30,22 @@ sections:
     anchor: ""
     type: TextCenteredPlusLine1
   - hide: false
+    alignment: Image on left
+    markdown_content: >-
+      We are blessed with a diverse congregation with folks from every phase of
+      life, but we are particularly thankful to count multiple young families
+      among our flock. 
+
+
+      As of Fall 2022, children & upcoming young adults account for nearly 1/3 of our congregation!
+    image_url: img/IMG_8745.jpeg
+    include_line: false
+    background_color: White
+    text_size: Normal
+    anchor: ""
+    type: ImagePlusTextFullBleed1
+    max_content: false
+  - hide: false
     alignment: center
     markdown_content: "\n\n\n\n"
     opacity: 0.7

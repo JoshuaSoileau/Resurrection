@@ -14,7 +14,7 @@ sections:
     left_url: /new-here
     button_text: ""
     type: Hero1
-    logo_url: img/z-Group-20-2.png
+    logo_url: img/z-logo-white-no-border.png
   - hide: false
     alignment: center
     markdown_content: >-

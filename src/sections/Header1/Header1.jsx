@@ -4,13 +4,6 @@ import { useEffect, useRef, useState } from 'react';
 import tw from 'twin.macro';
 import getNavigationItems from '../../utils/getNavigationItems';
 
-// const links = [
-//   { url: '/', text: 'Home' },
-//   { url: '/new-here', text: 'New here?' },
-//   { url: '/about-us', text: 'About' },
-//   { url: '/contact-us', text: 'Contact us' },
-// ];
-
 export default function Header1() {
   const menu = useRef();
   const [isOpen, setIsOpen] = useState(false);
@@ -26,8 +19,12 @@ export default function Header1() {
 
   useEffect(() => {
     router?.events?.on('hashChangeStart', closeMenu);
+    router?.events?.on('routeChangeStart', closeMenu);
 
-    return () => router?.events?.off('hashChangeStart', closeMenu);
+    return () => {
+      router?.events?.off('hashChangeStart', closeMenu);
+      router?.events?.off('routeChangeStart', closeMenu);
+    };
   }, [router?.events]);
 
   return (

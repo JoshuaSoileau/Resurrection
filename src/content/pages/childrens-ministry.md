@@ -32,11 +32,11 @@ sections:
   - type: ImageInThreeColumnsWithSpace
     hide: false
     items:
-      - image_url: img/IMG_8582.jpeg
+      - image_url: img/IMG_8745.jpeg
         text: ""
-      - image_url: img/62AA5018-27CD-4924-BDD6-F8BB5B2E682E_1_105_c.jpeg
+      - image_url: img/76E4DC3C-01CA-4D06-B48C-8AC0C054E0D2_1_105_c.jpeg
         text: ""
-      - image_url: img/243240976_4115467808580055_3709599852756987891_n.jpeg
+      - image_url: img/IMG_8742.jpeg
         text: ""
   - type: ImagePlusTextStylized
     hide: false
@@ -71,7 +71,7 @@ sections:
     alignment: center
     markdown_content: "# O﻿ur curriculum"
     opacity: 0.3
-    image_url: img/IMG_8745.jpeg
+    image_url: img/820B659C-FC04-4F74-B92E-82A8DDE99856IMG_7227-scaled.jpeg
     include_line: true
     overlay_color: Charcoal
     anchor: ""

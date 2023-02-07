@@ -20,12 +20,6 @@ export default function Hero1({
 }) {
   if (hide) return '';
 
-  const lineAlignment = {
-    left: tw`text-left`,
-    center: tw`text-center`,
-    right: tw`text-right`,
-  };
-
   const textAlignment = {
     left: tw`text-left`,
     center: tw`text-center`,

@@ -1,4 +1,5 @@
 import BannerWithButton from 'sections/BannerWithButton/BannerWithButton.field.json';
+import CalendarWithImage from 'sections/CalendarWithImage/CalendarWithImage.field.json';
 import Contact1 from 'sections/Contact1/Contact1.field.json';
 import ContactEmailSignup from 'sections/ContactEmailSignup/ContactEmailSignup.field.json';
 import Footer1 from 'sections/Footer1/Footer1.field.json';
@@ -13,6 +14,7 @@ import TextCenteredPlusLine1 from 'sections/TextCenteredPlusLine1/TextCenteredPl
 
 const CONFIG = [
   BannerWithButton,
+  CalendarWithImage,
   Contact1,
   ContactEmailSignup,
   Footer1,

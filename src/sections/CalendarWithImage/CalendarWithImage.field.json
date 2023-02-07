@@ -1,0 +1,49 @@
+{
+  "label": "[Calendar] w/Image",
+  "name": "CalendarWithImage",
+  "widget": "object",
+  "fields": [
+    {
+      "label": "Hide",
+      "name": "hide",
+      "widget": "boolean",
+      "default": false,
+      "required": false
+    },
+    {
+      "label": "Calendar URL",
+      "name": "url",
+      "widget": "string",
+      "default": "",
+      "required": true
+    },
+    {
+      "label": "Include line",
+      "name": "include_line",
+      "widget": "boolean",
+      "default": true,
+      "required": false
+    },
+    {
+      "label": "Alignment",
+      "name": "alignment",
+      "widget": "select",
+      "options": ["Image on left", "Image on right"],
+      "default": "Image on left"
+    },
+    {
+      "label": "Image",
+      "name": "image_url",
+      "widget": "image",
+      "default": "https://images.unsplash.com/photo-1494621930069-4fd4b2e24a11?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=715&amp;q=80",
+      "required": false
+    },
+    {
+      "label": "Background Color",
+      "name": "background_color",
+      "widget": "select",
+      "options": ["White", "Gray", "Charcoal", "Dark Green"],
+      "default": "White"
+    }
+  ]
+}

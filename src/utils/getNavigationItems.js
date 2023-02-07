@@ -6,11 +6,9 @@ const getNavigationItems = type => {
     header: header,
     footer: footer,
   };
-  console.log({ paths });
 
   const links = paths[type]?.attributes?.links || [];
 
-  console.log({ links });
   return links;
 };
 

@@ -71,8 +71,11 @@ export default function Header1() {
               </svg>
             </button>
             {links.map(link => (
-              <Link href={link.url} key={link.url} onClick={onClick}>
-                <span tw="inline-block border-b-4 border-transparent hover:border-emerald-900 cursor-pointer">
+              <Link href={link.url} key={link.url}>
+                <span
+                  tw="inline-block border-b-4 border-transparent hover:border-emerald-900 cursor-pointer"
+                  onClick={onClick}
+                >
                   {link.text}
                 </span>
               </Link>
@@ -83,13 +86,14 @@ export default function Header1() {
       </div>
       <div tw="flex items-center justify-center"></div>
       <div tw="flex items-center justify-end">
-        <Link href="#contact" onClick={onClick}>
+        <Link href="#contact">
           <svg
             fill="none"
             stroke="currentColor"
             tw="w-8 h-8 text-white"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
+            onClick={onClick}
           >
             <path
               d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"

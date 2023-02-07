@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import BannerWithButton from 'sections/BannerWithButton/BannerWithButton';
+import CalendarWithImage from 'sections/CalendarWithImage/CalendarWithImage';
 import Contact1 from 'sections/Contact1/Contact1';
 import ContactEmailSignup from 'sections/ContactEmailSignup/ContactEmailSignup';
 import Footer1 from 'sections/Footer1/Footer1';
@@ -14,6 +15,7 @@ import TextCenteredPlusLine1 from 'sections/TextCenteredPlusLine1/TextCenteredPl
 
 const Types = {
   BannerWithButton: BannerWithButton,
+  CalendarWithImage: CalendarWithImage,
   Contact1: Contact1,
   ContactEmailSignup: ContactEmailSignup,
   Footer1: Footer1,

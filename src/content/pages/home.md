@@ -65,8 +65,8 @@ sections:
     include_line: true
   - type: Spacer
     hide: false
-  - type: ImagePlusTextStylized
-    hide: false
+  - hide: false
+    button_url: /childrens-ministry
     alignment: Image on left
     markdown_content: >-
       # Children's Ministry
@@ -82,11 +82,13 @@ sections:
 
       They do participate with the rest of us during the other parts of the service, particularly communion. We feel this is a good balance to keep them active and engaged, assisting in their spiritual formation, as well as giving their parents an opportunity to worship.
     image_url: img/IMG_8833.jpeg
-    max_content: false
-    background_color: Gray
     include_line: true
-  - type: ImagePlusTextStylized
-    hide: false
+    background_color: Gray
+    button_text: Learn more
+    type: ImagePlusTextStylized
+    max_content: false
+  - hide: false
+    button_url: About
     alignment: Image on right
     markdown_content: >-
       # T﻿he Anglican Way
@@ -99,9 +101,11 @@ sections:
 
       We gather on Sundays to *Experience the Trinity*, which is the catalyst that enables us, along with other opportunities during the week, to grow as the church and *Embody Community*, and allows us to be unified in the goal of taking the light into the darkness and *Engage the City*.
     image_url: img/99BEE4A4-8DAC-4A00-ACA5-91E97BAAE7FA_1_105_c.jpeg
-    max_content: false
-    background_color: Gray
     include_line: true
+    background_color: Gray
+    button_text: Learn more
+    type: ImagePlusTextStylized
+    max_content: false
   - type: ImageInThreeColumnsWithSpace
     hide: false
     items:

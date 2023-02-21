@@ -73,30 +73,115 @@ sections:
     padding: Medium
     overlay_color: None
     type: TextCenteredPlusLine1
-  - type: TextCenteredPlusLine1
-    hide: false
-    include_line: true
-    alignment: left
-    markdown_content: >-
-      # O﻿ur music
-
-
-      Musically, the worship service will be blended with both old and new (a fancy term would be “ancient-future”). We will sing hymns regularly but also the most recent worship songs.
-
-
-      O﻿ur worship leaders curate our songs to fit the season and best instill the holy spirit in our congregation.
-    image_url: img/pedro-lima-HtwsbbClBOs-unsplash-scaled.jpg
-    overlay_color: Charcoal
-    opacity: 0.2
   - hide: false
     alignment: center
-    markdown_content: "# The Anglican Way"
-    opacity: 0.1
-    image_url: img/243169684_4115493155244187_5333892671376568698_n.jpeg
-    include_line: false
-    padding: Small
+    markdown_content: "# T﻿he Anglican Way"
+    opacity: 0.2
+    image_url: img/DSCF0062_websize.jpg
+    include_line: true
+    padding: Large
     overlay_color: Charcoal
     type: TextCenteredPlusLine1
+  - hide: false
+    button_url: https://google.com
+    alignment: Image on left
+    markdown_content: >-
+      # Anglicanism
+
+
+
+
+      We are part of a global family with ancient roots living out our faith here in Rock Hill. We seek to participate in relationship with Father, Son, and Holy Spirit, as well as the Church, the Body of Christ. 
+
+
+      To participate in this relationship it is foundational to understand that the life, death, and resurrection of Jesus Christ is the gospel that sets people free, renews our broken world, and thus is central to every aspect of life and ministry. 
+
+
+      This is the core of who we are as Anglicans and on this we will not waiver. There are a handful of other distinctives that set us apart from other denominations.
+    image_url: img/james-coleman-_HzRfyw7BuA-unsplash-scaled.jpg
+    include_line: true
+    background_color: Gray
+    anchor: ""
+    button_text: ""
+    type: ImagePlusTextStylized
+    max_content: false
+  - hide: false
+    alignment: left
+    markdown_content: "Here are some of the features of the Anglican Church that can
+      help you better understand our local community:"
+    opacity: 0.7
+    image_url: ""
+    include_line: false
+    padding: Large
+    overlay_color: Charcoal
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - hide: false
+    alignment: left
+    markdown_content: >-
+      # Global Family
+
+
+      Anglicans represent the third largest body of Christians in the world, speaking many languages and coming from many different races and cultures.
+
+
+
+
+      The [Anglican Church in North America](http://anglicanchurch.net/) is united with the overwhelming majority of provinces in the worldwide Anglican Communion. The ACNA unites 160,000+ Anglicans in 1,200+ congregations across the United States, Canada and Mexico into a single Church.
+    opacity: 0.7
+    image_url: ""
+    include_line: true
+    padding: Medium
+    overlay_color: None
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - hide: false
+    alignment: right
+    markdown_content: >-
+      # Ancient Roots
+
+
+      Anglicans trace their geographical roots back to Britain but farther back than just the Reformation. Early Christian writings indicate the presence of a church in Britain as early as the third century AD. 
+
+
+      In the 16th century, English Reformers, including Thomas Cranmer and Richard Hooker, joined the Protestant Reformation happening all over Europe, seeking to rediscover the beauty of salvation as a gift from God (justification by faith, not works) and put the Scriptures into the daily lives of God’s people. 
+
+
+      Though Anglicanism admittedly spread widely through the era of English colonialism, the riches of the Christian faith as practiced by Anglicans have blessed people all over the world and continue to be passed on in every generation in independent nations.
+    opacity: 0.7
+    image_url: ""
+    include_line: true
+    padding: Large
+    overlay_color: Gray
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - hide: false
+    alignment: left
+    markdown_content: >-
+      # Anglican Essentials
+
+
+      * One bible, the canonical books of the Old and New Testaments. These are the inspired Word of God, “containing all things necessary to salvation,” and thus are the authority and ultimate standard for our Christian faith and life.
+
+      * Two sacraments, instituted and ordained by Christ himself. Sacraments are "outward signs (water, bread, wine) of an inward grace or truth (the presence of Jesus)." We administer these sacraments faithfully and (in regards to communion) often using His words he instituted and the elements He ordained.
+
+      * Two creeds, summations of Holy Scripture developed and used by the undivided church early in our family history. The Apostles and Nicene Creeds sufficiently declare in whom we believe and in comradore with saints past and present we recite one of these every time we gather.
+
+      * Three ordained offices, often referred to as the historic episcopate. All Anglican churches dedicate themselves to the apostolic tradition expecting this structure to be helpful in the Body of Christ growing in fullness and unity. Churches are guided and ministered by Priests and Deacons who submit to the spiritual leadership of a chief pastor, their bishop.
+
+      * Four Anglican formularies, the 39 Articles of Religion, The Book of Common Prayer, the Ordinal and the Homilies. These documents, in addressing the particular concerns of the English Reformation, guide how we worship, structure our church community and live out life as individuals and the church. These documents were birthed out of scripture and prayer, and in concert with the Creeds, work to lay the groundwork for a precise articulation of faith on many points of Christian doctrine.
+    opacity: 0.1
+    image_url: img/243169684_4115493155244187_5333892671376568698_n.jpeg
+    include_line: true
+    padding: Large
+    overlay_color: Charcoal
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - markdown_content: >-
+      # The Book of Common Prayer
+
+
+      Perhaps one of the most unique features of Anglican spirituality is the [Book of Common Prayer](https://bcp2019.anglicanchurch.net/), an ancient prayer book compiled by Archbishop Thomas Cranmer during the Reformation in 16th century England. While other Reformation era churches developed confessional statements of faith, the Anglican church developed a Prayer Book to guide and shape our beliefs and practices. The Prayer Book is fundamentally pastoral and holistic rather than abstract and theoretical. Cranmer, by shaping the prayers around the Word of God, helped to shape future generations of Anglicans by grounding them in the rhythms, language, and cadence of our ancient faith.
   - type: Contact1
     hide: false
     map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13079.972502539167!2d-80.99647495338147!3d34.95678098181917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1666213161340!5m2!1sen!2sus
@@ -159,4 +244,16 @@ sections:
         url: /new-here
       - text: Contact
         url: "#contact"
+  - hide: false
+    button_url: https://google.com
+    alignment: Image on left
+    markdown_content: This is a lengthier version of text. It contains more
+      characters than the headline.
+    image_url: img/IMG_1662-scaled.jpeg
+    include_line: true
+    background_color: White
+    anchor: ""
+    button_text: Read more
+    type: ImagePlusTextStylized
+    max_content: false
 ---

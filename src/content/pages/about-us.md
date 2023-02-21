@@ -37,38 +37,12 @@ sections:
   - hide: false
     alignment: left
     markdown_content: >-
-      # What happens during worship?
-
-
-      Our worship services are completely drawn from scripture and are rooted in ancient traditions almost as old the Church herself. These services follow a calendar that moves us through seasons of remembering our Savior’s story that impacts our story. Our worship services flow through the same parts every week:
-
-
-      1. Celebrating entering God’s presence. We do this by singing songs celebrating God’s presence in our midst, remembering Christ’s summary of what it means to be a part of the Church and praying together for the rest of the service.
-
-      2. Hearing God’s word. We read a lot of God’s word. We hear an Old Testament passage, we recite a Psalm passage, we hear a New Testament epistle passage. The reading of God’s word culminates in hearing a passage from one of the four gospels. And we do this by hearing the reading from the middle of the congregation, a memorial of the fact that our Savior came into our midst and walked among us to save us.
-
-      3. Responding to God’s word. We do several things in our response to God’s word. It starts with a sermon on one of the passages read. Our response continues with reciting the Nicene Creed to remind us in whom we believe. We pray for ourselves and others, we confess our sins and hear that we are forgiven and we take a moment to share peace and love with others in the congregation.
-
-      4. Feasting at the Son’s Table. Celebrating the Eucharist (Lord’s Supper/Holy Communion) every week is very essential to us. Instituted by our Lord and Savior the night he was handed over to die for our sins, this remembrance fills us physically and spiritually as we once again look to the truth that Jesus died for us and through him we are reconciled to the Father.
-
-      5. Going to serve God. We thank God for feeding us, we receive a blessing and we celebrate that God sends us out into the world, to do what St. Francis of Assisi wrote: “We are called to heal wounds, we are called to unite what is broken, and we are called to lead home those who have lost their way.”
-    opacity: 0.7
-    image_url: ""
-    include_line: true
-    padding: Tiny
-    overlay_color: None
-    type: TextCenteredPlusLine1
-  - hide: false
-    alignment: Image on right
-    markdown_content: >-
       We invite ALL people to experience God’s presence by receiving the LOVE of
       the Father, living in the GRACE of Jesus, and surrendering to the POWER of
       the Spirit. God will accomplish this through our mission.
 
 
       ## Experience the Trinity
-
-
 
 
       Passionately creating an atmosphere where a genuine culture of God-honoring, Christ-centered, Spirit-filled, biblical worship is established for Sundays and drives us to engage in worship throughout the week in personal, family and small group settings. 
@@ -78,8 +52,6 @@ sections:
 
 
       ## Embracing Community
-
-
 
 
       Intentionally building an authentic community of hospitality and grace where all people are made to feel welcome so that they may hear, experience, and respond to Jesus Christ and grow in relationship with God and Church. 
@@ -95,12 +67,12 @@ sections:
 
 
       *Scripture references: Exodus 36:1-7, Matt. 28:18-20, Acts 1:8, Matt. 5:14-16, 1 Cor. 12, Romans 12, Ephesians 4, Rev. 4:9-11*
-    image_url: img/IMG_8548.jpeg
+    opacity: 0.7
+    image_url: ""
     include_line: false
-    background_color: White
-    text_size: Large
-    type: ImagePlusTextFullBleed1
-    max_content: false
+    padding: Medium
+    overlay_color: None
+    type: TextCenteredPlusLine1
   - type: TextCenteredPlusLine1
     hide: false
     include_line: true
@@ -118,7 +90,7 @@ sections:
     opacity: 0.2
   - hide: false
     alignment: center
-    markdown_content: "# W﻿e can't wait to meet you!"
+    markdown_content: "# The Anglican Way"
     opacity: 0.1
     image_url: img/243169684_4115493155244187_5333892671376568698_n.jpeg
     include_line: false

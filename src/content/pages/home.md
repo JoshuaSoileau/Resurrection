@@ -131,6 +131,13 @@ sections:
       *Rock Hill, SC 29730*
     include_line: true
     anchor: contact
+  - type: CalendarWithImage
+    hide: false
+    url: https://calendar.google.com/calendar/u/0/embed?src=resurrectionrockhill.org_fnv4ij9knc8h7irc6opqeibqg4@group.calendar.google.com&ctz=America/New_York
+    include_line: true
+    alignment: Image on left
+    image_url: https://images.unsplash.com/photo-1494621930069-4fd4b2e24a11?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=715&amp;q=80
+    background_color: White
   - type: ContactEmailSignup
     hide: false
     headline: Subscribe to our newsletter

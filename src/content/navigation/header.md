@@ -1,11 +1,11 @@
 ---
 links:
-  - text: 'Home '
+  - text: "Home "
     url: /
   - text: New here?
     url: /new-here
   - text: About
-    url: /about
+    url: /about-us
   - text: Childrens ministry
     url: /childrens-ministry
   - text: Leadership

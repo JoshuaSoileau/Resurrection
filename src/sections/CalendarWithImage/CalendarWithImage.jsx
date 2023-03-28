@@ -48,12 +48,12 @@ export default function CalendarWithImage({
               text_size == 'Large' && tw`prose-lg`,
             ]}
           >
+            <Markdown content={markdown_content} isAdmin={isAdmin} />
             {include_line ? (
-              <div tw="w-24 h-2 bg-emerald-800 mb-4 inline-block"></div>
+              <div tw="w-24 h-2 bg-emerald-800 mb-8 inline-block"></div>
             ) : (
               ''
             )}
-            <Markdown content={markdown_content} isAdmin={isAdmin} />
           </div>
           <Calendar url={url} />
         </div>

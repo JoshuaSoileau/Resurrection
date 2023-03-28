@@ -1,6 +1,7 @@
 import Calendar from '../../components/calendar/Calendar';
 import tw from 'twin.macro';
 import { getSectionColor, getProseColor } from '../../components/color-utils';
+import Markdown from 'components/Markdown/Markdown';
 
 export default function CalendarWithImage({
   alignment,
@@ -9,6 +10,8 @@ export default function CalendarWithImage({
   hide,
   image_url,
   include_line,
+  isAdmin,
+  markdown_content,
   max_content,
   text_size,
   url,
@@ -50,6 +53,7 @@ export default function CalendarWithImage({
             ) : (
               ''
             )}
+            <Markdown content={markdown_content} isAdmin={isAdmin} />
           </div>
           <Calendar url={url} />
         </div>

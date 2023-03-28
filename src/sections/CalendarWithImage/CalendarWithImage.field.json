@@ -25,6 +25,12 @@
       "required": false
     },
     {
+      "label": "Content",
+      "name": "markdown_content",
+      "widget": "markdown",
+      "default": "This is a lengthier version of text. It contains more characters than the headline."
+    },
+    {
       "label": "Alignment",
       "name": "alignment",
       "widget": "select",

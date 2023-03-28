@@ -2,17 +2,17 @@
 title: Home
 slug: home
 sections:
-  - button_url: ''
+  - button_url: ""
     left_text: New here?
     opacity: 0.5
     image_url: img/IMG_8302.jpg
     right_url: /donate
-    text: ''
+    text: ""
     right_text: Donate
-    headline: ''
+    headline: ""
     overlay_color: Charcoal
     left_url: /new-here
-    button_text: ''
+    button_text: ""
     type: Hero1
     logo_url: img/z-logo-white-no-border.png
   - type: Spacer
@@ -32,7 +32,7 @@ sections:
   - type: TextCenteredPlusLine1
     hide: false
     include_line: true
-    markdown_content: '# An Anglican Church plant in Rock Hill, SC'
+    markdown_content: "# An Anglican Church plant in Rock Hill, SC"
     alignment: center
     dark_mode: true
     overlay_color: Charcoal
@@ -88,7 +88,7 @@ sections:
     type: ImagePlusTextStylized
     max_content: false
   - hide: false
-    button_url: About
+    button_url: /about-us
     alignment: Image on right
     markdown_content: >-
       # T﻿he Anglican Way
@@ -110,17 +110,16 @@ sections:
     hide: false
     items:
       - image_url: img/IMG_8582.jpeg
-        text: ''
+        text: ""
       - image_url: img/62AA5018-27CD-4924-BDD6-F8BB5B2E682E_1_105_c.jpeg
-        text: ''
+        text: ""
       - image_url: img/243240976_4115467808580055_3709599852756987891_n.jpeg
-        text: ''
+        text: ""
   - type: Contact1
     hide: false
     map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13079.972502539167!2d-80.99647495338147!3d34.95678098181917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1666213161340!5m2!1sen!2sus
     headline: This is a headline
-    text:
-      This is a lengthier version of text. It contains more characters than the
+    text: This is a lengthier version of text. It contains more characters than the
       headline.
     markdown_content: |-
       # C﻿ome visit us
@@ -149,9 +148,9 @@ sections:
   - hide: false
     button_url: https://us16.campaign-archive.com/home/?u=3cd12dec7449507aececbf84e&id=0522a11d77
     opacity: 0.7
-    image_url: ''
+    image_url: ""
     text_alignment: Left
-    subheadline: ''
+    subheadline: ""
     headline: Or catch up with past newsletters.
     overlay_color: Charcoal
     button_text: Read previous editions →
@@ -184,5 +183,5 @@ sections:
       - text: About
         url: /new-here
       - text: Contact
-        url: '#contact'
+        url: "#contact"
 ---

@@ -137,6 +137,7 @@ sections:
     alignment: Image on left
     image_url: img/IMG_8881.jpeg
     background_color: White
+    markdown_content: "# C﻿urrent Events"
   - type: ContactEmailSignup
     hide: false
     headline: Subscribe to our newsletter

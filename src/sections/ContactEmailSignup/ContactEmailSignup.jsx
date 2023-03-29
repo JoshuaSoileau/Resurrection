@@ -2,15 +2,6 @@ import SignUpForm from '../../components/mailchimp/SignUpForm';
 import tw from 'twin.macro';
 import { getSectionColor, getProseColor } from '../../components/color-utils';
 
-const bgColors = {
-  None: '',
-  Charcoal: tw`bg-gray-900`,
-  Orange: tw`bg-orange-500`,
-  Red: tw`bg-red-600`,
-  Green: tw`bg-green-600`,
-  Yellow: tw`bg-yellow-300`,
-};
-
 const opacityValues = {
   0.1: tw`opacity-10`,
   0.2: tw`opacity-20`,

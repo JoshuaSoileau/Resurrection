@@ -132,7 +132,7 @@ sections:
     anchor: contact
   - type: CalendarWithImage
     hide: false
-    url: https://calendar.google.com/calendar/u/0/embed?src=resurrectionrockhill.org_fnv4ij9knc8h7irc6opqeibqg4@group.calendar.google.com&ctz=America/New_York
+    url: https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&mode=AGENDA&showNav=0&showPrint=0&showTabs=0&showTz=0&showCalendars=0&src=cmVzdXJyZWN0aW9ucm9ja2hpbGwub3JnX2ZudjRpajlrbmM4aDdpcmM2b3BxZWlicWc0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%230B8043
     include_line: true
     alignment: Image on left
     image_url: img/IMG_8881.jpeg

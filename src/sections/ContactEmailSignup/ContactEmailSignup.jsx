@@ -1,4 +1,4 @@
-import SignUpForm from 'components/mailchimp/SignUpForm';
+import SignUpForm from '../../components/mailchimp/SignUpForm';
 import tw from 'twin.macro';
 import { getSectionColor, getProseColor } from '../../components/color-utils';
 

@@ -37,7 +37,7 @@ const SignupForm = () => {
         className="button"
         id="mc-embedded-subscribe"
         name="subscribe"
-        tw="md:col-span-2 border-2 border-white font-light text-white  uppercase tracking-widest py-3 text-center cursor-pointer hover:bg-emerald-800 hover:text-white"
+        tw="md:col-span-2 border-2 border-white font-light text-white  uppercase tracking-widest text-center cursor-pointer hover:bg-emerald-800 hover:text-white"
         type="submit"
         value="Subscribe"
       ></input>

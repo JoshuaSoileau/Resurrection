@@ -1,3 +1,4 @@
+import SignUpForm from 'components/mailchimp/SignUpForm';
 import tw from 'twin.macro';
 import { getSectionColor, getProseColor } from '../../components/color-utils';
 
@@ -54,18 +55,7 @@ export default function ContactEmailSignup({
             </div>
             <div tw="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4 md:w-1/2 mt-8 md:mt-0">
               <div tw="flex lg:w-2/3 w-full sm:flex-row flex-col ml-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
-                <div tw="relative flex-grow w-full">
-                  <input
-                    id="email"
-                    name="email"
-                    placeholder="JaneDoe@gmail.com"
-                    tw="w-full bg-white focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out h-12"
-                    type="email"
-                  />
-                </div>
-                <button tw="inline-block border-2 border-white font-light text-white  uppercase tracking-widest py-3 px-8 hover:bg-emerald-800 hover:text-white mt-8 mx-auto">
-                  Subscribe
-                </button>
+                <SignUpForm />
               </div>
             </div>
           </div>

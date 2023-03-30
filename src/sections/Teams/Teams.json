@@ -1,0 +1,73 @@
+{
+  "label": "[Teams] Team Section",
+  "name": "Teams",
+  "widget": "object",
+  "min": 1,
+  "fields": [
+    {
+      "label": "Hide",
+      "name": "hide",
+      "widget": "boolean",
+      "default": false,
+      "required": false
+    },
+    {
+      "label": "Anchor link url",
+      "name": "anchor",
+      "widget": "string",
+      "default": "",
+      "required": false
+    },
+    {
+      "label": "Allow content to touch edge of screen?",
+      "name": "max_content",
+      "widget": "boolean",
+      "default": false,
+      "required": false
+    },
+    {
+      "label": "Images",
+      "name": "items",
+      "widget": "list",
+      "summary": "Image",
+      "fields": [
+        {
+          "label": "image",
+          "name": "image_url",
+          "widget": "image",
+          "default": "https://placehold.co/500x500"
+        },
+        {
+          "label": "Name",
+          "name": "name",
+          "widget": "string",
+          "default": "Joe Schmoe"
+        },
+        {
+          "label": "Title",
+          "name": "title",
+          "widget": "string",
+          "default": "Lead Procrastinator",
+          "required": false
+        }
+      ],
+      "default": [
+        {
+          "image_url": "https://cdn.tailgrids.com/1.0/assets/images/team/team-01/image-01.jpg",
+          "name": "Joe Schmoe",
+          "title": "Lead Procrastinator"
+        },
+        {
+          "image_url": "https://placehold.co/500x500",
+          "name": "Anna Morris",
+          "title": "Assistant Regional Manager"
+        },
+        {
+          "image_url": "https://placehold.co/500x500",
+          "name": "Andy Breckenridge",
+          "title": "Assistant to the Regional Manager"
+        }
+      ]
+    }
+  ]
+}

@@ -26,18 +26,18 @@ sections:
         title: Children's Director
     hide: false
     alignment: center
-    markdown_content: '## Clergy & Support'
+    markdown_content: '# Clergy & Support'
     opacity: 0.7
     image_url: ''
-    include_line: false
+    include_line: true
     padding: Large
-    overlay_color: None
+    overlay_color: Charcoal
     anchor: ''
     type: Teams
   - items:
     hide: false
     alignment: center
-    markdown_content: '## Leadership Team/Council of Advice
+    markdown_content: '# Leadership Team/Council of Advice
 
 This team will transition to a traditional vestry once we move from a mission to a Parish
 
@@ -49,9 +49,9 @@ Cynthia White
 Susan Killingsworth, Treasurer'
     opacity: 0.7
     image_url: ''
-    include_line: false
-    padding: Small
-    overlay_color: None
+    include_line: true
+    padding: Large
+    overlay_color: Gray
     anchor: ''
     type: Teams
   - items:
@@ -69,10 +69,10 @@ Susan Killingsworth, Treasurer'
         title: Assisting Bishop
     hide: false
     alignment: center
-    markdown_content: '## Diocese of the Carolinas Leadership'
+    markdown_content: '# Diocese of the Carolinas Leadership'
     opacity: 0.7
     image_url: ''
-    include_line: false
+    include_line: true
     padding: Large
     overlay_color: None
     anchor: ''
@@ -83,12 +83,12 @@ Susan Killingsworth, Treasurer'
         title: Archbishop and Primate of the Anglican Church in North America
     hide: false
     alignment: center
-    markdown_content: '## Provincial Leadership'
+    markdown_content: '# Provincial Leadership'
     opacity: 0.7
     image_url: ''
-    include_line: false
+    include_line: true
     padding: Large
-    overlay_color: None
+    overlay_color: Gray
     anchor: ''
     type: Teams
   - type: Contact1

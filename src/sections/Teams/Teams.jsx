@@ -87,7 +87,7 @@ export default function Teams({
       </div>
       <div
         css={[paddingBottom[padding] || paddingBottom['Large'], gridClasses]}
-        tw="container mx-auto  mb-16 gap-4"
+        tw="container mx-auto  pb-16 gap-4"
       >
         {gridItems?.map(({ image_url, name, title }) => {
           if (!name) return <article key={image_url}></article>;

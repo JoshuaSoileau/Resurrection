@@ -11,6 +11,7 @@ import ImageInThreeColumnsWithSpace from 'sections/ImageInThreeColumnsWithSpace/
 import ImagePlusTextFullBleed1 from 'sections/ImagePlusTextFullBleed1/ImagePlusTextFullBleed1';
 import ImagePlusTextStylized from 'sections/ImagePlusTextStylized/ImagePlusTextStylized';
 import Spacer from 'sections/Spacer/Spacer';
+import Teams from 'sections/Teams/Teams';
 import TextCenteredPlusLine1 from 'sections/TextCenteredPlusLine1/TextCenteredPlusLine1';
 
 const Types = {
@@ -26,6 +27,7 @@ const Types = {
   ImagePlusTextFullBleed1: ImagePlusTextFullBleed1,
   ImagePlusTextStylized: ImagePlusTextStylized,
   Spacer: Spacer,
+  Teams: Teams,
   TextCenteredPlusLine1: TextCenteredPlusLine1,
 };
 

@@ -10,6 +10,7 @@ import ImageInThreeColumnsWithSpace from 'sections/ImageInThreeColumnsWithSpace/
 import ImagePlusTextFullBleed1 from 'sections/ImagePlusTextFullBleed1/ImagePlusTextFullBleed1.field.json';
 import ImagePlusTextStylized from 'sections/ImagePlusTextStylized/ImagePlusTextStylized.field.json';
 import Spacer from 'sections/Spacer/Spacer.field.json';
+import Teams from 'sections/Teams/Teams.field.json';
 import TextCenteredPlusLine1 from 'sections/TextCenteredPlusLine1/TextCenteredPlusLine1.field.json';
 
 const CONFIG = [
@@ -25,6 +26,7 @@ const CONFIG = [
   ImagePlusTextFullBleed1,
   ImagePlusTextStylized,
   Spacer,
+  Teams,
   TextCenteredPlusLine1,
 ];
 

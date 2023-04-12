@@ -12,23 +12,27 @@ sections:
     type: Hero1
     logo_url: ""
   - items:
-      - image_url: https://cdn.tailgrids.com/1.0/assets/images/team/team-01/image-01.jpg
-        name: Joe Schmoe
-        title: Lead Procrastinator
-      - image_url: https://placehold.co/500x500
-        name: Anna Morris
-        title: Assistant Regional Manager
-      - image_url: https://placehold.co/500x500
-        name: Andy Breckenridge
-        title: Assistant to the Regional Manager
+      - image_url: img/blob-0007.png
+        name: The Rev. Bill Scott
+        title: Rector (a fancy word for pastor) Read Fr. Bill's past words of
+          encouragement to the church here.
+      - image_url: img/IMG_0882-scaled.jpeg
+        name: The Rev. Jean Roach
+        title: Deacon and Children's Pastor
+      - image_url: img/IMG_0889-scaled.jpeg
+        name: Kate Orton
+        title: Worship Leader and Administration
+      - image_url: img/IMG_0884-scaled.jpeg
+        name: Louise Soileau
+        title: Children's Director
     hide: false
     alignment: center
-    markdown_content: "#This is a title"
+    markdown_content: "# Clergy & Support"
     opacity: 0.7
     image_url: ""
     include_line: true
     padding: Large
-    overlay_color: Charcoal
+    overlay_color: None
     anchor: ""
     type: Teams
   - type: Contact1

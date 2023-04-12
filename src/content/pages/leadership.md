@@ -14,8 +14,7 @@ sections:
   - items:
       - image_url: img/bill.webp
         name: The Rev. Bill Scott
-        title: Rector (a fancy word for pastor) Read Fr. Bill's past words of
-          encouragement to the church here.
+        title: Rector (a fancy word for pastor)
       - image_url: img/IMG_0882-scaled.jpeg
         name: The Rev. Jean Roach
         title: Deacon and Children's Pastor
@@ -27,10 +26,67 @@ sections:
         title: Children's Director
     hide: false
     alignment: center
-    markdown_content: '# Clergy & Support'
+    markdown_content: '## Clergy & Support'
     opacity: 0.7
     image_url: ''
-    include_line: true
+    include_line: false
+    padding: Large
+    overlay_color: None
+    anchor: ''
+    type: Teams
+  - items:
+    hide: false
+    alignment: center
+    markdown_content: '## Leadership Team/Council of Advice
+
+This team will transition to a traditional vestry once we move from a mission to a Parish
+
+Melissa Miller
+Scott Miller
+Doyle Roach
+Joshua Soileau
+Cynthia White
+Susan Killingsworth, Treasurer'
+    opacity: 0.7
+    image_url: ''
+    include_line: false
+    padding: Small
+    overlay_color: None
+    anchor: ''
+    type: Teams
+  - items:
+      - image_url: img/DSCF0500_websize.jpg
+        name: The Rt. Rev. Steve Wood
+        title: Diocesan Bishop
+      - image_url: img/DSCF0491_websize.jpg
+        name: The Rt. Rev. David Bryan
+        title: Suffragan and SC Area Bishop
+      - image_url: img/DSCF0507_websize.jpg
+        name: The Rt. Rev. Terrell Glenn
+        title: NC Area Bishop
+      - image_url: img/DSCF0516_websize.jpg
+        name: The Rt. Rev. Thaddeus R. Barnum
+        title: Assisting Bishop
+    hide: false
+    alignment: center
+    markdown_content: '## Diocese of the Carolinas Leadership'
+    opacity: 0.7
+    image_url: ''
+    include_line: false
+    padding: Large
+    overlay_color: None
+    anchor: ''
+    type: Teams
+  - items:
+      - image_url: img/Foley.jpeg
+        name: The Most Rev. Dr. Foley Beach
+        title: Archbishop and Primate of the Anglican Church in North America
+    hide: false
+    alignment: center
+    markdown_content: '## Provincial Leadership'
+    opacity: 0.7
+    image_url: ''
+    include_line: false
     padding: Large
     overlay_color: None
     anchor: ''

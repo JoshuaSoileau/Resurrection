@@ -33,6 +33,10 @@ let makeShadow = (name, rgb) => {
 module.exports = {
   theme: {
     extend: {
+      aspectRatio: {
+        '4/3': '4 / 3',
+        reels: '9 / 16',
+      },
       borderRadius: {
         '4xl': '2rem',
         '5xl': '2.5rem',

@@ -90,10 +90,10 @@ export default function Teams({
         tw="container mx-auto  mb-16 gap-4"
       >
         {gridItems.map(({ image_url, name, title }) => {
-          if (!name) return <article></article>;
+          if (!name) return <article key={image_url}></article>;
 
           return (
-            <article tw="relative rounded-lg overflow-hidden">
+            <article key={image_url} tw="relative rounded-lg overflow-hidden">
               <img src={image_url} tw="object-cover min-w-full min-h-full" />
               <div tw="absolute bottom-5 left-0 w-full text-center">
                 <div tw="relative mx-5 overflow-hidden rounded-lg bg-white py-5 px-3">

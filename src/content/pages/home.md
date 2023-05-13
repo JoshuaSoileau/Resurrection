@@ -36,33 +36,6 @@ sections:
     alignment: center
     dark_mode: true
     overlay_color: Charcoal
-  - type: ImagePlusTextFullBleed1
-    hide: false
-    alignment: Image on left
-    markdown_content: >-
-      # Epiphany at Resurrection
-
-
-      Epiphany is the season of the Church when we celebrate Christ being revealed as the Savior of the whole world, for both Jew and Gentile.
-
-
-      This celebration starts with the day of Epiphany when the Church remembers the Magi coming from the east, following the star to see the Christ.
-
-
-      The season of Epiphany continues until the beginning of Lent, which starts on February 22 this year.
-
-
-      Come celebrate with us as we remember that Christ came, not only as the promised Messiah for Israel, to save all of creation.
-
-
-      Childcare is provided for the smallest of those joining us and there is a time of lesson and crafts for children in grades K-5th.
-
-
-      *\-﻿ Father Bill Scott*
-    image_url: img/3FEA0497-23AD-4D8A-8E0B-5064F0E80FC2_1_105_c.jpeg
-    max_content: true
-    background_color: Gray
-    include_line: true
   - type: Spacer
     hide: false
   - hide: false

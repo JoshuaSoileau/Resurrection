@@ -24,7 +24,7 @@ sections:
         text: Experience the Trinity
       - image_url: img/76E4DC3C-01CA-4D06-B48C-8AC0C054E0D2_1_105_c.jpeg
         text: Embody Community
-      - image_url: img/nate-steele-FPdkDrq9X-4-unsplash-scaled-e1656592848355.jpg
+      - image_url: img/171abd10945f49eebc3669dc377e3783.jpeg
         text: Engage the city
     max_content: true
   - type: Spacer

@@ -29,13 +29,15 @@ sections:
     max_content: true
   - type: Spacer
     hide: false
-  - type: TextCenteredPlusLine1
-    hide: false
-    include_line: true
-    markdown_content: "# An Anglican Church plant in Rock Hill, SC"
+  - hide: false
     alignment: center
+    markdown_content: "# An Anglican Church plant in Rock Hill, SC"
+    opacity: 0.1
+    include_line: false
     dark_mode: true
+    padding: Small
     overlay_color: Charcoal
+    type: TextCenteredPlusLine1
   - type: Spacer
     hide: false
   - hide: false

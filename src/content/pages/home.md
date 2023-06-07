@@ -21,29 +21,43 @@ sections:
     opacity: 0.1
     include_line: false
     dark_mode: true
-    padding: Small
+    padding: Tiny
     overlay_color: Charcoal
     type: TextCenteredPlusLine1
   - hide: false
-    alignment: center
-    markdown_content: "#This is a title"
+    alignment: left
+    markdown_content: >-
+      ## Welcome!
+
+
+      Considering a visit to a new church is a very brave thing! But I pray that what you see as you navigate these pages is the reality that we are a growing group here in Rock Hill that love God, love each other and love Rock Hill. And I hope you will be encouraged to come and worship with us soon.
+
+
+      Bill+
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Large
+    padding: Tiny
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1
   - type: Spacer
     hide: false
+    anchor: ""
+  - type: Spacer
+    hide: true
     markdown_content: >-
-      ## **WELCOME!**
+      # **Welcome!**
 
 
-      Considering a visit to a new church is a very brave thing! But I pray that what you'll see here will give you a glimpse of the warm, loving community we have at Resurrection Anglican Church. And I hope you will be encouraged to attend and worship with us in person.
+      # **WELCOME!**
+
+
+      Thinking of visiting a new church is a very brave thing! But I pray that what you see as you navigate these pages will be a very small glimpse of the love and warmth we have her at Resurrection Anglican Church. And I hope you will be encouraged to come and worship with us in person.
 
 
       Bill+
+    include_line: false
   - type: ImageInThreeColumns
     hide: false
     items:

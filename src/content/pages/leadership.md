@@ -19,14 +19,17 @@ sections:
     logo_url: ""
   - items:
       - image_url: img/bill.webp
-        name: Joe Schmoe
-        title: Lead Procrastinator
-      - image_url: https://placehold.co/500x500
-        name: Anna Morris
-        title: Assistant Regional Manager
-      - image_url: https://placehold.co/500x500
-        name: Andy Breckenridge
-        title: Assistant to the Regional Manager
+        name: Rev. Bill Scott
+        title: Chief RagTag
+      - image_url: img/IMG_0882-scaled.jpeg
+        name: Rev. Jean Roach
+        title: Deacon and Prayer Ministry Lead
+      - image_url: img/IMG_0889-scaled.jpeg
+        name: Kate Orton
+        title: Worship and Parish Admin (Spaghetti Sauce)
+      - image_url: img/IMG_0884-scaled.jpeg
+        name: Louise Soileau
+        title: Children's Ministry Director
     hide: false
     alignment: left
     markdown_content: "#This is a title"

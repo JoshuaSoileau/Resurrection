@@ -15,8 +15,35 @@ sections:
     button_text: ""
     type: Hero1
     logo_url: img/z-logo-white-no-border.png
+  - hide: false
+    alignment: center
+    markdown_content: "# An Anglican Church plant in Rock Hill, SC"
+    opacity: 0.1
+    include_line: false
+    dark_mode: true
+    padding: Small
+    overlay_color: Charcoal
+    type: TextCenteredPlusLine1
+  - hide: false
+    alignment: center
+    markdown_content: "#This is a title"
+    opacity: 0.7
+    image_url: ""
+    include_line: true
+    padding: Large
+    overlay_color: Charcoal
+    anchor: ""
+    type: TextCenteredPlusLine1
   - type: Spacer
     hide: false
+    markdown_content: >-
+      ## **WELCOME!**
+
+
+      Considering a visit to a new church is a very brave thing! But I pray that what you'll see here will give you a glimpse of the warm, loving community we have at Resurrection Anglican Church. And I hope you will be encouraged to attend and worship with us in person.
+
+
+      Bill+
   - type: ImageInThreeColumns
     hide: false
     items:
@@ -27,17 +54,6 @@ sections:
       - image_url: img/171abd10945f49eebc3669dc377e3783.jpeg
         text: Engage the city
     max_content: true
-  - type: Spacer
-    hide: false
-  - hide: false
-    alignment: center
-    markdown_content: "# An Anglican Church plant in Rock Hill, SC"
-    opacity: 0.1
-    include_line: false
-    dark_mode: true
-    padding: Small
-    overlay_color: Charcoal
-    type: TextCenteredPlusLine1
   - type: Spacer
     hide: false
   - hide: false

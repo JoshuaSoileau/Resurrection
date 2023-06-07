@@ -31,15 +31,50 @@ sections:
         name: Louise Soileau
         title: Children's Ministry Director
     hide: false
-    alignment: left
-    markdown_content: "#This is a title"
+    alignment: center
+    markdown_content: "# **Clergy and leaders of Resurrection Anglican Church**"
+    opacity: 0.7
+    image_url: ""
+    include_line: true
+    padding: Medium
+    overlay_color: Charcoal
+    anchor: ""
+    type: Teams
+  - hide: false
+    alignment: center
+    markdown_content: >-
+      # Leadership Team/Council of Advice
+
+
+      This team will transition to a traditional vestry once we move from a mission to a parish
+
+
+      Daniel McGregor
+
+
+      Melissa Miller
+
+
+      Scott Miller
+
+
+      Doyle Roach
+
+
+      Joshua Soileau
+
+
+      Cynthia White
+
+
+      Susan Killingsworth, Treasurer
     opacity: 0.7
     image_url: ""
     include_line: true
     padding: Large
     overlay_color: Charcoal
     anchor: ""
-    type: Teams
+    type: TextCenteredPlusLine1
   - type: Footer1
     hide: false
     anchor: ""
@@ -47,4 +82,31 @@ sections:
     disclaimer: © Company name. All Rights Reserved.
     background_color: Charcoal
     markdown_content: Clergy and Support Staff for Resurrection Anglican Church
+  - items:
+      - image_url: img/DSCF0500_websize.jpg
+        name: Rt. Rev. Steve Wood
+        title: Diocesan Bishop
+      - image_url: img/DSCF0491_websize.jpg
+        name: Rt. Rev. David Bryan
+        title: Suffragan and SC Area Bishop
+      - image_url: img/DSCF0507_websize.jpg
+        name: Rt. Rev. Terrell Glenn
+        title: NC Area Bishop
+      - image_url: img/DSCF0516_websize.jpg
+        name: Rt. Rev. Thaddeus Barnum
+        title: Assisting Bishop
+    hide: false
+    alignment: center
+    markdown_content: >-
+      # [Diocese of the Carolinas](https://adoc.church) Leadership
+
+
+      We participate in an ecclesiastical (fancy word for "Church") structure where we have Bishops and others that we look to for guidance and support.
+    opacity: 0.7
+    image_url: ""
+    include_line: true
+    padding: Large
+    overlay_color: Charcoal
+    anchor: ""
+    type: Teams
 ---

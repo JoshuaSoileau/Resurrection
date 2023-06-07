@@ -75,13 +75,6 @@ sections:
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1
-  - type: Footer1
-    hide: false
-    anchor: ""
-    logo_url: https://placehold.co/300x200
-    disclaimer: © Company name. All Rights Reserved.
-    background_color: Charcoal
-    markdown_content: Clergy and Support Staff for Resurrection Anglican Church
   - items:
       - image_url: img/DSCF0500_websize.jpg
         name: Rt. Rev. Steve Wood
@@ -109,4 +102,11 @@ sections:
     overlay_color: Charcoal
     anchor: ""
     type: Teams
+  - type: Footer1
+    hide: false
+    anchor: ""
+    logo_url: https://placehold.co/300x200
+    disclaimer: © Company name. All Rights Reserved.
+    background_color: Charcoal
+    markdown_content: Clergy and Support Staff for Resurrection Anglican Church
 ---

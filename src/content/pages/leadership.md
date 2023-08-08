@@ -5,13 +5,13 @@ sections:
   - hide: false
     button_url: ""
     left_text: ""
-    opacity: 1
+    opacity: 0.5
     image_url: img/243169684_4115493155244187_5333892671376568698_n.jpeg
     right_url: ""
     text: ""
     right_text: ""
     headline: Leadership
-    overlay_color: None
+    overlay_color: Charcoal
     anchor: ""
     left_url: ""
     button_text: ""

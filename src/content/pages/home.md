@@ -37,8 +37,8 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Tiny
-    overlay_color: Charcoal
+    padding: Large
+    overlay_color: Gray
     anchor: ""
     type: TextCenteredPlusLine1
   - type: Spacer

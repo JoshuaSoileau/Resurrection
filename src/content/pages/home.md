@@ -21,7 +21,7 @@ sections:
     opacity: 0.1
     include_line: false
     dark_mode: true
-    padding: Tiny
+    padding: Large
     overlay_color: Charcoal
     type: TextCenteredPlusLine1
   - hide: false

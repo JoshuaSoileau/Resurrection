@@ -89,6 +89,8 @@ sections:
       ## What does my giving support?
 
 
+
+
       It takes financial resources to accomplish the work God has called us to do for our community, our city, and the world. Your faithful giving helps support the spiritual formation of our community and the spread of the gospel. It supports mission initiatives in our city and around the world. It allows us to maintain a space for friends, family, and neighbors to gather, as well as worship together.
 
 

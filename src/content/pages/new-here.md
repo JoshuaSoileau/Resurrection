@@ -57,7 +57,7 @@ sections:
     include_line: true
     alignment: left
     markdown_content: >-
-      # O﻿ur music
+      # Worship Music
 
 
       Musically, the worship service will be blended with both old and new (a fancy term would be “ancient-future”). We will sing hymns regularly but also the most recent worship songs.

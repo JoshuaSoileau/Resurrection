@@ -105,7 +105,7 @@ sections:
   - type: Footer1
     hide: false
     anchor: ""
-    logo_url: https://placehold.co/300x200
+    logo_url: img/z-logo-all-white.png
     disclaimer: © Company name. All Rights Reserved.
     background_color: Charcoal
     markdown_content: Clergy and Support Staff for Resurrection Anglican Church

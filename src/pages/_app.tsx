@@ -3,6 +3,7 @@ import 'twin.macro';
 import { useEffect } from 'react';
 import LoadFonts from '../../LoadFonts';
 import GlobalStyles from './../components/GlobalStyles';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App({ Component, pageProps }: AppProps): JSX.Element {
   useEffect(() => {
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
     <div tw="scroll-smooth">
       <GlobalStyles />
       <Component {...pageProps} />
+      <Analytics />
     </div>
   );
 }

@@ -6,9 +6,9 @@ sections:
     left_text: New here?
     opacity: 0.5
     image_url: img/IMG_8302.jpg
-    right_url: /donate
+    right_url: /contact
     text: ""
-    right_text: Donate
+    right_text: Contact Us
     headline: ""
     overlay_color: Charcoal
     left_url: /new-here
@@ -30,10 +30,12 @@ sections:
       ## Welcome!
 
 
-      Considering a visit to a new church is a very brave thing! But I pray that what you see as you navigate these pages is the reality that we are a growing group here in Rock Hill that love God, love each other and love Rock Hill. And I hope you will be encouraged to come and worship with us soon.
+      Visiting a new church can be overwhelming sometimes. As you consider our church, we hope you will discover a loving community of believers connected to our ancient Christian roots and planted deeply here in the heart of Rock Hill, SC. Please reach out if you have any questions or need directions.
 
 
-      Bill+
+
+
+      Rev. Bill Scott
     opacity: 0.7
     image_url: ""
     include_line: true
@@ -99,9 +101,7 @@ sections:
       # T﻿he Anglican Way
 
 
-
-
-      We are an Anglican congregation. We follow a flow of worship known as "liturgical" but we like to say our worship is birthed from Scripture and also draws from some of the earliest forms of worship as the Church was growing.
+      We are an Anglican congregation. We follow a “liturgical” worship service which is spirit-led and birthed from Scripture and some of the origins of Christian worship as the Church was growing.
 
 
       We gather on Sundays to *Experience the Trinity*, which is the catalyst that enables us, along with other opportunities during the week, to grow as the church and *Embody Community*, and allows us to be unified in the goal of taking the light into the darkness and *Engage the City*.

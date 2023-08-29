@@ -32,7 +32,7 @@ sections:
         title: Children's Ministry Director
     hide: false
     alignment: center
-    markdown_content: "# **Clergy and leaders of Resurrection Anglican Church**"
+    markdown_content: "# **Clergy and Leaders of Resurrection Anglican Church**"
     opacity: 0.7
     image_url: ""
     include_line: true

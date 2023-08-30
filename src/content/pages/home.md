@@ -19,7 +19,7 @@ sections:
     alignment: center
     markdown_content: "# An Anglican Church plant in Rock Hill, SC"
     opacity: 0.1
-    include_line: false
+    include_line: true
     dark_mode: true
     padding: Large
     overlay_color: Charcoal

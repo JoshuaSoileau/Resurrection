@@ -20,13 +20,13 @@ sections:
   - items:
       - image_url: img/bill.webp
         name: Rev. Bill Scott
-        title: Chief RagTag
+        title: Planting Pastor/Rector
       - image_url: img/IMG_0882-scaled.jpeg
         name: Rev. Jean Roach
         title: Deacon and Prayer Ministry Lead
       - image_url: img/IMG_0889-scaled.jpeg
         name: Kate Orton
-        title: Worship and Parish Admin (Spaghetti Sauce)
+        title: Worship Director and Parish Administrator
       - image_url: img/IMG_0884-scaled.jpeg
         name: Louise Soileau
         title: Children's Ministry Director

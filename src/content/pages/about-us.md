@@ -242,16 +242,4 @@ sections:
         url: /new-here
       - text: Contact
         url: "#contact"
-  - hide: false
-    button_url: https://google.com
-    alignment: Image on left
-    markdown_content: This is a lengthier version of text. It contains more
-      characters than the headline.
-    image_url: img/IMG_1662-scaled.jpeg
-    include_line: true
-    background_color: White
-    anchor: ""
-    button_text: Read more
-    type: ImagePlusTextStylized
-    max_content: false
 ---

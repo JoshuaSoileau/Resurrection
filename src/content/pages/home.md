@@ -6,7 +6,7 @@ sections:
     left_text: New here?
     opacity: 0.5
     image_url: img/IMG_8302.jpg
-    right_url: /contact
+    right_url: "#contact"
     text: ""
     right_text: Contact Us
     headline: ""

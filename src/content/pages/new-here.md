@@ -63,7 +63,7 @@ sections:
       Musically, the worship service will be blended with both old and new (a fancy term would be “ancient-future”). We will sing hymns regularly but also the most recent worship songs.
 
 
-      O﻿ur worship leaders curate our songs to fit the season and best instill the holy spirit in our congregation.
+      O﻿ur worship leaders curate our songs to fit the season and best instill the Holy Spirit in our congregation.
     image_url: img/pedro-lima-HtwsbbClBOs-unsplash-scaled.jpg
     overlay_color: Charcoal
     opacity: 0.2

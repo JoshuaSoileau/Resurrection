@@ -19,18 +19,17 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-TQRZ5MR6');`,
-      }}
-      id="google-tag-manager"
+        }}
+        id="google-tag-manager"
       />
       <noscript>
-        <iframe 
-          height="0" 
+        <iframe
+          height="0"
           src="https://www.googletagmanager.com/ns.html?id=GTM-TQRZ5MR6"
           style="display:none;visibility:hidden"
-          width="0" 
-          >
-        </iframe>
-        </noscript>
+          width="0"
+        ></iframe>
+      </noscript>
       <GlobalStyles />
       <Component {...pageProps} />
       <Analytics />

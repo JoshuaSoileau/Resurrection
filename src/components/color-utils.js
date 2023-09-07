@@ -32,12 +32,12 @@ const OPACITY_VALUES = {
   1: '',
 };
 
-export const getSectionColor = color => {
+export const getSectionColor = (color) => {
   return SECTION_COLORS[color] || SECTION_COLORS.White;
 };
 
-export const getProseColor = bgColor => {
+export const getProseColor = (bgColor) => {
   return PROSE_COLORS[bgColor] || PROSE_COLORS.White;
 };
 
-export const getOpacityValue = opacity => OPACITY_VALUES[opacity] || '';
+export const getOpacityValue = (opacity) => OPACITY_VALUES[opacity] || '';

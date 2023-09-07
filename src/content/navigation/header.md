@@ -1,6 +1,6 @@
 ---
 links:
-  - text: "Home "
+  - text: 'Home '
     url: /
   - text: New here?
     url: /new-here

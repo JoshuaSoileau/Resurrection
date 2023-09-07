@@ -16,7 +16,7 @@ export default function ImageInThreeColumnsWithSpace({
       ]}
       id={anchor}
     >
-      {items.map(item => {
+      {items.map((item) => {
         const { image_url, link_url, text } = item;
 
         if (link_url)

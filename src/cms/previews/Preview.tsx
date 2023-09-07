@@ -11,7 +11,7 @@ const HomePreview: ComponentType<any> = ({ entry, widgetsFor }) => {
   return (
     <>
       <GlobalStyles />
-      {widgetsFor('sections').map(section => {
+      {widgetsFor('sections').map((section) => {
         const sectionAsJson = section?.toJS() || {};
 
         if (!sectionAsJson) return '';

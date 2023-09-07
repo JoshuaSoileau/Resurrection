@@ -5,13 +5,14 @@ sections:
   - button_url: https://www.paypal.com/donate/?hosted_button_id=KDZTTYG3UZPE6
     opacity: 0.5
     image_url: img/IMG_7627.jpeg
-    text: Gifting your resources is the most basic fundamental way of participating
+    text:
+      Gifting your resources is the most basic fundamental way of participating
       in the mission of Resurrection Anglican Church.
     headline: Give
     overlay_color: Charcoal
     button_text: Donate now
     type: Hero1
-    logo_url: ""
+    logo_url: ''
   - type: TextCenteredPlusLine1
     hide: false
     include_line: true
@@ -62,11 +63,11 @@ sections:
 
       Rock Hill, SC 29732
     opacity: 0.3
-    image_url: ""
+    image_url: ''
     include_line: true
     padding: Small
     overlay_color: Charcoal
-    anchor: ""
+    anchor: ''
     type: TextCenteredPlusLine1
   - hide: false
     alignment: left
@@ -100,7 +101,7 @@ sections:
 
       We take pride in making sure that we support both local and international missions initiatives. Giving to this fund ensures that we continue to support outreach initiatives within our city of Rock Hill as well as assisting other missions partners globally.
     opacity: 0.7
-    image_url: ""
+    image_url: ''
     include_line: false
     padding: Medium
     overlay_color: None
@@ -109,7 +110,8 @@ sections:
     hide: false
     map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13079.972502539167!2d-80.99647495338147!3d34.95678098181917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1666213161340!5m2!1sen!2sus
     headline: This is a headline
-    text: This is a lengthier version of text. It contains more characters than the
+    text:
+      This is a lengthier version of text. It contains more characters than the
       headline.
     markdown_content: |-
       # C﻿ome visit us
@@ -131,5 +133,5 @@ sections:
       - text: About
         url: /new-here
       - text: Contact
-        url: "#contact"
+        url: '#contact'
 ---

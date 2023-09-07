@@ -2,17 +2,17 @@
 title: Childrens ministry
 slug: childrens-ministry
 sections:
-  - button_url: ""
-    left_text: ""
+  - button_url: ''
+    left_text: ''
     opacity: 0.5
     image_url: img/IMG_5594.JPG
     right_url: /donate
-    text: ""
-    right_text: ""
+    text: ''
+    right_text: ''
     headline: Children's Ministry
     overlay_color: Charcoal
     left_url: /new-here
-    button_text: ""
+    button_text: ''
     type: Hero1
     logo_url: img/z-logo-white-no-border.png
   - hide: false
@@ -24,23 +24,23 @@ sections:
 
       ﻿*\- Matthew 19:14*
     opacity: 0.7
-    image_url: ""
+    image_url: ''
     include_line: true
     overlay_color: Gray
-    anchor: ""
+    anchor: ''
     type: TextCenteredPlusLine1
   - type: ImageInThreeColumnsWithSpace
     hide: false
     items:
       - image_url: img/IMG_8745.jpeg
-        text: ""
+        text: ''
       - image_url: img/76E4DC3C-01CA-4D06-B48C-8AC0C054E0D2_1_105_c.jpeg
-        text: ""
+        text: ''
       - image_url: img/IMG_8742.jpeg
-        text: ""
+        text: ''
   - type: ImagePlusTextStylized
     hide: false
-    anchor: ""
+    anchor: ''
     alignment: Image on left
     markdown_content: >-
       # C﻿hildren's Church
@@ -61,17 +61,17 @@ sections:
     background_color: Gray
   - hide: false
     alignment: center
-    markdown_content: "# O﻿ur Curriculum"
+    markdown_content: '# O﻿ur Curriculum'
     opacity: 0.3
     image_url: img/820B659C-FC04-4F74-B92E-82A8DDE99856IMG_7227-scaled.jpeg
     include_line: true
     padding: Large
     overlay_color: Charcoal
-    anchor: ""
+    anchor: ''
     type: TextCenteredPlusLine1
   - type: ImagePlusTextStylized
     hide: false
-    anchor: ""
+    anchor: ''
     alignment: Image on left
     markdown_content: >-
       We use [God’s Big Story](https://www.anglicannetwork.ca/gods-big-story)
@@ -89,16 +89,16 @@ sections:
     background_color: Gray
   - hide: false
     alignment: center
-    markdown_content: "# Young Adult Ministry"
+    markdown_content: '# Young Adult Ministry'
     opacity: 0.2
     image_url: img/IMG_8302.jpg
     include_line: true
     overlay_color: Charcoal
-    anchor: ""
+    anchor: ''
     type: TextCenteredPlusLine1
   - type: ImagePlusTextStylized
     hide: false
-    anchor: ""
+    anchor: ''
     alignment: Image on left
     markdown_content: >-
       # G1 Club
@@ -113,7 +113,7 @@ sections:
     background_color: Charcoal
   - type: ImagePlusTextStylized
     hide: false
-    anchor: ""
+    anchor: ''
     alignment: Image on right
     markdown_content: >-
       In addition to G1 outings, we also have a fantastic new tradition that
@@ -131,7 +131,8 @@ sections:
     hide: false
     map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13079.972502539167!2d-80.99647495338147!3d34.95678098181917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1666213161340!5m2!1sen!2sus
     headline: This is a headline
-    text: This is a lengthier version of text. It contains more characters than the
+    text:
+      This is a lengthier version of text. It contains more characters than the
       headline.
     markdown_content: |-
       # C﻿ome visit us
@@ -161,9 +162,9 @@ sections:
   - hide: false
     button_url: https://us16.campaign-archive.com/home/?u=3cd12dec7449507aececbf84e&id=0522a11d77
     opacity: 0.7
-    image_url: ""
+    image_url: ''
     text_alignment: Left
-    subheadline: ""
+    subheadline: ''
     headline: Or catch up with past newsletters.
     overlay_color: Charcoal
     button_text: Read previous editions →
@@ -196,5 +197,5 @@ sections:
       - text: About
         url: /new-here
       - text: Contact
-        url: "#contact"
+        url: '#contact'
 ---

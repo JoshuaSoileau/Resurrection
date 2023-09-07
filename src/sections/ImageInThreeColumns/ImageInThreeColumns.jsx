@@ -13,7 +13,7 @@ export default function Hero1({ anchor, hide, items, max_content }) {
       ]}
       id={anchor}
     >
-      {items.map(item => {
+      {items.map((item) => {
         const { image_url, link_url, text } = item;
 
         if (link_url)

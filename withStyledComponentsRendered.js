@@ -19,7 +19,7 @@ function StyleInjector({ children }) {
 }
 
 function withStyledComponentsRendered(Comp) {
-  return props => (
+  return (props) => (
     <StyleInjector>
       <Comp {...props} />
     </StyleInjector>

@@ -27,7 +27,7 @@ export default async function (sections) {
         [key]: value,
       };
     },
-    {},
+    {}
   );
 
   return value;

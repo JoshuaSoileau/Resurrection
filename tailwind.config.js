@@ -6,7 +6,7 @@ const otherFonts = fonts.reduce(
     ...total,
     [item.title]: [item.name],
   }),
-  {},
+  {}
 );
 
 let makeShadow = (name, rgb) => {
@@ -45,17 +45,14 @@ module.exports = {
         '8xl': '4rem',
         '9xl': '4.5rem',
       },
-      boxShadow: theme => ({
+      boxShadow: (theme) => ({
         xs: '0 0 0 1px rgba(0, 0, 0, 0.05)',
         sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
         default:
           '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',
-        md:
-          '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
-        lg:
-          '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
-        xl:
-          '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
+        md: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+        lg: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+        xl: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
         '2xl': '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
         inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
         outline: '0 0 0 3px rgba(66, 153, 225, 0.5)',
@@ -96,7 +93,7 @@ module.exports = {
         // serif: [fonts?.serif?.name, ...defaultTheme.fontFamily.sans],
         ...otherFonts,
       },
-      fontSize: theme => ({
+      fontSize: (theme) => ({
         '2xs': ['0.7rem', '.85rem'],
       }),
       fontWeight: {
@@ -110,9 +107,9 @@ module.exports = {
         800: '800',
         900: '900',
       },
-      height: theme => ({ ...theme('spacing'), ...theme('screens') }),
-      minHeight: theme => ({ ...theme('spacing'), ...theme('screens') }),
-      minWidth: theme => ({
+      height: (theme) => ({ ...theme('spacing'), ...theme('screens') }),
+      minHeight: (theme) => ({ ...theme('spacing'), ...theme('screens') }),
+      minWidth: (theme) => ({
         ...theme('spacing'),
 
         0: '0',
@@ -125,7 +122,7 @@ module.exports = {
 
         full: '100%',
       }),
-      maxWidth: theme => ({
+      maxWidth: (theme) => ({
         ...theme('spacing'),
 
         0: '0',
@@ -143,7 +140,7 @@ module.exports = {
         '2xs': '360px',
         xs: '480px',
       },
-      spacing: theme => ({
+      spacing: (theme) => ({
         ...theme('screens'),
         '1/2': '50%',
         '2/3': '66.66%',
@@ -196,7 +193,7 @@ module.exports = {
         height: 'height',
         spacing: 'margin, padding',
       },
-      typography: theme => ({
+      typography: (theme) => ({
         default: {
           css: {
             color: theme('colors.gray.700'),
@@ -233,7 +230,7 @@ module.exports = {
           },
         },
       }),
-      width: theme => ({ ...theme('spacing'), ...theme('screens') }),
+      width: (theme) => ({ ...theme('spacing'), ...theme('screens') }),
       zIndex: {
         '-1': -1,
       },

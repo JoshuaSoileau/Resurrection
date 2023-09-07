@@ -21,7 +21,7 @@ export async function getStaticProps({ params }) {
 
   sections = await map(
     sections,
-    async section => await convertMarkdownToHtml(section),
+    async (section) => await convertMarkdownToHtml(section)
   );
 
   return {

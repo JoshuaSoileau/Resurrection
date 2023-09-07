@@ -2,7 +2,7 @@
 links:
   - text: Home
     url: /
-  - text: "About "
+  - text: 'About '
     url: /about-us
   - text: Contact us
     url: /#contact

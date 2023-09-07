@@ -70,7 +70,7 @@ export default function Header1() {
                 ></path>
               </svg>
             </button>
-            {links.map(link => (
+            {links.map((link) => (
               <Link href={link.url} key={link.url}>
                 <span
                   tw="inline-block border-b-4 border-transparent hover:border-emerald-900 cursor-pointer"

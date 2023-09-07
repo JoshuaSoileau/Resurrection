@@ -18,18 +18,18 @@ const CMS = dynamic(
       // );
       cms.registerPreviewTemplate(
         'home',
-        withStyledComponentsRendered(Preview),
+        withStyledComponentsRendered(Preview)
       );
       cms.registerPreviewTemplate(
         'pages',
-        withStyledComponentsRendered(Preview),
+        withStyledComponentsRendered(Preview)
       );
     }),
   {
     ssr: false,
     // eslint-disable-next-line react/display-name
     loading: () => <Spinner className="animate-spin" fill="white" width="20" />,
-  },
+  }
 );
 
 const AdminPage: React.FC = () => {

@@ -4,14 +4,14 @@ const FontFaceObserver = require('fontfaceobserver');
 
 const { others, ...baseFonts } = fonts;
 
-const LoadFont = font =>
+const LoadFont = (font) =>
   new Promise((resolve, reject) => {
     if (!font) resolve();
 
     const link = document.createElement('link');
     link.href = `https://fonts.googleapis.com/css?family=${font.name.replace(
       /\s+/g,
-      '+',
+      '+'
     )}:wght@${font.weights.join()}&display=swap`;
     link.rel = 'stylesheet';
     document.head.appendChild(link);

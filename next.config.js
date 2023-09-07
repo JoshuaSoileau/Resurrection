@@ -7,7 +7,7 @@ const blogPostsFolder = './src/content/pages';
 const getPathsForPosts = () => {
   const value = fs
     .readdirSync(blogPostsFolder)
-    .map(blogName => {
+    .map((blogName) => {
       const trimmedName = blogName.substring(0, blogName.length - 3);
 
       return {
@@ -30,7 +30,7 @@ const getPathsForPosts = () => {
 module.exports = withTwin(
   withTM({
     reactStrictMode: true, // < Recommended by Next
-    webpack: configuration => {
+    webpack: (configuration) => {
       configuration.module.rules.push({
         test: /\.md$/,
         use: 'frontmatter-markdown-loader',
@@ -46,5 +46,5 @@ module.exports = withTwin(
       console.log(value);
       return value;
     },
-  }),
+  })
 );

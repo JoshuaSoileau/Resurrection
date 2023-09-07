@@ -1,8 +1,8 @@
 import dynamic from 'next/dynamic';
-
 import config from 'cms/config';
 import Preview from 'cms/previews/Preview';
 import Spinner from 'components/icons/Spinner';
+
 import withStyledComponentsRendered from './../../withStyledComponentsRendered';
 
 const CMS = dynamic(
@@ -26,9 +26,10 @@ const CMS = dynamic(
       );
     }),
   {
-    ssr: false,
     // eslint-disable-next-line react/display-name
     loading: () => <Spinner className="animate-spin" fill="white" width="20" />,
+
+    ssr: false,
   }
 );
 

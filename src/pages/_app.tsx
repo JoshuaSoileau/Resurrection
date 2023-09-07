@@ -1,9 +1,13 @@
-import { AppProps } from 'next/app';
-import 'twin.macro';
 import { useEffect } from 'react';
-import LoadFonts from '../../LoadFonts';
-import GlobalStyles from './../components/GlobalStyles';
+import { AppProps } from 'next/app';
+
 import { Analytics } from '@vercel/analytics/react';
+
+import LoadFonts from '../../LoadFonts';
+
+import GlobalStyles from './../components/GlobalStyles';
+
+import 'twin.macro';
 
 export default function App({ Component, pageProps }: AppProps): JSX.Element {
   useEffect(() => {

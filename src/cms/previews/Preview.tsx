@@ -1,7 +1,9 @@
 import { ComponentType, useEffect } from 'react';
 import Builder from 'components/builder/Builder';
-import GlobalStyles from './../../components/GlobalStyles';
+
 import LoadFonts from '../../../LoadFonts';
+
+import GlobalStyles from './../../components/GlobalStyles';
 
 const HomePreview: ComponentType<any> = ({ entry, widgetsFor }) => {
   useEffect(() => {

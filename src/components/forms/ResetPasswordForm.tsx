@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import { useForm } from 'react-hook-form';
-
 import Button from 'components/elements/Button';
+import { useForm } from 'react-hook-form';
 
 const ResetPasswordForm: React.FC = () => {
   const { errors, handleSubmit, register } = useForm();
@@ -28,12 +27,12 @@ const ResetPasswordForm: React.FC = () => {
             id="email"
             name="email"
             ref={register({
-              required: 'Please enter an email',
               pattern: {
+                message: 'Not a valid email',
                 value:
                   /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-                message: 'Not a valid email',
               },
+              required: 'Please enter an email',
             })}
             type="email"
           />

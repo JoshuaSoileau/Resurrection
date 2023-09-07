@@ -1,11 +1,11 @@
 interface Post {
   attributes: {
-    title: string;
-    image: string;
     category: string;
-    description: string;
     date?: Date;
+    description: string;
+    image: string;
     slug?: string;
+    title: string;
   };
 }
 

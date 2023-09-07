@@ -1,8 +1,7 @@
 import { ReactNode } from 'react';
 import { NextPage } from 'next';
-
-import Header from 'components/home/Header';
 import Footer from 'components/home/Footer';
+import Header from 'components/home/Header';
 
 interface Props {
   children: ReactNode;

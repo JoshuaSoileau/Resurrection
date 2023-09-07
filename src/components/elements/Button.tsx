@@ -1,8 +1,8 @@
 import Spinner from 'components/icons/Spinner';
 
 interface ButtonProps {
-  title?: string;
   isLoading?: boolean;
+  title?: string;
 }
 
 const Button = ({

@@ -1,6 +1,7 @@
 import Link from 'next/link';
-import SignUpForm from '../components/forms/SignUpForm';
 import Layout from 'components/home/Layout';
+
+import SignUpForm from '../components/forms/SignUpForm';
 
 const SignUpPage: React.FC = () => {
   return (

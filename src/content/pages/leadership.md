@@ -35,7 +35,7 @@ sections:
         title: Discipleship Director
     hide: false
     alignment: center
-    markdown_content: "# **Clergy and Leaders of Resurrection Anglican Church**"
+    markdown_content: "# **Clergy and Leaders of Resurrection Anglican Church test**"
     opacity: 0.7
     image_url: ""
     include_line: true

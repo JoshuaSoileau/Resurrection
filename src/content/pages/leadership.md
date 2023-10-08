@@ -3,20 +3,20 @@ title: Leadership
 slug: leadership
 sections:
   - hide: false
-    button_url: ''
-    left_text: ''
+    button_url: ""
+    left_text: ""
     opacity: 0.5
     image_url: img/243169684_4115493155244187_5333892671376568698_n.jpeg
-    right_url: ''
-    text: ''
-    right_text: ''
+    right_url: ""
+    text: ""
+    right_text: ""
     headline: Leadership
     overlay_color: Charcoal
-    anchor: ''
-    left_url: ''
-    button_text: ''
+    anchor: ""
+    left_url: ""
+    button_text: ""
     type: Hero1
-    logo_url: ''
+    logo_url: ""
   - items:
       - image_url: img/bill.webp
         name: Rev. Bill Scott
@@ -30,15 +30,18 @@ sections:
       - image_url: img/IMG_0884-scaled.jpeg
         name: Louise Soileau
         title: Children's Ministry Director
+      - image_url: img/img_2442.jpeg
+        name: Anthony Massotti
+        title: Discipleship Director
     hide: false
     alignment: center
-    markdown_content: '# **Clergy and Leaders of Resurrection Anglican Church**'
+    markdown_content: "# **Clergy and Leaders of Resurrection Anglican Church**"
     opacity: 0.7
-    image_url: ''
+    image_url: ""
     include_line: true
     padding: Medium
     overlay_color: Charcoal
-    anchor: ''
+    anchor: ""
     type: Teams
   - hide: false
     alignment: center
@@ -69,11 +72,11 @@ sections:
 
       Susan Killingsworth, Treasurer
     opacity: 0.7
-    image_url: ''
+    image_url: ""
     include_line: true
     padding: Large
     overlay_color: Charcoal
-    anchor: ''
+    anchor: ""
     type: TextCenteredPlusLine1
   - items:
       - image_url: img/DSCF0500_websize.jpg
@@ -96,15 +99,15 @@ sections:
 
       We participate in an ecclesiastical (fancy word for "Church") structure where we have Bishops and others that we look to for guidance and support.
     opacity: 0.7
-    image_url: ''
+    image_url: ""
     include_line: true
     padding: Large
     overlay_color: Charcoal
-    anchor: ''
+    anchor: ""
     type: Teams
   - type: Footer1
     hide: false
-    anchor: ''
+    anchor: ""
     logo_url: img/z-logo-all-white.png
     disclaimer: © Company name. All Rights Reserved.
     background_color: Charcoal

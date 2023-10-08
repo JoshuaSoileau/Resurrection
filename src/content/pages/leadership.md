@@ -30,7 +30,7 @@ sections:
       - image_url: img/IMG_0884-scaled.jpeg
         name: Louise Soileau
         title: Children's Ministry Director
-      - image_url: img/img_2442.jpeg
+      - image_url: img/img_2444.jpeg
         name: Anthony Massotti
         title: Discipleship Director
     hide: false

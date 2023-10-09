@@ -12,15 +12,15 @@ export interface HomeAttributes {
   hero_version: number;
   plans: Plan[];
   posts: string[];
-  pricing_title: string;
-  team_version: number;
-  steps: Step[];
-  team_description: string;
-  team: Team[];
-  steps_version: number;
-  team_title: string;
-  steps_image: string;
   pricing_description: string;
+  pricing_title: string;
+  steps: Step[];
+  steps_image: string;
+  steps_version: number;
+  team: Team[];
+  team_description: string;
+  team_title: string;
+  team_version: number;
 }
 
 export interface Feature {

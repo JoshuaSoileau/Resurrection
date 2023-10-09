@@ -30,7 +30,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
         <iframe
           height="0"
           src="https://www.googletagmanager.com/ns.html?id=GTM-TQRZ5MR6"
-          style="display:none;visibility:hidden"
+          style={{ display: 'none', visibility: 'hidden' }}
           width="0"
         ></iframe>
       </noscript>

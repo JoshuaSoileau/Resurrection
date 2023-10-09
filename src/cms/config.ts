@@ -11,28 +11,28 @@ export default {
   collections: [
     {
       create: true,
-      folder: 'src/content/pages',
       fields: [
         {
+          default: 'This is a string',
           label: 'Title',
           name: 'title',
-          default: 'This is a string',
           widget: 'string',
         },
         {
+          default: 'This is a string',
           label: 'Slug',
           name: 'slug',
-          default: 'This is a string',
           widget: 'string',
         },
         {
           label: 'Sections',
-          name: 'sections',
           label_singular: 'new',
-          widget: 'list',
+          name: 'sections',
           types: [...SECTIONS],
+          widget: 'list',
         },
       ],
+      folder: 'src/content/pages',
       label: 'Pages',
       name: 'pages',
       preview_path: '{{fields.slug}}',
@@ -43,13 +43,13 @@ export default {
         {
           fields: [
             {
-              label: 'Links',
-              name: 'links',
-              widget: 'list',
               fields: [
                 { label: 'Text', name: 'text', widget: 'string' },
                 { label: 'URL', name: 'url', widget: 'string' },
               ],
+              label: 'Links',
+              name: 'links',
+              widget: 'list',
             },
           ],
           file: 'src/content/navigation/header.md',
@@ -59,13 +59,13 @@ export default {
         {
           fields: [
             {
-              label: 'Links',
-              name: 'links',
-              widget: 'list',
               fields: [
                 { label: 'Text', name: 'text', widget: 'string' },
                 { label: 'URL', name: 'url', widget: 'string' },
               ],
+              label: 'Links',
+              name: 'links',
+              widget: 'list',
             },
           ],
           file: 'src/content/navigation/footer.md',

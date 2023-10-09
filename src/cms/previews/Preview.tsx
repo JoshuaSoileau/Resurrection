@@ -1,3 +1,5 @@
+/* tslint:disable:@typescript-eslint/no-explicit-any react/prop-types react/jsx-key */
+
 import { ComponentType, useEffect } from 'react';
 import Builder from 'components/builder/Builder';
 
@@ -13,7 +15,7 @@ const HomePreview: ComponentType<any> = ({ entry, widgetsFor }) => {
   return (
     <>
       <GlobalStyles />
-      {widgetsFor('sections').map((section) => {
+      {widgetsFor('sections').map((section, index) => {
         const sectionAsJson = section?.toJS() || {};
 
         if (!sectionAsJson) return '';
@@ -21,7 +23,9 @@ const HomePreview: ComponentType<any> = ({ entry, widgetsFor }) => {
         if (!data) return '';
         const { type, ...props } = data;
 
-        return <Builder type={type} {...props} isAdmin={true} />;
+        return (
+          <Builder key={type + index} type={type} {...props} isAdmin={true} />
+        );
       })}
     </>
   );

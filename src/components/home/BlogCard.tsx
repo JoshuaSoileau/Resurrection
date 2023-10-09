@@ -1,3 +1,6 @@
+/* tslint:disable:react/prop-types */
+// eslint-disable-file react/prop-types
+
 interface Post {
   attributes: {
     category: string;

@@ -1,3 +1,6 @@
+/* tslint:disable:react/prop-types */
+// eslint-disable-file react/prop-types
+
 import { ReactNode } from 'react';
 import { NextPage } from 'next';
 import Footer from 'components/home/Footer';

@@ -1,22 +1,22 @@
 import tw from 'twin.macro';
 
 const SECTION_COLORS = {
-  White: '',
-  Gray: tw`bg-gray-100`,
   Charcoal: tw`bg-gray-800`,
   'Dark Green': tw`bg-green-800`,
+  Gray: tw`bg-gray-100`,
+  Green: tw`bg-green-600`,
   Orange: tw`bg-orange-500`,
   Red: tw`bg-red-600`,
-  Green: tw`bg-green-600`,
+  White: '',
   Yellow: tw`bg-yellow-300`,
 };
 
 const PROSE_COLORS = {
-  White: '',
-  Gray: '',
   Charcoal: tw`prose-invert md:prose-invert lg:prose-invert`,
   'Dark Green': tw`prose-invert md:prose-invert lg:prose-invert`,
+  Gray: '',
   Green: tw`prose-invert md:prose-invert lg:prose-invert`,
+  White: '',
 };
 
 const OPACITY_VALUES = {

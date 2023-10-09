@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path');
 
 // The folders containing files importing twin.macro
@@ -15,21 +16,21 @@ module.exports = function withTwin(nextConfig) {
       config.module = config.module || {};
       config.module.rules = config.module.rules || [];
       config.module.rules.push({
-        test: /\.(jsx|js)$/,
         include: includedDirs,
+        test: /\.(jsx|js)$/,
         use: [
           options.defaultLoaders.babel,
           {
             loader: 'babel-loader',
             options: {
-              sourceMaps: dev,
               plugins: [
                 require.resolve('babel-plugin-macros'),
                 [
                   require.resolve('babel-plugin-styled-components'),
-                  { ssr: true, displayName: true },
+                  { displayName: true, ssr: true },
                 ],
               ],
+              sourceMaps: dev,
             },
           },
         ],
@@ -38,11 +39,11 @@ module.exports = function withTwin(nextConfig) {
       if (!isServer) {
         config.resolve.fallback = {
           ...(config.resolve.fallback || {}),
+          crypto: false,
           fs: false,
           module: false,
-          path: false,
           os: false,
-          crypto: false,
+          path: false,
         };
       }
 

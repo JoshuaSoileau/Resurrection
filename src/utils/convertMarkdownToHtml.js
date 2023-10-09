@@ -1,7 +1,6 @@
-import * as matter from 'gray-matter';
+import { reduce } from 'awaity/esm';
 import { remark } from 'remark';
 import html from 'remark-html';
-import { reduce } from 'awaity/esm';
 
 export default async function (sections) {
   // console.log(sections);

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import 'twin.macro';
 
 const SignupForm = () => {
@@ -42,7 +43,7 @@ const SignupForm = () => {
         value="Subscribe"
       ></input>
       {/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */}
-      <div aria-hidden="true" style={{ position: 'absolute', left: '-5000px' }}>
+      <div aria-hidden="true" style={{ left: '-5000px', position: 'absolute' }}>
         <input
           name="b_3cd12dec7449507aececbf84e_0522a11d77"
           tabIndex="-1"

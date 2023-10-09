@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const withTM = require('next-transpile-modules')(['react-markdown']);
 const withTwin = require('./withTwin.js');
 
@@ -14,8 +15,8 @@ const getPathsForPosts = () => {
         [`/${trimmedName}`]: {
           page: `/${trimmedName}`,
           query: {
-            slug: trimmedName,
             __nextDefaultLocale: 'en',
+            slug: trimmedName,
           },
         },
       };
@@ -29,14 +30,6 @@ const getPathsForPosts = () => {
 
 module.exports = withTwin(
   withTM({
-    reactStrictMode: true, // < Recommended by Next
-    webpack: (configuration) => {
-      configuration.module.rules.push({
-        test: /\.md$/,
-        use: 'frontmatter-markdown-loader',
-      });
-      return configuration;
-    },
     async exportPathMap(defaultPathMap) {
       const value = {
         ...defaultPathMap,
@@ -45,6 +38,15 @@ module.exports = withTwin(
 
       console.log(value);
       return value;
+    },
+    reactStrictMode: true,
+    // < Recommended by Next
+    webpack: (configuration) => {
+      configuration.module.rules.push({
+        test: /\.md$/,
+        use: 'frontmatter-markdown-loader',
+      });
+      return configuration;
     },
   })
 );

@@ -1,8 +1,9 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 import fonts from './fonts.json';
 
 const FontFaceObserver = require('fontfaceobserver');
 
-const { others, ...baseFonts } = fonts;
+// const { others, ...baseFonts } = fonts;
 
 const LoadFont = (font) =>
   new Promise((resolve, reject) => {

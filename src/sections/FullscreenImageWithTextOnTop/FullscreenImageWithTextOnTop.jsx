@@ -1,14 +1,8 @@
-import { getSectionColor, getProseColor } from '../../components/color-utils';
 import 'twin.macro';
 
-const bgColors = {
-  None: '',
-  Charcoal: 'bg-gray-900',
-  Orange: 'bg-orange-500',
-  Red: 'bg-red-600',
-  Green: 'bg-green-600',
-  Yellow: 'bg-yellow-300',
-};
+import tw from 'twin.macro';
+
+import { getSectionColor } from '../../components/color-utils';
 
 const opacityValues = {
   0.1: 'opacity-10',
@@ -37,7 +31,6 @@ export default function Hero1({
   if (hide) return '';
 
   const bgColor = getSectionColor(overlay_color);
-  const proseColor = getProseColor(overlay_color);
 
   // const bgColor = bgColors[overlay_color] || '';
   const opacityValue = opacityValues[opacity] || '';

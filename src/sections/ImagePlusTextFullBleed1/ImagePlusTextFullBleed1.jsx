@@ -1,6 +1,7 @@
-import Markdown from '../../components/Markdown/Markdown';
 import tw from 'twin.macro';
-import { getSectionColor, getProseColor } from '../../components/color-utils';
+
+import { getProseColor, getSectionColor } from '../../components/color-utils';
+import Markdown from '../../components/Markdown/Markdown';
 
 export default function Hero1({
   alignment,
@@ -22,7 +23,7 @@ export default function Hero1({
   return (
     <section css={[bgColor]} id={anchor}>
       <div css={[tw`flex justify-center`, !max_content ? tw`mx-auto` : '']}>
-        {alignment == 'Image on left' ? (
+        {alignment === 'Image on left' ? (
           <div
             style={{
               backgroundImage: `url('${image_url}')`,
@@ -35,7 +36,7 @@ export default function Hero1({
         <div
           css={[
             tw`flex items-center w-full max-w-3xl p-12 md:p-24 lg:p-32 mx-auto md:pr-12 md:w-3/5`,
-            alignment == 'Image on right' && tw`mr-0`,
+            alignment === 'Image on right' && tw`mr-0`,
             alignment !== 'Image on right' && tw`ml-0`,
           ]}
         >
@@ -43,7 +44,7 @@ export default function Hero1({
             css={[
               tw`w-full prose`,
               proseColor,
-              text_size == 'Large' && tw`prose-lg`,
+              text_size === 'Large' && tw`prose-lg`,
             ]}
           >
             {include_line ? (
@@ -54,7 +55,7 @@ export default function Hero1({
             <Markdown content={markdown_content} isAdmin={isAdmin} />
           </div>
         </div>
-        {alignment == 'Image on right' ? (
+        {alignment === 'Image on right' ? (
           <div
             style={{
               backgroundImage: `url('${image_url}')`,

@@ -1,6 +1,7 @@
-import Markdown from '../../components/Markdown/Markdown';
 import tw from 'twin.macro';
-import { getSectionColor, getProseColor } from '../../components/color-utils';
+
+import { getProseColor, getSectionColor } from '../../components/color-utils';
+import Markdown from '../../components/Markdown/Markdown';
 
 export default function ImagePlusTextStylized({
   alignment,
@@ -36,7 +37,7 @@ export default function ImagePlusTextStylized({
       ]}
       id={anchor}
     >
-      {alignment == 'Image on left' ? Image : ''}
+      {alignment === 'Image on left' ? Image : ''}
       <div
         css={[
           tw`p-6 py-12 md:p-12 md:p-24 flex justify-start items-center`,
@@ -64,7 +65,7 @@ export default function ImagePlusTextStylized({
           )}
         </div>
       </div>
-      {alignment == 'Image on right' ? Image : ''}
+      {alignment === 'Image on right' ? Image : ''}
     </section>
   );
 }

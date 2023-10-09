@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useRef, useState } from 'react';
 import tw from 'twin.macro';
+
 import getNavigationItems from '../../utils/getNavigationItems';
 
 export default function Header1() {

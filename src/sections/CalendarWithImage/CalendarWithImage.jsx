@@ -1,7 +1,8 @@
-import Calendar from '../../components/calendar/Calendar';
-import tw from 'twin.macro';
-import { getSectionColor, getProseColor } from '../../components/color-utils';
 import Markdown from 'components/Markdown/Markdown';
+import tw from 'twin.macro';
+
+import Calendar from '../../components/calendar/Calendar';
+import { getProseColor, getSectionColor } from '../../components/color-utils';
 
 export default function CalendarWithImage({
   alignment,
@@ -24,7 +25,7 @@ export default function CalendarWithImage({
   return (
     <section css={[bgColor]} id={anchor}>
       <div css={[tw`flex justify-center`, !max_content ? tw`mx-auto` : '']}>
-        {alignment == 'Image on left' ? (
+        {alignment === 'Image on left' ? (
           <div
             style={{
               backgroundImage: `url('${image_url}')`,
@@ -37,7 +38,7 @@ export default function CalendarWithImage({
         <div
           css={[
             tw`max-w-3xl p-12 md:p-24 lg:p-32 mx-auto md:pr-12 md:w-3/5`,
-            alignment == 'Image on right' && tw`mr-0`,
+            alignment === 'Image on right' && tw`mr-0`,
             alignment !== 'Image on right' && tw`ml-0`,
           ]}
         >
@@ -45,7 +46,7 @@ export default function CalendarWithImage({
             css={[
               tw`w-full prose`,
               proseColor,
-              text_size == 'Large' && tw`prose-lg`,
+              text_size === 'Large' && tw`prose-lg`,
             ]}
           >
             <Markdown content={markdown_content} isAdmin={isAdmin} />
@@ -57,7 +58,7 @@ export default function CalendarWithImage({
           </div>
           <Calendar url={url} />
         </div>
-        {alignment == 'Image on right' ? (
+        {alignment === 'Image on right' ? (
           <div
             style={{
               backgroundImage: `url('${image_url}')`,

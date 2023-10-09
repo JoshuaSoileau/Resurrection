@@ -1,10 +1,11 @@
-import Markdown from '../../components/Markdown/Markdown';
-import tw from 'twin.macro';
 import {
   getOpacityValue,
   getProseColor,
   getSectionColor,
 } from 'components/color-utils';
+import tw from 'twin.macro';
+
+import Markdown from '../../components/Markdown/Markdown';
 
 export default function Hero1({
   alignment,
@@ -21,8 +22,8 @@ export default function Hero1({
   if (hide) return '';
 
   const textAlignment = {
-    left: tw`text-left`,
     center: tw`text-center`,
+    left: tw`text-left`,
     right: tw`text-right`,
   };
 

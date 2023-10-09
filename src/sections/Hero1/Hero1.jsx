@@ -1,13 +1,14 @@
-import Header1 from '../Header1/Header1';
-import tw from 'twin.macro';
 import Link from 'next/link';
+import tw from 'twin.macro';
+
+import Header1 from '../Header1/Header1';
 
 const bgColors = {
-  None: '',
   Charcoal: tw`bg-gray-900`,
+  Green: tw`bg-green-600`,
+  None: '',
   Orange: tw`bg-orange-500`,
   Red: tw`bg-red-600`,
-  Green: tw`bg-green-600`,
   Yellow: tw`bg-yellow-300`,
 };
 

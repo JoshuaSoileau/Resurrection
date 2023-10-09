@@ -1,7 +1,4 @@
-import getEitherCmsOrDefaults from '../../utils/getEitherCmsOrDefaults';
-import SectionConfig from './Contact1.field.json';
 import Markdown from '../../components/Markdown/Markdown';
-import tw from 'twin.macro';
 
 const Contact1 = ({
   anchor,

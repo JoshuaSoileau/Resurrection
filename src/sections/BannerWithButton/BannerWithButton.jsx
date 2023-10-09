@@ -1,5 +1,6 @@
 import tw from 'twin.macro';
-import { getSectionColor, getProseColor } from '../../components/color-utils';
+
+import { getSectionColor } from '../../components/color-utils';
 
 const opacityValues = {
   0.1: tw`opacity-10`,
@@ -29,7 +30,6 @@ export default function ContactEmailSignup({
   if (hide) return '';
 
   const bgColor = getSectionColor(overlay_color);
-  const proseColor = getProseColor(overlay_color);
   const opacityValue = opacityValues[opacity] || '';
 
   return (

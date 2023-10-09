@@ -1,5 +1,6 @@
-import React from 'react';
 import 'twin.macro';
+
+import React from 'react';
 
 export default function Spacer({ anchor, hide }) {
   if (hide) return '';

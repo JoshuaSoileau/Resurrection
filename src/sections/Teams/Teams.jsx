@@ -1,14 +1,14 @@
-import Markdown from 'components/Markdown/Markdown';
 import {
   getOpacityValue,
   getProseColor,
   getSectionColor,
 } from 'components/color-utils';
+import Markdown from 'components/Markdown/Markdown';
 import tw from 'twin.macro';
 
 const textAlignment = {
-  left: tw`text-left`,
   center: tw`text-center`,
+  left: tw`text-left`,
   right: tw`text-right`,
 };
 

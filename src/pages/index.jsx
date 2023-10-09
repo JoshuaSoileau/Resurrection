@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
 import { map } from 'awaity/esm';
+import React, { Component } from 'react';
 
-import content from '../content/pages/home.md';
 import Builder from '../components/builder/Builder';
+import content from '../content/pages/home.md';
 import convertMarkdownToHtml from '../utils/convertMarkdownToHtml';
 
 export default class Home extends Component {
@@ -15,7 +15,7 @@ export default class Home extends Component {
   }
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps() {
   const { attributes } = content;
   let { sections } = attributes || {};
 

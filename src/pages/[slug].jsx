@@ -1,8 +1,8 @@
-import Head from 'next/head';
 import { map } from 'awaity/esm';
-import convertMarkdownToHtml from '../utils/convertMarkdownToHtml';
-
 import Builder from 'components/builder/Builder';
+import Head from 'next/head';
+
+import convertMarkdownToHtml from '../utils/convertMarkdownToHtml';
 
 const Page = ({ image, sections, title }) => {
   return (
@@ -12,7 +12,7 @@ const Page = ({ image, sections, title }) => {
         <meta content={image} property="og:image" />
       </Head>
       {sections?.map(({ type, ...props }) => {
-        return <Builder type={type} {...props} />;
+        return <Builder key={type} type={type} {...props} />;
       })}
     </>
   );
@@ -35,7 +35,7 @@ export const getStaticPaths = async () => {
   const postSlugs = ((context) => {
     const keys = context.keys();
     const data = keys.map((key) => {
-      const slug = key.replace(/^.*[\\\/]/, '').slice(0, -3);
+      const slug = key.replace(/^.*[\\/]/, '').slice(0, -3);
 
       return slug;
     });
@@ -47,8 +47,8 @@ export const getStaticPaths = async () => {
   });
 
   return {
-    paths,
     fallback: false,
+    paths,
   };
 };
 

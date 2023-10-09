@@ -2,11 +2,11 @@ import tw from 'twin.macro';
 import getNavigationItems from 'utils/getNavigationItems';
 
 const bgColors = {
-  None: '',
   Charcoal: tw`bg-gray-900`,
+  Green: tw`bg-green-600`,
+  None: '',
   Orange: tw`bg-orange-500`,
   Red: tw`bg-red-600`,
-  Green: tw`bg-green-600`,
   Yellow: tw`bg-yellow-300`,
 };
 

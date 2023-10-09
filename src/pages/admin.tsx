@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import dynamic from 'next/dynamic';
 import config from 'cms/config';
 import Preview from 'cms/previews/Preview';

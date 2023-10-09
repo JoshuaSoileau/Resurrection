@@ -7,7 +7,8 @@ import LoadFonts from '../../../LoadFonts';
 
 import GlobalStyles from './../../components/GlobalStyles';
 
-const HomePreview: ComponentType<any> = ({ entry, widgetsFor }) => {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const HomePreview: ComponentType<any> = ({ widgetsFor }) => {
   useEffect(() => {
     LoadFonts();
   }, []);

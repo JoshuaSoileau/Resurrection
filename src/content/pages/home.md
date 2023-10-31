@@ -53,7 +53,7 @@ sections:
       November 5 we will enjoy delicious chili and fun fellowship together -
       anyone is welcome to bring a chili, toppings, or a side to share! 1820
       Eden Terrace | 5:30 pm
-    image_url: img/37101708-515e-dea7-f5c3-853d23eebbf9.jpg
+    image_url: public/img/37101708-515e-dea7-f5c3-853d23eebbf9.jpg
     include_line: true
     background_color: White
     text_size: Normal

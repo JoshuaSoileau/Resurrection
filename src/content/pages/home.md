@@ -47,19 +47,23 @@ sections:
     hide: false
     anchor: ""
   - hide: false
-    alignment: Image on left
-    markdown_content: Who will be the next Resurrection Chili Cook-off Champion?!
-      You'll have to come and taste them to find out! Right after worship on
-      November 5 we will enjoy delicious chili and fun fellowship together -
-      anyone is welcome to bring a chili, toppings, or a side to share! 1820
-      Eden Terrace | 5:30 pm
-    image_url: public/img/37101708-515e-dea7-f5c3-853d23eebbf9.jpg
+    alignment: center
+    markdown_content: >-
+      **Who will be the next Resurrection Chili Cook-off Champion?! You'll have
+      to come and taste them to find out! Right after worship on November 5 we
+      will enjoy delicious chili and fun fellowship together - anyone is welcome
+      to bring a chili, toppings, or a side to share! 1820 Eden Terrace | 5:30
+      pm**
+
+
+      ![](img/37101708-515e-dea7-f5c3-853d23eebbf9.jpg)
+    opacity: 0.7
+    image_url: ""
     include_line: true
-    background_color: White
-    text_size: Normal
+    padding: Large
+    overlay_color: Charcoal
     anchor: ""
-    type: ImagePlusTextFullBleed1
-    max_content: false
+    type: TextCenteredPlusLine1
   - type: Spacer
     hide: true
     markdown_content: >-
@@ -75,19 +79,25 @@ sections:
       Bill+
     include_line: false
   - hide: false
-    alignment: Image on right
-    markdown_content: Every church has a liturgy. What makes Anglican liturgy
-      different? Join us for a special worship service, an Instructed Eucharist
-      or "guided liturgy" - the goal is to get a deeper sense behind the meaning
-      and history of Anglican worship, and to help us see ourselves in God's
-      story! 4 pm | Nov. 19 | 1820 Eden Terrace
-    image_url: img/617fbfbe-0970-7ed1-af41-f66d554c1d7b.jpg
+    alignment: center
+    markdown_content: >-
+      **Every church has a liturgy. What makes Anglican liturgy different? Join
+      us for a special worship service, an Instructed Eucharist or "guided
+      liturgy" - the goal is to get a deeper sense behind the meaning and
+      history of Anglican worship, and to help us see ourselves in God's story!
+      4 pm | Nov. 19 | 1820 Eden Terrace**
+
+
+
+
+      ![](img/617fbfbe-0970-7ed1-af41-f66d554c1d7b.jpg)
+    opacity: 0.7
+    image_url: ""
     include_line: true
-    background_color: White
-    text_size: Normal
+    padding: Large
+    overlay_color: Charcoal
     anchor: ""
-    type: ImagePlusTextFullBleed1
-    max_content: false
+    type: TextCenteredPlusLine1
   - type: Spacer
     hide: false
     anchor: ""

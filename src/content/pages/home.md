@@ -2,22 +2,22 @@
 title: Home
 slug: home
 sections:
-  - button_url: ''
+  - button_url: ""
     left_text: New here?
     opacity: 0.5
     image_url: img/IMG_8302.jpg
-    right_url: '#contact'
-    text: ''
+    right_url: "#contact"
+    text: ""
     right_text: Contact Us
-    headline: ''
+    headline: ""
     overlay_color: Charcoal
     left_url: /new-here
-    button_text: ''
+    button_text: ""
     type: Hero1
     logo_url: img/z-logo-white-no-border.png
   - hide: false
     alignment: center
-    markdown_content: '# An Anglican Church plant in Rock Hill, SC'
+    markdown_content: "# An Anglican Church plant in Rock Hill, SC"
     opacity: 0.1
     include_line: true
     dark_mode: true
@@ -37,15 +37,29 @@ sections:
 
       Rev. Bill Scott
     opacity: 0.7
-    image_url: ''
+    image_url: ""
     include_line: true
     padding: Large
     overlay_color: Gray
-    anchor: ''
+    anchor: ""
     type: TextCenteredPlusLine1
   - type: Spacer
     hide: false
-    anchor: ''
+    anchor: ""
+  - hide: false
+    alignment: Image on left
+    markdown_content: Who will be the next Resurrection Chili Cook-off Champion?!
+      You'll have to come and taste them to find out! Right after worship on
+      November 5 we will enjoy delicious chili and fun fellowship together -
+      anyone is welcome to bring a chili, toppings, or a side to share! 1820
+      Eden Terrace | 5:30 pm
+    image_url: img/37101708-515e-dea7-f5c3-853d23eebbf9.jpg
+    include_line: true
+    background_color: White
+    text_size: Normal
+    anchor: ""
+    type: ImagePlusTextFullBleed1
+    max_content: false
   - type: Spacer
     hide: true
     markdown_content: >-
@@ -60,6 +74,23 @@ sections:
 
       Bill+
     include_line: false
+  - hide: false
+    alignment: Image on right
+    markdown_content: Every church has a liturgy. What makes Anglican liturgy
+      different? Join us for a special worship service, an Instructed Eucharist
+      or "guided liturgy" - the goal is to get a deeper sense behind the meaning
+      and history of Anglican worship, and to help us see ourselves in God's
+      story! 4 pm | Nov. 19 | 1820 Eden Terrace
+    image_url: img/617fbfbe-0970-7ed1-af41-f66d554c1d7b.jpg
+    include_line: true
+    background_color: White
+    text_size: Normal
+    anchor: ""
+    type: ImagePlusTextFullBleed1
+    max_content: false
+  - type: Spacer
+    hide: false
+    anchor: ""
   - type: ImageInThreeColumns
     hide: false
     items:
@@ -115,17 +146,16 @@ sections:
     hide: false
     items:
       - image_url: img/IMG_8582.jpeg
-        text: ''
+        text: ""
       - image_url: img/62AA5018-27CD-4924-BDD6-F8BB5B2E682E_1_105_c.jpeg
-        text: ''
+        text: ""
       - image_url: img/243240976_4115467808580055_3709599852756987891_n.jpeg
-        text: ''
+        text: ""
   - type: Contact1
     hide: false
     map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13079.972502539167!2d-80.99647495338147!3d34.95678098181917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1666213161340!5m2!1sen!2sus
     headline: This is a headline
-    text:
-      This is a lengthier version of text. It contains more characters than the
+    text: This is a lengthier version of text. It contains more characters than the
       headline.
     markdown_content: |-
       # C﻿ome visit us
@@ -143,7 +173,7 @@ sections:
     alignment: Image on left
     image_url: img/IMG_8881.jpeg
     background_color: White
-    markdown_content: '# Current events'
+    markdown_content: "# Current events"
   - type: ContactEmailSignup
     hide: false
     headline: Subscribe to our newsletter
@@ -155,9 +185,9 @@ sections:
   - hide: false
     button_url: https://us16.campaign-archive.com/home/?u=3cd12dec7449507aececbf84e&id=0522a11d77
     opacity: 0.7
-    image_url: ''
+    image_url: ""
     text_alignment: Left
-    subheadline: ''
+    subheadline: ""
     headline: Or catch up with past newsletters.
     overlay_color: Charcoal
     button_text: Read previous editions →
@@ -190,5 +220,5 @@ sections:
       - text: About
         url: /new-here
       - text: Contact
-        url: '#contact'
+        url: "#contact"
 ---

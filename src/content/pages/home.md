@@ -43,9 +43,6 @@ sections:
     overlay_color: Gray
     anchor: ""
     type: TextCenteredPlusLine1
-  - type: Spacer
-    hide: false
-    anchor: ""
   - hide: false
     alignment: center
     markdown_content: >-

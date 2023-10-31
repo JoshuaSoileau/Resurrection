@@ -61,20 +61,6 @@ sections:
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1
-  - type: Spacer
-    hide: true
-    markdown_content: >-
-      # **Welcome!**
-
-
-      # **WELCOME!**
-
-
-      Thinking of visiting a new church is a very brave thing! But I pray that what you see as you navigate these pages will be a very small glimpse of the love and warmth we have her at Resurrection Anglican Church. And I hope you will be encouraged to come and worship with us in person.
-
-
-      Bill+
-    include_line: false
   - hide: false
     alignment: center
     markdown_content: >-

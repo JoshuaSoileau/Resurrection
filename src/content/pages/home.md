@@ -39,7 +39,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Large
+    padding: Medium
     overlay_color: Gray
     anchor: ""
     type: TextCenteredPlusLine1
@@ -57,7 +57,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Large
+    padding: Medium
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1
@@ -77,7 +77,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Large
+    padding: Medium
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1

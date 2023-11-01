@@ -45,6 +45,18 @@ sections:
     type: TextCenteredPlusLine1
   - hide: false
     alignment: center
+    markdown_content: "#### **There's always something exciting going on with
+      Resurrection! Here are a couple of big things coming soon that you'll want
+      to mark your calendar for...**"
+    opacity: 0.7
+    image_url: ""
+    include_line: true
+    padding: Tiny
+    overlay_color: Charcoal
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - hide: false
+    alignment: center
     markdown_content: >-
       **Who will be the next Resurrection Chili Cook-off Champion?! You'll have
       to come and taste them to find out! Right after worship on November 5 we

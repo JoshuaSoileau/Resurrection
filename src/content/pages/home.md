@@ -51,7 +51,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Tiny
+    padding: Medium
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1
@@ -71,7 +71,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: false
-    padding: Small
+    padding: Tiny
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1

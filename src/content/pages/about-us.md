@@ -2,17 +2,16 @@
 title: About us
 slug: about-us
 sections:
-  - button_url: ''
+  - button_url: ""
     opacity: 0.5
     image_url: img/IMG_7627.jpeg
-    text:
-      We're so glad you're here. We are an Anglican church plant bringing the
+    text: We're so glad you're here. We are an Anglican church plant bringing the
       light of God to the city of Rock Hill.
     headline: About us
     overlay_color: Charcoal
-    button_text: ''
+    button_text: ""
     type: Hero1
-    logo_url: ''
+    logo_url: ""
   - type: TextCenteredPlusLine1
     hide: false
     include_line: true
@@ -27,13 +26,13 @@ sections:
     padding: Medium
   - hide: false
     alignment: center
-    markdown_content: '# Our values'
+    markdown_content: "# Our values"
     opacity: 0.3
     image_url: img/5C3B81A2-D895-4ACB-9B20-A8AA037E700A_1_105_c.jpeg
     include_line: true
     padding: Small
     overlay_color: Charcoal
-    anchor: ''
+    anchor: ""
     type: TextCenteredPlusLine1
   - hide: false
     alignment: left
@@ -69,14 +68,14 @@ sections:
 
       *Scripture references: Exodus 36:1-7, Matt. 28:18-20, Acts 1:8, Matt. 5:14-16, 1 Cor. 12, Romans 12, Ephesians 4, Rev. 4:9-11*
     opacity: 0.7
-    image_url: ''
+    image_url: ""
     include_line: false
     padding: Medium
     overlay_color: None
     type: TextCenteredPlusLine1
   - hide: false
     alignment: center
-    markdown_content: '# T﻿he Anglican Way'
+    markdown_content: "# T﻿he Anglican Way"
     opacity: 0.2
     image_url: img/DSCF0062_websize.jpg
     include_line: true
@@ -100,21 +99,20 @@ sections:
     image_url: img/james-coleman-_HzRfyw7BuA-unsplash-scaled.jpg
     include_line: true
     background_color: Gray
-    anchor: ''
-    button_text: ''
+    anchor: ""
+    button_text: ""
     type: ImagePlusTextStylized
     max_content: false
   - hide: false
     alignment: left
-    markdown_content:
-      'Here are some of the features of the Anglican Church that can
-      help you better understand our local community:'
+    markdown_content: "## Here are some of the features of the Anglican Church that
+      can help you better understand our local community:"
     opacity: 0.7
-    image_url: ''
+    image_url: ""
     include_line: false
-    padding: Large
+    padding: Small
     overlay_color: Charcoal
-    anchor: ''
+    anchor: ""
     type: TextCenteredPlusLine1
   - hide: false
     alignment: left
@@ -129,11 +127,11 @@ sections:
 
       The [Anglican Church in North America](http://anglicanchurch.net/) is united with the overwhelming majority of provinces in the worldwide Anglican Communion. The ACNA unites 160,000+ Anglicans in 1,200+ congregations across the United States, Canada and Mexico into a single Church.
     opacity: 0.7
-    image_url: ''
+    image_url: ""
     include_line: true
     padding: Medium
     overlay_color: None
-    anchor: ''
+    anchor: ""
     type: TextCenteredPlusLine1
   - hide: false
     alignment: right
@@ -149,11 +147,11 @@ sections:
 
       Though Anglicanism admittedly spread widely through the era of English colonialism, the riches of the Christian faith as practiced by Anglicans have blessed people all over the world and continue to be passed on in every generation in independent nations.
     opacity: 0.7
-    image_url: ''
+    image_url: ""
     include_line: true
     padding: Large
     overlay_color: Gray
-    anchor: ''
+    anchor: ""
     type: TextCenteredPlusLine1
   - hide: false
     alignment: left
@@ -175,7 +173,7 @@ sections:
     include_line: true
     padding: Large
     overlay_color: Charcoal
-    anchor: ''
+    anchor: ""
     type: TextCenteredPlusLine1
   - markdown_content: >-
       # The Book of Common Prayer
@@ -186,8 +184,7 @@ sections:
     hide: false
     map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13079.972502539167!2d-80.99647495338147!3d34.95678098181917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1666213161340!5m2!1sen!2sus
     headline: This is a headline
-    text:
-      This is a lengthier version of text. It contains more characters than the
+    text: This is a lengthier version of text. It contains more characters than the
       headline.
     markdown_content: |-
       # C﻿ome visit us
@@ -209,9 +206,9 @@ sections:
   - hide: false
     button_url: https://google.com
     opacity: 0.7
-    image_url: ''
+    image_url: ""
     text_alignment: Left
-    subheadline: ''
+    subheadline: ""
     headline: Or catch up with past newsletters.
     overlay_color: Charcoal
     button_text: Read previous editions
@@ -244,5 +241,5 @@ sections:
       - text: About
         url: /new-here
       - text: Contact
-        url: '#contact'
+        url: "#contact"
 ---

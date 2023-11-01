@@ -58,10 +58,10 @@ sections:
   - hide: false
     alignment: center
     markdown_content: >-
-      **Who will be the next Resurrection Chili Cook-off Champion?! You'll have
-      to come and taste them to find out! Right after worship on November 5 we
-      will enjoy delicious chili and fun fellowship together - anyone is welcome
-      to bring a chili, toppings, or a side to share!** 
+      ## **Who will be the next Resurrection Chili Cook-off Champion?!** 
+
+
+      **You'll have to come and taste them to find out! Right after worship on November 5 we will enjoy delicious chili and fun fellowship together - anyone is welcome to bring a chili, toppings, or a side to share!** 
 
 
       **1820 Eden Terrace | 5:30 pm**
@@ -70,7 +70,7 @@ sections:
       ![](img/37101708-515e-dea7-f5c3-853d23eebbf9.jpg)
     opacity: 0.7
     image_url: ""
-    include_line: true
+    include_line: false
     padding: Small
     overlay_color: Charcoal
     anchor: ""
@@ -78,11 +78,10 @@ sections:
   - hide: false
     alignment: center
     markdown_content: >-
-      **Every church has a liturgy. What makes Anglican liturgy different? Join
-      us for a special worship service, an Instructed Eucharist or "guided
-      liturgy" - the goal is to get a deeper sense behind the meaning and
-      history of Anglican worship, and to help us see ourselves in God's
-      story!** 
+      ## **Every church has a liturgy. What makes Anglican liturgy different?** 
+
+
+      **Join us for a special worship service, an Instructed Eucharist or "guided liturgy" - the goal is to get a deeper sense behind the meaning and history of Anglican worship, and to help us see ourselves in God's story!** 
 
 
       **4 pm | Nov. 19 | 1820 Eden Terrace**
@@ -91,7 +90,7 @@ sections:
       ![](img/617fbfbe-0970-7ed1-af41-f66d554c1d7b.jpg)
     opacity: 0.7
     image_url: ""
-    include_line: true
+    include_line: false
     padding: Small
     overlay_color: Charcoal
     anchor: ""

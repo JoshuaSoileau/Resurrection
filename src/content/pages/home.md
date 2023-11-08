@@ -46,32 +46,12 @@ sections:
   - hide: false
     alignment: center
     markdown_content: "#### **There's always something exciting going on with
-      Resurrection! Here are a couple of big things coming soon that you'll want
-      to mark your calendar for...**"
+      Resurrection! Here's the next thing coming soon that you'll want to mark
+      your calendar for...**"
     opacity: 0.7
     image_url: ""
     include_line: true
     padding: Medium
-    overlay_color: Charcoal
-    anchor: ""
-    type: TextCenteredPlusLine1
-  - hide: false
-    alignment: center
-    markdown_content: >-
-      ## **Who will be the next Resurrection Chili Cook-off Champion?!** 
-
-
-      **You'll have to come and taste them to find out! Right after worship on November 5 we will enjoy delicious chili and fun fellowship together - anyone is welcome to bring a chili, toppings, or a side to share!** 
-
-
-      **1820 Eden Terrace | 5:30 pm**
-
-
-      ![](img/37101708-515e-dea7-f5c3-853d23eebbf9.jpg)
-    opacity: 0.7
-    image_url: ""
-    include_line: false
-    padding: Tiny
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1

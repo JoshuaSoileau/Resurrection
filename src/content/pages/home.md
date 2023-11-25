@@ -58,16 +58,19 @@ sections:
   - hide: false
     alignment: center
     markdown_content: >-
-      ## **Every church has a liturgy. What makes Anglican liturgy different?** 
+      The children of Resurrection will present **"'Twas the Night Before
+      Jesus"** during the service on December 17. \
+
+      \
+
+      *A dress rehearsal and dinner party will be held on December 16 at 5pm at the church.* \
+
+      \
+
+      Please see our Children's Director if you want your child to participate.
 
 
-      **Join us for a special worship service, an Instructed Eucharist or "guided liturgy" - the goal is to get a deeper sense behind the meaning and history of Anglican worship, and to help us see ourselves in God's story!** 
-
-
-      **4 pm | Nov. 19 | 1820 Eden Terrace**
-
-
-      ![](img/617fbfbe-0970-7ed1-af41-f66d554c1d7b.jpg)
+      ![](img/6698b26c-e08c-653d-80c5-b45d49cd3e11.jpg)
     opacity: 0.7
     image_url: ""
     include_line: false

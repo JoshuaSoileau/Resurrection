@@ -58,23 +58,71 @@ sections:
   - hide: false
     alignment: center
     markdown_content: >-
-      The children of Resurrection will present **"'Twas the Night Before
-      Jesus"** during the service on December 17. \
-
-      \
-
-      *A dress rehearsal and dinner party will be held on December 16 at 5pm at the church.* \
-
-      \
-
-      Please see our Children's Director if you want your child to participate.
+      Join us for a special night of worship as we celebrate the birth of our
+      Savior Jesus Christ ~ Lessons and Carols at 4pm, December 24
 
 
-      ![](img/6698b26c-e08c-653d-80c5-b45d49cd3e11.jpg)
+      ![](img/53e5f36a-f41d-9723-346a-78d3b0c73688.jpg)
     opacity: 0.7
     image_url: ""
     include_line: false
     padding: Small
+    overlay_color: Charcoal
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - hide: false
+    alignment: center
+    markdown_content: >-
+      On Epiphany, Father Bill will be visiting homes to "chalk the doors."
+      Chalking the doors is an Epiphany tradition to literally *mark* the
+      occasion! The tradition celebrates when the Magi visited Jesus, and is a
+      way to receive God's blessing on our lives and homes, setting them apart
+      as places of Christian hospitality. There are two options to
+      participate; please sign up below! \
+
+      \
+
+      **In-person home visit: January 6, between 12-4 pm**
+    opacity: 0.7
+    image_url: img/1a40742a-fa99-a562-21fe-e96a25933206.jpg
+    include_line: true
+    padding: Large
+    overlay_color: Charcoal
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - hide: false
+    alignment: center
+    markdown_content: >-
+      *To continue celebrating Epiphany together, after the chalking of the
+      doors, the Scotts will be hosting their second annual Epiphany Party /
+      Behold the Lamb of God livestream watch!* \
+
+      \
+
+      Bring a dish to share and join us for this fun tradition:\
+
+      \
+
+      **January 6 | 5pm | 2391 Blossom Dr.**
+    opacity: 0.7
+    image_url: img/aaa1bc0b-99ad-e968-933d-3dc5c90f6985.jpg
+    include_line: true
+    padding: Large
+    overlay_color: Charcoal
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - hide: false
+    alignment: center
+    markdown_content: We are so excited to launch another round of the Alpha course
+      in 2024! What is Alpha? [Find out more here.](https://alphausa.org/) Start
+      asking the Holy Spirit for three names of people to invite - pray over
+      them and then do the inviting! If you are interested in helping out in any
+      way, please reach out to Melissa at 570-447-2046
+      or [melissa.miller0502@gmail.com](mailto:melissa.miller0502@gmail.com)
+    opacity: 0.7
+    image_url: img/9f2ed17b-5be4-a308-a412-5dd487803927.png
+    include_line: true
+    padding: Large
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1

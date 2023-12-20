@@ -83,8 +83,11 @@ sections:
       \
 
       **In-person home visit: January 6, between 12-4 pm**
+
+
+      ![](img/1a40742a-fa99-a562-21fe-e96a25933206.jpg)
     opacity: 0.7
-    image_url: img/1a40742a-fa99-a562-21fe-e96a25933206.jpg
+    image_url: ""
     include_line: true
     padding: Large
     overlay_color: Charcoal
@@ -104,8 +107,11 @@ sections:
       \
 
       **January 6 | 5pm | 2391 Blossom Dr.**
+
+
+      ![](img/aaa1bc0b-99ad-e968-933d-3dc5c90f6985.jpg)
     opacity: 0.7
-    image_url: img/aaa1bc0b-99ad-e968-933d-3dc5c90f6985.jpg
+    image_url: ""
     include_line: true
     padding: Large
     overlay_color: Charcoal
@@ -113,14 +119,18 @@ sections:
     type: TextCenteredPlusLine1
   - hide: false
     alignment: center
-    markdown_content: We are so excited to launch another round of the Alpha course
-      in 2024! What is Alpha? [Find out more here.](https://alphausa.org/) Start
+    markdown_content: >-
+      We are so excited to launch another round of the Alpha course in
+      2024! What is Alpha? [Find out more here.](https://alphausa.org/) Start
       asking the Holy Spirit for three names of people to invite - pray over
       them and then do the inviting! If you are interested in helping out in any
       way, please reach out to Melissa at 570-447-2046
       or [melissa.miller0502@gmail.com](mailto:melissa.miller0502@gmail.com)
+
+
+      ![](img/9f2ed17b-5be4-a308-a412-5dd487803927.png)
     opacity: 0.7
-    image_url: img/9f2ed17b-5be4-a308-a412-5dd487803927.png
+    image_url: ""
     include_line: true
     padding: Large
     overlay_color: Charcoal

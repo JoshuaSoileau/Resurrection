@@ -51,7 +51,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Small
+    padding: Tiny
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1
@@ -66,7 +66,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: false
-    padding: Small
+    padding: Tiny
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1
@@ -89,7 +89,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Large
+    padding: Tiny
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1
@@ -113,7 +113,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Large
+    padding: Tiny
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1
@@ -123,16 +123,14 @@ sections:
       We are so excited to launch another round of the Alpha course in
       2024! What is Alpha? [Find out more here.](https://alphausa.org/) Start
       asking the Holy Spirit for three names of people to invite - pray over
-      them and then do the inviting! If you are interested in helping out in any
-      way, please reach out to Melissa at 570-447-2046
-      or [melissa.miller0502@gmail.com](mailto:melissa.miller0502@gmail.com)
+      them and then do the inviting! 
 
 
       ![](img/9f2ed17b-5be4-a308-a412-5dd487803927.png)
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Large
+    padding: Tiny
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1

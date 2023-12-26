@@ -58,21 +58,6 @@ sections:
   - hide: false
     alignment: center
     markdown_content: >-
-      ### Join us for a special night of worship as we celebrate the birth of
-      our Savior Jesus Christ ~ Lessons and Carols at 4pm, December 24
-
-
-      ![](img/53e5f36a-f41d-9723-346a-78d3b0c73688.jpg)
-    opacity: 0.7
-    image_url: ""
-    include_line: false
-    padding: Tiny
-    overlay_color: Charcoal
-    anchor: ""
-    type: TextCenteredPlusLine1
-  - hide: false
-    alignment: center
-    markdown_content: >-
       ### **On Epiphany, Father Bill will be visiting homes to "chalk the
       doors." Chalking the doors is an Epiphany tradition to
       literally *mark* the occasion! The tradition celebrates when the Magi

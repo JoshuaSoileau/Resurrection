@@ -1,3 +1,5 @@
+import 'twin.macro';
+
 import Markdown from '../../components/Markdown/Markdown';
 
 const Contact1 = ({

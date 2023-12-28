@@ -27,7 +27,7 @@ sections:
   - hide: false
     alignment: left
     markdown_content: >-
-      ## Welcome!
+      # Welcome!
 
 
       Visiting a new church can be overwhelming sometimes. As you consider our church, we hope you will discover a loving community of believers connected to our ancient Christian roots and planted deeply here in the heart of Rock Hill, SC. Please reach out if you have any questions or need directions.
@@ -45,25 +45,24 @@ sections:
     type: TextCenteredPlusLine1
   - hide: false
     alignment: center
-    markdown_content: "## **There's always something exciting going on at
-      Resurrection! Here's the next thing coming soon that you'll want to mark
-      your calendar for...**"
+    markdown_content: >-
+      # Happening soon
+
+      There's always something exciting going on at Resurrection! Here's the next thing coming soon that you'll want to mark your calendar for...
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Tiny
+    padding: Medium
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1
   - hide: false
-    alignment: center
+    alignment: left
     markdown_content: >-
-      ### **On Epiphany, Father Bill will be visiting homes to "chalk the
-      doors." Chalking the doors is an Epiphany tradition to
-      literally *mark* the occasion! The tradition celebrates when the Magi
-      visited Jesus, and is a way to receive God's blessing on our lives and
-      homes, setting them apart as places of Christian hospitality. There are
-      two options to participate.** 
+      # **Chalking the Doors**
+
+
+      On Epiphany, Father Bill will be visiting homes to "chalk the doors." Chalking the doors is an Epiphany tradition to literally *mark* the occasion! The tradition celebrates when the Magi visited Jesus, and is a way to receive God's blessing on our lives and homes, setting them apart as places of Christian hospitality. There are two options to participate.
 
 
       ### [Please click here to sign up!](https://docs.google.com/forms/d/e/1FAIpQLSdB1AzgjY96yCVIcyjhbl-J4ABgH1EVsFBY6gpMaWokS0YD4w/viewform)
@@ -76,45 +75,45 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Tiny
-    overlay_color: Charcoal
+    padding: Medium
+    overlay_color: None
     anchor: ""
     type: TextCenteredPlusLine1
   - hide: false
-    alignment: center
+    alignment: left
     markdown_content: >-
-      ### To continue celebrating Epiphany together, after the chalking of the
-      doors, the Scotts will be hosting their second annual Epiphany Party /
-      Behold the Lamb of God livestream watch!
+      # Epiphany Party
+
+      To continue celebrating Epiphany together, after the chalking of the doors, the Scotts will be hosting their second annual Epiphany Party / Behold the Lamb of God livestream watch!
 
 
-      ### Bring a dish to share and join us for this fun tradition!\
+      ### Bring a dish to share and join us for this fun tradition!
 
-      **January 6 | 5pm**
+      ## **January 6 | 5pm**
 
 
       ![](img/aaa1bc0b-99ad-e968-933d-3dc5c90f6985.jpg)
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Tiny
-    overlay_color: Charcoal
+    padding: Medium
+    overlay_color: Gray
     anchor: ""
     type: TextCenteredPlusLine1
   - hide: false
-    alignment: center
+    alignment: left
     markdown_content: >-
-      We are so excited to launch another round of the Alpha course in
-      2024! What is Alpha? [Find out more here.](https://alphausa.org) Start
-      asking the Holy Spirit for three names of people to invite - pray over
-      them and then do the inviting! 
+      # Alpha starting soon
+
+
+      We are so excited to launch another round of the Alpha course in 2024! What is Alpha? [Find out more here.](https://alphausa.org) Start asking the Holy Spirit for three names of people to invite - pray over them and then do the inviting! 
 
 
       ![](img/9f2ed17b-5be4-a308-a412-5dd487803927.png)
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Tiny
+    padding: Medium
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1

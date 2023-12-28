@@ -161,7 +161,7 @@ sections:
     type: TextCenteredPlusLine1
   - type: Contact1
     hide: false
-    map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13079.972502539167!2d-80.99647495338147!3d34.95678098181917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1666213161340!5m2!1sen!2sus
+    map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.3352198213915!2d-81.02813189999999!3d34.92312890000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885688545c598c4d%3A0xac85096998526680!2s239%20Hampton%20St%2C%20Rock%20Hill%2C%20SC%2029730!5e0!3m2!1sen!2sus!4v1703799319472!5m2!1sen!2sus
     headline: This is a headline
     text: This is a lengthier version of text. It contains more characters than the
       headline.

@@ -108,7 +108,47 @@ sections:
       ## Alpha starting soon
 
 
-      We are so excited to launch another round of the Alpha course in 2024! What is Alpha? [Find out more here.](https://alphausa.org) Start asking the Holy Spirit for three names of people to invite - pray over them and then do the inviting! 
+      Are you curious? Perhaps skeptical? Or maybe you are just seeking some answers to life’s deeper questions. If those resonate with you at all…
+
+
+      Alpha is for you.
+
+
+      Alpha is a series of gatherings that explore the Christian faith. In a no-pressure, judgment-free space, people can explore their thoughts together.
+
+
+      Many join for different reasons, with different backgrounds and points of view, but all are seeking to find whether Jesus and Christianity have any relevance for their life.
+
+
+      ## What Happens at Alpha?
+
+
+      Each week follows the same pattern. A fun, informal time of fellowship around a delicious meal, a talk highlighting an important part of Christian thinking, followed by honest small group discussion.
+
+
+      You will find yourself not only learning from the presentation but also realize that you are building genuine relationships through engaging in open dialog with your group. We love to say that Alpha is all about relationships. And to us, that’s a really good thing!
+
+
+      ## Questions of Life
+
+
+      Questions pondered at Alpha:
+
+
+      * What is the meaning of life?
+
+      * Who was Jesus really?
+
+      * Resurrection? Really?
+
+      * What’s the big deal about the Bible?
+
+      * Does God really heal?
+
+      * Does believing in God make any real difference?
+
+
+      These and many more will come up throughout the Alpha course.
 
 
       ![](img/9f2ed17b-5be4-a308-a412-5dd487803927.png)
@@ -119,6 +159,45 @@ sections:
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1
+  - type: Contact1
+    hide: false
+    map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13079.972502539167!2d-80.99647495338147!3d34.95678098181917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1666213161340!5m2!1sen!2sus
+    headline: This is a headline
+    text: This is a lengthier version of text. It contains more characters than the
+      headline.
+    markdown_content: >-
+      # Our Next Alpha Course
+
+
+      * 11 Wednesday evenings starting January 24th
+
+      * 6:30 PM-8:30 pm
+
+      * *Dinner provided*
+
+      * Questions &mdash; contact Melissa Miller (admin@resurrectionrockhill.org or 570-447-204)
+
+
+      **Location**
+
+
+      239 Hampton Street, Rock Hill, SC, 29732 (Meeting in the Ecclesia Construction building)
+
+
+      Parking located off of Johnson street on the side and back of building.
+    include_line: true
+    anchor: alpha-contact
+  - hide: false
+    button_url: https://docs.google.com/forms/d/e/1FAIpQLSfZIljlasIvvmIt-PauhKIpLzKGtH83cs9UurL7jQySYDHS4Q/viewform?pli=1
+    opacity: 0.7
+    image_url: https://images.unsplash.com/photo-1503516459261-40c66117780a
+    text_alignment: Left
+    subheadline: ""
+    headline: Register for the next alpha course
+    overlay_color: Charcoal
+    anchor: ""
+    button_text: Register now →
+    type: BannerWithButton
   - type: Spacer
     hide: false
     anchor: ""
@@ -184,19 +263,13 @@ sections:
         text: ""
   - type: Contact1
     hide: false
-    map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13079.972502539167!2d-80.99647495338147!3d34.95678098181917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1666213161340!5m2!1sen!2sus
-    headline: This is a headline
-    text: This is a lengthier version of text. It contains more characters than the
-      headline.
-    markdown_content: |-
-      # C﻿ome visit us
-
-      **W﻿eekly service**\
-      *S﻿undays 4pm*\
-      *1820 Eden Terrace,* \
-      *Rock Hill, SC 29730*
+    anchor: ""
+    map_url: https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed
     include_line: true
-    anchor: contact
+    markdown_content: |-
+      #This is a title
+
+      And this is some more text below the title
   - type: CalendarWithImage
     hide: false
     url: https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&mode=AGENDA&showNav=0&showPrint=0&showTabs=0&showTz=0&showCalendars=0&src=cmVzdXJyZWN0aW9ucm9ja2hpbGwub3JnX2ZudjRpajlrbmM4aDdpcmM2b3BxZWlicWc0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%230B8043

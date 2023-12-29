@@ -71,6 +71,8 @@ sections:
       ### **In-person home visit: January 6, between 12-4 pm**
 
 
+
+
       ![](img/1a40742a-fa99-a562-21fe-e96a25933206.jpg)
     opacity: 0.7
     image_url: ""
@@ -175,7 +177,7 @@ sections:
 
       * *Dinner provided*
 
-      * Questions &mdash; contact Melissa Miller (admin@resurrectionrockhill.org or 570-447-204)
+      * Questions &mdash; contact Melissa Miller (admin@resurrectionrockhill.org or 570-447-2046)
 
 
       **Location**
@@ -188,7 +190,7 @@ sections:
     include_line: true
     anchor: alpha-contact
   - hide: false
-    button_url: https://docs.google.com/forms/d/e/1FAIpQLSfZIljlasIvvmIt-PauhKIpLzKGtH83cs9UurL7jQySYDHS4Q/viewform?pli=1
+    button_url: https://forms.gle/qAYFjHsZWe2YPn957
     opacity: 0.7
     image_url: https://images.unsplash.com/photo-1503516459261-40c66117780a
     text_alignment: Left

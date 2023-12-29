@@ -177,7 +177,7 @@ sections:
 
       * *Dinner provided*
 
-      * Questions &mdash; contact Melissa Miller (admin@resurrectionrockhill.org or 570-447-2046)
+      * Questions &mdash; contact Melissa Miller (alpha@resurrectionrockhill.org or 570-447-2046)
 
 
       **Location**

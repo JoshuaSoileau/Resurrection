@@ -171,7 +171,7 @@ sections:
       # Our Next Alpha Course
 
 
-      * 11 Wednesday evenings starting January 24th
+      * 10 Wednesday evenings starting January 24th
 
       * 6:30 PM-8:30 pm
 

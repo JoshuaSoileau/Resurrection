@@ -52,56 +52,8 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Medium
+    padding: Tiny
     overlay_color: Charcoal
-    anchor: ""
-    type: TextCenteredPlusLine1
-  - hide: false
-    alignment: left
-    markdown_content: >-
-      ## **Chalking the Doors**
-
-
-      On Epiphany, Father Bill will be visiting homes to "chalk the doors." Chalking the doors is an Epiphany tradition to literally *mark* the occasion! The tradition celebrates when the Magi visited Jesus, and is a way to receive God's blessing on our lives and homes, setting them apart as places of Christian hospitality. There are two options to participate.
-
-
-      ### [Please click here to sign up!](https://docs.google.com/forms/d/e/1FAIpQLSdB1AzgjY96yCVIcyjhbl-J4ABgH1EVsFBY6gpMaWokS0YD4w/viewform)
-
-
-      ### **In-person home visit: January 6, between 12-4 pm**
-
-
-
-
-      ![](img/1a40742a-fa99-a562-21fe-e96a25933206.jpg)
-    opacity: 0.7
-    image_url: ""
-    include_line: false
-    padding: Small
-    overlay_color: None
-    anchor: ""
-    type: TextCenteredPlusLine1
-  - hide: false
-    alignment: left
-    markdown_content: >-
-      ## Epiphany Party
-
-
-      To continue celebrating Epiphany together, after the chalking of the doors, the Scotts will be hosting their second annual Epiphany Party / Behold the Lamb of God livestream watch!
-
-
-      ### Bring a dish to share and join us for this fun tradition!
-
-
-      ## **January 6 | 5pm**
-
-
-      ![](img/aaa1bc0b-99ad-e968-933d-3dc5c90f6985.jpg)
-    opacity: 0.7
-    image_url: ""
-    include_line: false
-    padding: Small
-    overlay_color: Gray
     anchor: ""
     type: TextCenteredPlusLine1
   - hide: false
@@ -157,7 +109,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: false
-    padding: Small
+    padding: Tiny
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1

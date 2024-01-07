@@ -218,12 +218,18 @@ sections:
   - type: Contact1
     hide: false
     anchor: ""
-    map_url: https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed
+    map_url: <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d294.08082805671523!2d-81.00403324193506!3d34.95694121968127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88568c74b4684edd%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1704636750593!5m2!1sen!2sus"
+      width="600" height="450" style="border:0;" allowfullscreen=""
+      loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     include_line: true
     markdown_content: |-
-      #This is a title
+      # C﻿ome visit us
 
-      And this is some more text below the title
+      **W﻿eekly service**\
+      *S﻿undays 4pm*\
+      *1820 Eden Terrace,*\
+      *Rock Hill, SC 29730*
   - type: CalendarWithImage
     hide: false
     url: https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&mode=AGENDA&showNav=0&showPrint=0&showTabs=0&showTz=0&showCalendars=0&src=cmVzdXJyZWN0aW9ucm9ja2hpbGwub3JnX2ZudjRpajlrbmM4aDdpcmM2b3BxZWlicWc0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%230B8043

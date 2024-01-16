@@ -23,7 +23,7 @@ sections:
         title: Planting Pastor/Rector
       - image_url: img/IMG_0882-scaled.jpeg
         name: Rev. Jean Roach
-        title: Deacon and Prayer Ministry Lead
+        title: Deacon (on sabbatical)
       - image_url: img/IMG_0889-scaled.jpeg
         name: Kate Orton
         title: Worship Director and Parish Administrator

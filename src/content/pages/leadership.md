@@ -52,7 +52,7 @@ sections:
       This team will transition to a traditional vestry once we move from a mission to a parish
 
 
-      Daniel McGregor
+      Joe Mester
 
 
       Melissa Miller
@@ -67,7 +67,7 @@ sections:
       Joshua Soileau
 
 
-      Cynthia White
+      Nick Wimmer
 
 
       Susan Killingsworth, Treasurer

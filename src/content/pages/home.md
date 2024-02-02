@@ -57,6 +57,54 @@ sections:
     anchor: ""
     type: TextCenteredPlusLine1
   - hide: false
+    alignment: center
+    markdown_content: >-
+      Traditionally, communities have gathered together the night before Ash
+      Wednesday for a feast before the Lenten fasts begin. At Resurrection we
+      carry on that tradition with a pancake dinner! Join us on February 13 for
+      a huge breakfast feast, not just pancakes! We will have all the good
+      stuff: bacon and sausage, eggs, coffee. The church will provide the main
+      foods, and we are asking folks to bring some toppings: butter, syrup,
+      other pancake toppings. \
+
+      \
+
+      Join us afterwards for a liturgy of the burning of the palms for the imposition of ashes the following day. *Fun Fact: the ashes used on Ash Wednesday are burnt palms from Palm Sunday of the previous year!*\
+
+      \
+
+      **February 13 | 6pm | 1820 Eden Terrace**
+
+
+      ![](img/584b4f1c-e5e0-3d67-adf6-b058431f8f4f.jpg)
+    opacity: 0.7
+    image_url: ""
+    include_line: true
+    padding: Large
+    overlay_color: Charcoal
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - hide: false
+    alignment: center
+    markdown_content: >-
+      We will be having two Ash Wednesday services this year, so please join us
+      for whichever is preferable for you: 7 am, 6pm. Join us as we begin this
+      season of repentance & preparation and partake in a holy Lent together.\
+
+      \
+
+      **February 14 | 6pm | 1820 Eden Terrace**
+
+
+      ![](img/b881abf7-3bbe-550c-e365-7984e7b64507.jpg)
+    opacity: 0.7
+    image_url: ""
+    include_line: true
+    padding: Large
+    overlay_color: Charcoal
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - hide: false
     alignment: left
     markdown_content: >-
       ## Alpha has begun!

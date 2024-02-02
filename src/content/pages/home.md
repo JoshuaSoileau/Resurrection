@@ -80,7 +80,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Large
+    padding: Tiny
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1
@@ -100,7 +100,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Large
+    padding: Tiny
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1
@@ -156,7 +156,7 @@ sections:
       ![](img/9f2ed17b-5be4-a308-a412-5dd487803927.png)
     opacity: 0.7
     image_url: ""
-    include_line: false
+    include_line: true
     padding: Tiny
     overlay_color: Charcoal
     anchor: ""

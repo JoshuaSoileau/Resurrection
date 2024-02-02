@@ -59,7 +59,7 @@ sections:
   - hide: false
     alignment: left
     markdown_content: >-
-      ## Alpha starting soon
+      ## Alpha has begun!
 
 
       Are you curious? Perhaps skeptical? Or maybe you are just seeking some answers to life’s deeper questions. If those resonate with you at all…

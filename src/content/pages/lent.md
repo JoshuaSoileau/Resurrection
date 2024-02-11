@@ -2,109 +2,53 @@
 title: Lent
 slug: lent
 sections:
-  - button_url: ''
-    opacity: 0.5
-    image_url: img/IMG_8576.JPG
-    text: ''
-    headline: New Here?
+  - button_url: ""
+    opacity: 0.3
+    image_url: img/jon-tyson-OPR_kr4eU-c-unsplash-scaled-e1656592832555.jpg
+    text: Long Days to Shine
+    headline: Lent
     overlay_color: Charcoal
-    button_text: ''
+    button_text: ""
     type: Hero1
-    logo_url: ''
-  - type: TextCenteredPlusLine1
-    hide: false
-    include_line: true
-    dark_mode: true
-    alignment: center
-    markdown_content: >-
-      # Welcome!
-
-
-      W﻿e're so glad you're here. If it's your first time visiting, here's a little info to help get you acquainted with what to expect.
-    overlay_color: Charcoal
-    padding: Medium
+    logo_url: ""
   - hide: false
-    alignment: Image on left
-    markdown_content: >-
-      # S﻿unday worship
-
-
-      Worship begins promptly at 4:00pm at Rogers Memorial ARP Church at 1820 Eden Terrace, Rock Hill, SC 29730 (across from Sullivan Middle School).
-    image_url: img/z-cropped-IMG_0879-scaled-1.jpeg
-    include_line: true
-    background_color: White
-    text_size: Large
-    type: ImagePlusTextFullBleed1
-    max_content: false
-  - hide: false
-    alignment: Image on right
-    markdown_content: >-
-      When you arrive, greeters will be happy to show you where to go! If you
-      have a little one, someone will show you where the children go for
-      children’s church but the children start and finish with us in the
-      sanctuary.
-
-
-      Our greeters will offer you a gift as well as a copy of the [Book of Common Prayer](https://bcp2019.anglicanchurch.net/) (if you prefer to hold a book instead of use the screens). They’ll also answer any questions you may have and introduce you to our pastor.
-    image_url: img/IMG_8548.jpeg
-    include_line: false
-    background_color: White
-    text_size: Large
-    type: ImagePlusTextFullBleed1
-    max_content: false
-  - type: TextCenteredPlusLine1
-    hide: false
-    include_line: true
-    alignment: left
-    markdown_content: >-
-      # Worship Music
-
-
-      Musically, the worship service will be blended with both old and new (a fancy term would be “ancient-future”). We will sing hymns regularly but also the most recent worship songs.
-
-
-      O﻿ur worship leaders curate our songs to fit the season and best instill the Holy Spirit in our congregation.
-    image_url: img/pedro-lima-HtwsbbClBOs-unsplash-scaled.jpg
-    overlay_color: Charcoal
-    opacity: 0.2
-  - type: TextCenteredPlusLine1
-    hide: false
-    include_line: true
-    alignment: left
-    markdown_content: >-
-      # What happens during worship?
-
-
-      Our worship services are completely drawn from scripture and are rooted in ancient traditions almost as old the Church herself. These services follow a calendar that moves us through seasons of remembering our Savior’s story that impacts our story. Our worship services flow through the same parts every week:
-
-
-      1. Celebrating entering God’s presence. We do this by singing songs celebrating God’s presence in our midst, remembering Christ’s summary of what it means to be a part of the Church and praying together for the rest of the service.
-
-      2. Hearing God’s word. We read a lot of God’s word. We hear an Old Testament passage, we recite a Psalm passage, we hear a New Testament epistle passage. The reading of God’s word culminates in hearing a passage from one of the four Gospels. And we do this by hearing the reading from the middle of the congregation, a memorial of the fact that our Savior came into our midst and walked among us to save us.
-
-      3. Responding to God’s word. We do several things in our response to God’s word. It starts with a sermon on one of the passages read. Our response continues with reciting the Nicene Creed to remind us in whom we believe. We pray for ourselves and others, we confess our sins and hear that we are forgiven and we take a moment to share peace and love with others in the congregation.
-
-      4. Feasting at the Son’s Table. Celebrating the Eucharist (Lord’s Supper/ Holy Communion) every week is very essential to us. Instituted by our Lord and Savior the night he was handed over to die for our sins, this remembrance fills us physically and spiritually as we once again look to the truth that Jesus died for us and through him we are reconciled to the Father.
-
-      5. Going to serve God. We thank God for feeding us, we receive a blessing and we celebrate that God sends us out into the world, to do what St. Francis of Assisi wrote: “We are called to heal wounds, we are called to unite what is broken, and we are called to lead home those who have lost their way.”
-    image_url: ''
-    overlay_color: None
-    opacity: 0.7
-  - hide: false
-    alignment: center
-    markdown_content: "# W﻿e can't wait to meet you!"
+    alignment: right
+    markdown_content: "### \\- by Nicholas Wimmer"
     opacity: 0.1
-    image_url: img/243169684_4115493155244187_5333892671376568698_n.jpeg
+    image_url: img/pedro-lima-HtwsbbClBOs-unsplash-scaled.jpg
     include_line: false
-    padding: Small
+    padding: Tiny
     overlay_color: Charcoal
     type: TextCenteredPlusLine1
+  - type: TextCenteredPlusLine1
+    hide: false
+    include_line: true
+    alignment: left
+    markdown_content: >-
+      # Do you know what Lent means?
+
+
+      Etymology (the study of the meaning and use of a word) is like chasing a rabbit down a series of burrows and tunneling in every direction possible in hope of getting to it’s foundational meaning. You trust that whoever did the tedious work of researching root words and declensions over centuries of multiple languages had some clear direction and determination to their work. But defining the meaning of a word does appear to have some aimlessness to it and requires a bit of patience and wonder in the process.
+
+
+      I do not claim to be an etymologist or even an English major… but I do like words. When I started looking at the origins of Lent and what the word actually means I was amazed at how it came into existence, what it points to in scripture and Church history, and it’s implications for life with the Spirit today. Lent comes from an Old English word, Lenten, that was used around the 14th century in Western Europe. If you look it up, most dictionaries will tell you it means “to lengthen”. The suggestion is that these are the spring days from late-February to early April that tend to lengthen as we get closer to summer. The root word for day in Latin comes from a Slavic word- Dini or Deyu; which means “to shine”. 
+
+
+      Like most religious practices that emerged throughout the dark ages in Europe, I get a strong sense that there are some unhealthy religious underpinnings to why Lent was enforced on saints and sinners alike. The traditional season of Lent follows Epiphany in the church calendar and lasts around forty days to harken the forty days of fasting that Jesus experienced in the desert. The purpose of Lent is the preparation of the believer for Holy Week, with it’s pinnacle in the resurrection of Jesus.  Through prayer, acts of penance, repentance of sins, giving of time, talent, and finaces, and the denial of self and pleasure, believers from all over the world enter into a season of preparation and anticipation. But why are these acts or actions important for preparing us for the resurrection of Jesus?
+
+
+      I’m not against fasting, prayer, giving, or repentance… these are all part of the daily discipline and practices of being a Christ-follower. But what makes this season of Lent so significant? Unlike so many other holidays, Lent is not about consumption, self-absorption, and commercialism. It’s about doing less, removing the clutter, and changing some patterns and habits in our lives. It is unpopular, unmarketable and quite honestly it’s inconvenient. There is a natural reluctance to such disciplines because they are quite honestly… hard to do.  So what is gained as we choose in obedience to have a few weeks where we do less, eat and drink less, and spend more time in concentration and meditation on the person of Jesus? 
+
+
+      We are “peculiar people”. We march to the beat of a different drum… His drum. And by entering into a different daily and weekly rhythm, we align ourselves to God’s way of living and learning so that we can better understand who He is, how He made us and what this abiding life with Him really looks like. Forty is Biblically important for a lot of reasons. It represents a time of trial or hardship. We see this in narratives such as Noah and the flood, the Hebrews’ journey in the wilderness, Moses on Mt. Sinai and of course Jesus in the desert. There are not set rules to what we choose to do during these Lenten days but I believe and have witnessed personally that when we choose to participate in these ancient rhythms something tremendous happens. We begin to declutter the busyness of our lives, recalibrate and find a deeper sense of joy and peace. These Long Days to Shine is an invitation to each of us to partake in the paradox of momentary suffering that brings about a richer vitality in our relationship with God.
+    image_url: ""
+    overlay_color: None
+    opacity: 0.7
   - type: Contact1
     hide: false
     map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13079.972502539167!2d-80.99647495338147!3d34.95678098181917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1666213161340!5m2!1sen!2sus
     headline: This is a headline
-    text:
-      This is a lengthier version of text. It contains more characters than the
+    text: This is a lengthier version of text. It contains more characters than the
       headline.
     markdown_content: |-
       # C﻿ome visit us
@@ -126,9 +70,9 @@ sections:
   - hide: false
     button_url: https://google.com
     opacity: 0.7
-    image_url: ''
+    image_url: ""
     text_alignment: Left
-    subheadline: ''
+    subheadline: ""
     headline: Or catch up with past newsletters.
     overlay_color: Charcoal
     button_text: Read previous editions
@@ -161,5 +105,5 @@ sections:
       - text: About
         url: /new-here
       - text: Contact
-        url: '#contact'
+        url: "#contact"
 ---

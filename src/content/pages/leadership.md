@@ -24,6 +24,9 @@ sections:
       - image_url: img/IMG_0882-scaled.jpeg
         name: Rev. Jean Roach
         title: Deacon (on sabbatical)
+      - image_url: img/img_2993.jpeg
+        name: Rev. Daniel McGregor
+        title: Transitional Deacon
       - image_url: img/IMG_0889-scaled.jpeg
         name: Kate Orton
         title: Worship Director and Parish Administrator

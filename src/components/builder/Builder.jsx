@@ -13,6 +13,7 @@ import ImagePlusTextStylized from 'sections/ImagePlusTextStylized/ImagePlusTextS
 import Spacer from 'sections/Spacer/Spacer';
 import Teams from 'sections/Teams/Teams';
 import TextCenteredPlusLine1 from 'sections/TextCenteredPlusLine1/TextCenteredPlusLine1';
+import YoutubeVideo from 'sections/YoutubeVideo/YoutubeVideo';
 
 const Types = {
   BannerWithButton: BannerWithButton,
@@ -29,6 +30,7 @@ const Types = {
   Spacer: Spacer,
   Teams: Teams,
   TextCenteredPlusLine1: TextCenteredPlusLine1,
+  YoutubeVideo: YoutubeVideo,
 };
 
 export default function Builder({ type, ...props }) {

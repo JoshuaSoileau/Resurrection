@@ -12,6 +12,7 @@ import ImagePlusTextStylized from 'sections/ImagePlusTextStylized/ImagePlusTextS
 import Spacer from 'sections/Spacer/Spacer.field.json';
 import Teams from 'sections/Teams/Teams.field.json';
 import TextCenteredPlusLine1 from 'sections/TextCenteredPlusLine1/TextCenteredPlusLine1.field.json';
+import YoutubeVideo from 'sections/YoutubeVideo/YoutubeVideo.field.json';
 
 const CONFIG = [
   BannerWithButton,
@@ -28,6 +29,7 @@ const CONFIG = [
   Spacer,
   Teams,
   TextCenteredPlusLine1,
+  YoutubeVideo,
 ];
 
 export default CONFIG;

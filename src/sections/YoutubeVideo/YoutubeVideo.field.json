@@ -1,0 +1,36 @@
+{
+  "label": "[Video] YouTube Video",
+  "name": "YoutubeVideo",
+  "widget": "object",
+  "fields": [
+    {
+      "label": "Hide",
+      "name": "hide",
+      "widget": "boolean",
+      "default": false,
+      "required": false
+    },
+    {
+      "label": "Anchor link url",
+      "name": "anchor",
+      "widget": "string",
+      "default": "",
+      "required": false
+    },
+    {
+      "label": "YouTube Video Embed HTML",
+      "name": "embed_html",
+      "widget": "text",
+      "default": "",
+      "required": true
+    },
+    {
+      "label": "Padding",
+      "name": "padding",
+      "widget": "select",
+      "options": ["Large", "Medium", "Small", "None"],
+      "default": "Large",
+      "required": false
+    }
+  ]
+}

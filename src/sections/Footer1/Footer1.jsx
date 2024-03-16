@@ -1,3 +1,4 @@
+import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
 import tw from 'twin.macro';
 import getNavigationItems from 'utils/getNavigationItems';
 
@@ -39,9 +40,31 @@ export default function Footer1({
         </ul>
       </div>
       <hr tw="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <span tw="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-        {disclaimer}
-      </span>
+      <div tw="sm:flex sm:items-center sm:justify-between">
+        <span tw="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          {disclaimer}
+        </span>
+        <div tw="flex mt-4 space-x-6 sm:justify-center sm:mt-0 px-4">
+          <a
+            href="https://www.facebook.com/resurrectionrockhill/"
+            tw="text-gray-500 hover:text-white"
+          >
+            <FaFacebook tw="w-6 h-6" />
+          </a>
+          <a
+            href="https://www.instagram.com/resurrectionrockhill/"
+            tw="text-gray-500 hover:text-white"
+          >
+            <FaInstagram tw="w-6 h-6" />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCKAPTHGrY1Wb5zHQKdsbAeg"
+            tw="text-gray-500 hover:text-white"
+          >
+            <FaYoutube tw="w-6 h-6" />
+          </a>
+        </div>
+      </div>
     </footer>
   );
 }

@@ -57,6 +57,58 @@ sections:
     anchor: ""
     type: TextCenteredPlusLine1
   - hide: false
+    alignment: center
+    markdown_content: >-
+      ![](img/a6a9ef0f-37e6-00cb-cbb4-c13a3c731378-2.jpg)
+
+
+      Although we are in the midst of Lent, ahead of us lies the most important week of our liturgical year... **Holy Week**. 
+
+
+      Our Holy services this year include: 
+
+
+      * March 24 - Palm Sunday - 4:00pm
+
+      * March 28 - Maundy Thursday - 6:30pm
+
+      * March 29 - Good Friday - 6:30pm 
+
+      * March 30 - Easter Vigil - 6:30pm
+
+      * March 31 - Easter Sunday - 4:00pm
+    opacity: 0.7
+    image_url: img/a6a9ef0f-37e6-00cb-cbb4-c13a3c731378-2.jpg
+    include_line: false
+    padding: Small
+    overlay_color: Charcoal
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - hide: false
+    alignment: center
+    markdown_content: >-
+      ![](img/c2ba9be2-8367-9f45-1f43-283ea08bd037-2.jpg)
+
+
+      **Join us for our annual Easter Egg Hunt and family picnic on Easter morning!** \
+
+      \
+
+      ~ BYO picnic lunch and some chairs or picnic blankets\
+
+      ~ postponed to the following Saturday if bad weather is forecast\
+
+      ~ pre-filled egg donations greatly appreciated! drop off at church by Palm Sunday\
+
+      ~ visiting family and friends are always welcome!
+    opacity: 0.7
+    image_url: ""
+    include_line: true
+    padding: Large
+    overlay_color: Charcoal
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - hide: false
     alignment: left
     markdown_content: >-
       ## Alpha has begun!
@@ -113,45 +165,6 @@ sections:
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1
-  - type: Contact1
-    hide: false
-    map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.3352198213915!2d-81.02813189999999!3d34.92312890000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885688545c598c4d%3A0xac85096998526680!2s239%20Hampton%20St%2C%20Rock%20Hill%2C%20SC%2029730!5e0!3m2!1sen!2sus!4v1703799319472!5m2!1sen!2sus
-    headline: This is a headline
-    text: This is a lengthier version of text. It contains more characters than the
-      headline.
-    markdown_content: >-
-      # Our Next Alpha Course
-
-
-      * 10 Wednesday evenings starting January 24th
-
-      * 6:30 PM-8:30 pm
-
-      * *Dinner provided*
-
-      * Questions &mdash; contact Melissa Miller (alpha@resurrectionrockhill.org or 570-447-2046)
-
-
-      **Location**
-
-
-      239 Hampton Street, Rock Hill, SC, 29732 (Meeting in the Ecclesia Construction building)
-
-
-      Parking located off of Johnson street on the side and back of building.
-    include_line: true
-    anchor: alpha-contact
-  - hide: false
-    button_url: https://forms.gle/qAYFjHsZWe2YPn957
-    opacity: 0.7
-    image_url: https://images.unsplash.com/photo-1503516459261-40c66117780a
-    text_alignment: Left
-    subheadline: ""
-    headline: Register for the next alpha course
-    overlay_color: Charcoal
-    anchor: ""
-    button_text: Register now →
-    type: BannerWithButton
   - type: Spacer
     hide: false
     anchor: ""

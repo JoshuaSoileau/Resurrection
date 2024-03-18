@@ -59,24 +59,26 @@ sections:
   - hide: false
     alignment: center
     markdown_content: >-
-      ![](img/a6a9ef0f-37e6-00cb-cbb4-c13a3c731378-2.jpg)
+      **Although we are in the midst of Lent, ahead of us lies the most
+      important week of our liturgical year... Holy Week.** 
 
 
-      Although we are in the midst of Lent, ahead of us lies the most important week of our liturgical year... **Holy Week**. 
+      **Our Holy services this year include:** 
 
 
-      Our Holy services this year include: 
+      **March 24 - Palm Sunday - 4:00pm**
 
 
-      * March 24 - Palm Sunday - 4:00pm
+      **March 28 - Maundy Thursday - 6:30pm**
 
-      * March 28 - Maundy Thursday - 6:30pm
 
-      * March 29 - Good Friday - 6:30pm 
+      **March 29 - Good Friday - 6:30pm** 
 
-      * March 30 - Easter Vigil - 6:30pm
 
-      * March 31 - Easter Sunday - 4:00pm
+      **March 30 - Easter Vigil - 6:30pm**
+
+
+      **March 31 - Easter Sunday - 4:00pm**
     opacity: 0.7
     image_url: img/a6a9ef0f-37e6-00cb-cbb4-c13a3c731378-2.jpg
     include_line: false
@@ -104,7 +106,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Large
+    padding: Small
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1

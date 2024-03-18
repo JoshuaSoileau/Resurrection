@@ -83,7 +83,7 @@ sections:
       **March 31 - Easter Sunday - 4:00pm**
     opacity: 0.7
     image_url: ""
-    include_line: false
+    include_line: true
     padding: Small
     overlay_color: Charcoal
     anchor: ""

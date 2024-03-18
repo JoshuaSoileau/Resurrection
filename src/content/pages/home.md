@@ -59,8 +59,10 @@ sections:
   - hide: false
     alignment: center
     markdown_content: >-
-      **Although we are in the midst of Lent, ahead of us lies the most
-      important week of our liturgical year... Holy Week.** 
+      ![](img/a6a9ef0f-37e6-00cb-cbb4-c13a3c731378-2.jpg)
+
+
+      **Although we are in the midst of Lent, ahead of us lies the most important week of our liturgical year... Holy Week.** 
 
 
       **Our Holy services this year include:** 
@@ -80,7 +82,7 @@ sections:
 
       **March 31 - Easter Sunday - 4:00pm**
     opacity: 0.7
-    image_url: img/a6a9ef0f-37e6-00cb-cbb4-c13a3c731378-2.jpg
+    image_url: ""
     include_line: false
     padding: Small
     overlay_color: Charcoal
@@ -107,63 +109,6 @@ sections:
     image_url: ""
     include_line: true
     padding: Small
-    overlay_color: Charcoal
-    anchor: ""
-    type: TextCenteredPlusLine1
-  - hide: false
-    alignment: left
-    markdown_content: >-
-      ## Alpha has begun!
-
-
-      Are you curious? Perhaps skeptical? Or maybe you are just seeking some answers to life’s deeper questions. If those resonate with you at all…
-
-
-      Alpha is for you.
-
-
-      Alpha is a series of gatherings that explore the Christian faith. In a no-pressure, judgment-free space, people can explore their thoughts together.
-
-
-      Many join for different reasons, with different backgrounds and points of view, but all are seeking to find whether Jesus and Christianity have any relevance for their life.
-
-
-      ## What Happens at Alpha?
-
-
-      Each week follows the same pattern. A fun, informal time of fellowship around a delicious meal, a talk highlighting an important part of Christian thinking, followed by honest small group discussion.
-
-
-      You will find yourself not only learning from the presentation but also realize that you are building genuine relationships through engaging in open dialog with your group. We love to say that Alpha is all about relationships. And to us, that’s a really good thing!
-
-
-      ## Questions of Life
-
-
-      Questions pondered at Alpha:
-
-
-      * What is the meaning of life?
-
-      * Who was Jesus really?
-
-      * Resurrection? Really?
-
-      * What’s the big deal about the Bible?
-
-      * Does God really heal?
-
-      * Does believing in God make any real difference?
-
-
-      These and many more will come up throughout the Alpha course.
-
-
-      ![](img/9f2ed17b-5be4-a308-a412-5dd487803927.png)
-    opacity: 0.7
-    image_url: ""
-    include_line: true
-    padding: Tiny
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1

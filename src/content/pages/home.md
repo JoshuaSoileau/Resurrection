@@ -41,7 +41,7 @@ sections:
     image_url: ""
     include_line: true
     padding: Medium
-    overlay_color: Gray
+    overlay_color: None
     anchor: ""
     type: TextCenteredPlusLine1
   - type: Spacer

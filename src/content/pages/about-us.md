@@ -21,6 +21,9 @@ sections:
       # Our mission
 
 
+      ## Experience the Trinity... Embody community... Engage the City
+
+
       We believe that God’s rescue plan is extravagant. Jesus’ life, death and resurrection saves us from our sins and allows us to be in relationship with the Triune God. Salvation brings the indwelling of the Holy Spirit, uniting us to Jesus Christ and sealing us as sons and daughters of the Father. We gather on Sundays to corporately praise Father, Son and Spirit, lifting up our voices and hearts in celebration. But we also gather to prepare us participate in God’s Mission. Basking in the love that is the Trinity, growing in relationship with God and Church, prepares us, fills us, gifts us with the stamina, the desire, the clarity on how to rightly engage the larger community, taking the light into the darkness, showing the world God’s extravagant love.
     overlay_color: Charcoal
     padding: Medium
@@ -37,11 +40,6 @@ sections:
   - hide: false
     alignment: left
     markdown_content: >-
-      We invite ALL people to experience God’s presence by receiving the LOVE of
-      the Father, living in the GRACE of Jesus, and surrendering to the POWER of
-      the Spirit. God will accomplish this through our mission.
-
-
       ## Experience the Trinity
 
 

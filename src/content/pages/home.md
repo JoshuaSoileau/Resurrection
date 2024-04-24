@@ -72,8 +72,6 @@ sections:
       We offer nursery and children’s church where there are age-appropriate lessons and activities for preschool-5th grade. This takes place during the scripture reading and sermon.
 
 
-
-
       They do participate with the rest of us during the other parts of the service, particularly communion. We feel this is a good balance to keep them active and engaged, assisting in their spiritual formation, as well as giving their parents an opportunity to worship.
     image_url: img/IMG_8833.jpeg
     include_line: true

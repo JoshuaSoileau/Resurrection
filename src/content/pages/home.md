@@ -126,7 +126,19 @@ sections:
     alignment: Image on left
     image_url: img/IMG_8881.jpeg
     background_color: White
-    markdown_content: "# Current events"
+    markdown_content: >-
+      # Current events
+
+
+
+
+      ```html
+
+      <iframe src="https://embed.styledcalendar.com/#geTD6ElpMFY9QVepATVU" title="Styled Calendar" class="styled-calendar-container" style="width: 100%; border: none;" data-cy="calendar-embed-iframe"></iframe>
+
+      <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
+
+      ```
   - type: ContactEmailSignup
     hide: false
     headline: Subscribe to our newsletter

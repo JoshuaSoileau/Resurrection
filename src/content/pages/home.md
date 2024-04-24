@@ -119,24 +119,12 @@ sections:
       *Rock Hill, SC 29730*
   - type: CalendarWithImage
     hide: false
-    url: https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&mode=AGENDA&showNav=0&showPrint=0&showTabs=0&showTz=0&showCalendars=0&src=cmVzdXJyZWN0aW9ucm9ja2hpbGwub3JnX2ZudjRpajlrbmM4aDdpcmM2b3BxZWlicWc0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%230B8043
+    url: https://resurrectionrh.churchcenter.com/calendar?embed=true&view=list
     include_line: true
     alignment: Image on left
     image_url: img/IMG_8881.jpeg
     background_color: White
-    markdown_content: >-
-      # Current events
-
-
-
-
-      ```html
-
-      <iframe src="https://embed.styledcalendar.com/#geTD6ElpMFY9QVepATVU" title="Styled Calendar" class="styled-calendar-container" style="width: 100%; border: none;" data-cy="calendar-embed-iframe"></iframe>
-
-      <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
-
-      ```
+    markdown_content: "# Current events"
   - type: ContactEmailSignup
     hide: false
     headline: Subscribe to our newsletter

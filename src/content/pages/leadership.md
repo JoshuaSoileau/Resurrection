@@ -23,7 +23,7 @@ sections:
         title: Planting Pastor/Rector
       - image_url: img/IMG_0882-scaled.jpeg
         name: Rev. Jean Roach
-        title: Deacon (on sabbatical)
+        title: Deacon
       - image_url: img/img_2993.jpeg
         name: Rev. Daniel McGregor
         title: Transitional Deacon

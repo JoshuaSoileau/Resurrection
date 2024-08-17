@@ -105,8 +105,24 @@ sections:
         text: ""
       - image_url: img/243240976_4115467808580055_3709599852756987891_n.jpeg
         text: ""
+  - hide: false
+    alignment: right
+    markdown_content: |-
+      # C﻿ome visit us
+
+      **W﻿eekly service**\
+      *S﻿undays 4pm*\
+      *1820 Eden Terrace*\
+      *Rock Hill, SC 29730*
+    opacity: 0.7
+    image_url: img/IMG_0879-scaled.jpeg
+    include_line: true
+    padding: Large
+    overlay_color: Charcoal
+    anchor: ""
+    type: TextCenteredPlusLine1
   - type: Contact1
-    hide: false
+    hide: true
     anchor: contact
     map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13079.972502539167!2d-80.99647495338147!3d34.95678098181917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1666213161340!5m2!1sen!2sus
     include_line: true
@@ -115,7 +131,7 @@ sections:
 
       **W﻿eekly service**\
       *S﻿undays 4pm*\
-      *1820 Eden Terrace,*\
+      *1820 Eden Terrace*\
       *Rock Hill, SC 29730*
   - type: CalendarWithImage
     hide: false

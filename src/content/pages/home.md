@@ -37,6 +37,9 @@ sections:
 
 
       Rev. Bill Scott
+
+
+      **[Let's have coffee!](https://billscott.youcanbook.me/)**
     opacity: 0.7
     image_url: ""
     include_line: true

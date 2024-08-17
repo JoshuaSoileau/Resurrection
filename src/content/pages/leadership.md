@@ -83,8 +83,8 @@ sections:
     type: TextCenteredPlusLine1
   - items:
       - image_url: img/DSCF0500_websize.jpg
-        name: Rt. Rev. Steve Wood
-        title: Diocesan Bishop
+        name: The Most Rev. Steve Wood
+        title: Diocesan Bishop and Archbishop of ACNA
       - image_url: img/DSCF0491_websize.jpg
         name: Rt. Rev. David Bryan
         title: Suffragan and SC Area Bishop

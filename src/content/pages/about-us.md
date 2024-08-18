@@ -178,21 +178,6 @@ sections:
 
 
       Perhaps one of the most unique features of Anglican spirituality is the [Book of Common Prayer](https://bcp2019.anglicanchurch.net/), an ancient prayer book compiled by Archbishop Thomas Cranmer during the Reformation in 16th century England. While other Reformation era churches developed confessional statements of faith, the Anglican church developed a Prayer Book to guide and shape our beliefs and practices. The Prayer Book is fundamentally pastoral and holistic rather than abstract and theoretical. Cranmer, by shaping the prayers around the Word of God, helped to shape future generations of Anglicans by grounding them in the rhythms, language, and cadence of our ancient faith.
-  - type: Contact1
-    hide: false
-    map_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13079.972502539167!2d-80.99647495338147!3d34.95678098181917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0c91ab7c5b8691d!2sResurrection%20Anglican%20Church!5e0!3m2!1sen!2sus!4v1666213161340!5m2!1sen!2sus
-    headline: This is a headline
-    text: This is a lengthier version of text. It contains more characters than the
-      headline.
-    markdown_content: |-
-      # C﻿ome visit us
-
-      **W﻿eekly service**\
-      *S﻿undays 4pm*\
-      *1820 Eden Terrace,* \
-      *Rock Hill, SC 29730*
-    include_line: true
-    anchor: contact
   - type: ContactEmailSignup
     hide: false
     headline: Subscribe to our newsletter

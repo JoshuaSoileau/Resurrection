@@ -66,6 +66,12 @@ sections:
       * ### Share your thoughts and hear from others
 
 
+      ## We're excited to host another Alpha series beginning on September 18. 
+
+
+      ## We'll meet at 6pm at Rock Hill Coffee located at 139 East Main Street
+
+
       ## Watch the video below and sign up [here](https://forms.gle/gX1mZxy14a3AgxnX9)
     opacity: 0.7
     image_url: ""

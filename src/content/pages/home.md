@@ -50,6 +50,40 @@ sections:
   - type: Spacer
     hide: false
     anchor: ""
+  - hide: false
+    alignment: center
+    markdown_content: >-
+      # ***Join a conversation...***
+
+
+      ## Alpha is a series of group conversations that explore the basics of the Christian faith. Everyone's welcome. You're invited, no matter your background or beliefs.
+
+
+      * ### Connect with new people
+
+      * ### Watch an episode on a question of faith
+
+      * ### Share your thoughts and hear from others
+
+
+      ## Watch the video below and sign up [here](https://forms.gle/gX1mZxy14a3AgxnX9)
+    opacity: 0.7
+    image_url: ""
+    include_line: true
+    padding: Tiny
+    overlay_color: None
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - type: YoutubeVideo
+    hide: false
+    anchor: ""
+    embed_html: <iframe title="vimeo-player"
+      src="https://player.vimeo.com/video/509966561?h=7dffc406ce" width="640"
+      height="360" frameborder="0"    allowfullscreen></iframe>
+    padding: None
+  - type: Spacer
+    hide: false
+    anchor: ""
   - type: ImageInThreeColumns
     hide: false
     items:

@@ -134,7 +134,7 @@ sections:
     button_text: Read previous editions
     type: BannerWithButton
   - type: TextCenteredPlusLine1
-    hide: false
+    hide: true
     include_line: false
     alignment: left
     markdown_content: >-

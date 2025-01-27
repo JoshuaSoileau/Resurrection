@@ -27,6 +27,9 @@ sections:
       - image_url: img/img_2993.jpeg
         name: Rev. Daniel McGregor
         title: Transitional Deacon
+      - image_url: img/z-Group-19-2.png
+        name: Jen Snow
+        title: Deacon
       - image_url: img/IMG_0889-scaled.jpeg
         name: Kate Orton
         title: Worship Director and Parish Administrator

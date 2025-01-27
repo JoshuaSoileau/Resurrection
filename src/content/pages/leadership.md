@@ -55,25 +55,22 @@ sections:
       This team will transition to a traditional vestry once we move from a mission to a parish
 
 
-      Joe Mester
+      Joe Mester - Senior Warden
 
 
-      Melissa Miller
+      Kim Allman - Junior Warden/Clerk
 
 
-      Scott Miller
+      Nick Wimmer - Treasurer
 
 
       Doyle Roach
 
 
+      Fred Shope
+
+
       Joshua Soileau
-
-
-      Nick Wimmer
-
-
-      Susan Killingsworth, Treasurer
     opacity: 0.7
     image_url: ""
     include_line: true

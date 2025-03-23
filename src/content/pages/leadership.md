@@ -51,27 +51,18 @@ sections:
     type: Teams
   - hide: false
     alignment: center
-    markdown_content: >-
-      # Leadership Team/Council of Advice
-
-
-      This team will transition to a traditional vestry once we move from a mission to a parish
-
+    markdown_content: |-
+      # Vestry
 
       Joe Mester - Senior Warden
 
-
       Kim Allman - Junior Warden/Clerk
-
 
       Nick Wimmer - Treasurer
 
-
       Doyle Roach
 
-
       Fred Shope
-
 
       Joshua Soileau
     opacity: 0.7

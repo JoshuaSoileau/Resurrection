@@ -17,7 +17,10 @@ sections:
     logo_url: img/z-logo-white-no-border.png
   - hide: false
     alignment: center
-    markdown_content: "# An Anglican Parish in Rock Hill, SC"
+    markdown_content: |-
+      # An Anglican Parish 
+
+      # in Rock Hill, SC
     opacity: 0.1
     include_line: true
     dark_mode: true

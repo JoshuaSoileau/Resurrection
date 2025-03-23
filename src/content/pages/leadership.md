@@ -20,7 +20,7 @@ sections:
   - items:
       - image_url: img/bill.webp
         name: Rev. Bill Scott
-        title: Planting Pastor/Rector
+        title: Pastor/Rector
       - image_url: img/IMG_0882-scaled.jpeg
         name: Rev. Jean Roach
         title: Deacon

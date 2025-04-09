@@ -46,13 +46,10 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Medium
+    padding: Small
     overlay_color: None
     anchor: ""
     type: TextCenteredPlusLine1
-  - type: Spacer
-    hide: false
-    anchor: ""
   - hide: false
     alignment: center
     markdown_content: |-
@@ -66,7 +63,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Large
+    padding: Medium
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1

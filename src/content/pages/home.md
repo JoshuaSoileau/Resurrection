@@ -53,11 +53,9 @@ sections:
   - hide: false
     alignment: center
     markdown_content: |-
-      Holy week at Resurrection:
+      ## **Holy week at Resurrection:**
 
       ![](img/holy-week-1.png)
-
-
 
       ![](img/holy-week-2-easter.png)
     opacity: 0.7

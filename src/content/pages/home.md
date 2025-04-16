@@ -136,7 +136,7 @@ sections:
       *1820 Eden Terrace*\
       *Rock Hill, SC 29730*
     opacity: 0.7
-    image_url: img/IMG_0879-scaled.jpeg
+    image_url: ""
     include_line: true
     padding: Large
     overlay_color: Charcoal

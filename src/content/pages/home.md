@@ -50,21 +50,6 @@ sections:
     overlay_color: None
     anchor: ""
     type: TextCenteredPlusLine1
-  - hide: false
-    alignment: center
-    markdown_content: |-
-      ## **Holy week at Resurrection:**
-
-      ![](img/holy-week-1.png)
-
-      ![](img/holy-week-2-easter.png)
-    opacity: 0.7
-    image_url: ""
-    include_line: true
-    padding: Medium
-    overlay_color: Charcoal
-    anchor: ""
-    type: TextCenteredPlusLine1
   - type: Spacer
     hide: false
     anchor: ""

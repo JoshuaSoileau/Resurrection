@@ -123,7 +123,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Large
+    padding: Small
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1

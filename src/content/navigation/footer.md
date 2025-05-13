@@ -2,10 +2,10 @@
 links:
   - text: Home
     url: /
-  - text: 'About '
+  - text: "About "
     url: /about-us
   - text: Contact us
-    url: /#contact
+    url: https://forms.gle/Tnnn7d6YFeDFnCKg7
   - text: Give
     url: /give
 ---

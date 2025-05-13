@@ -13,5 +13,5 @@ links:
   - text: Give
     url: /give
   - text: Contact us
-    url: /#contact
+    url: https://forms.gle/Tnnn7d6YFeDFnCKg7
 ---

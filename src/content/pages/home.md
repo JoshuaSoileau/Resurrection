@@ -53,6 +53,34 @@ sections:
   - type: Spacer
     hide: false
     anchor: ""
+  - hide: false
+    alignment: center
+    markdown_content: >-
+      ### ***Starting soon!***
+
+
+
+
+      ![](img/griefshare.zip-1.png)
+
+
+      For more information on the class and details on what Grief Share is please click the time you are interested in:
+
+
+      [Thursday mornings at 10am](https://www.griefshare.org/groups/264489)
+
+
+      [Thursday evenings at 6pm](https://www.griefshare.org/groups/267965)
+    opacity: 0.7
+    image_url: ""
+    include_line: false
+    padding: Large
+    overlay_color: Charcoal
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - type: Spacer
+    hide: false
+    anchor: ""
   - type: ImageInThreeColumns
     hide: false
     items:

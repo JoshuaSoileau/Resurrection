@@ -64,7 +64,7 @@ sections:
       ![](img/griefshare.zip-1.png)
 
 
-      ### For more information on the class and details on what Grief Share is please click the time you are interested in:
+      ### For more information on the class and details on what Grief Share is please select the time you are interested in:
 
 
       ### [Thursday mornings at 10am](https://www.griefshare.org/groups/264489)

@@ -59,7 +59,10 @@ sections:
       ![](img/griefshare.zip-1.png)
 
 
-      ### For more information on the class and details on what Grief Share is please select one of the following times:
+      # This resource is for anyone who is navigating through any sort of grief. We welcome any and all in the area to join us! 
+
+
+      ## For more information on the class and details on what Grief Share is please select one of the following times:
 
 
       ### [Thursday mornings at 10am](https://www.griefshare.org/groups/264489)

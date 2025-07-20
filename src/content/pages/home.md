@@ -53,13 +53,10 @@ sections:
   - hide: false
     alignment: center
     markdown_content: >-
-      # ***Starting soon!***
-
-
       ![](img/griefshare.zip-1.png)
 
 
-      # This resource is for anyone who is navigating through any sort of grief. We welcome any and all in the area to join us! 
+      # This resource is for anyone who is navigating through any sort of grief. We welcome any and all in the area to join us!
 
 
       ## For more information on the class and details on what Grief Share is please select one of the following times:

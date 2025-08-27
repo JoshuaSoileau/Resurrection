@@ -53,19 +53,19 @@ sections:
   - hide: false
     alignment: center
     markdown_content: >-
-      ![](img/griefshare.zip-1.png)
+      ![](img/alpha-logo.jpg)
 
 
-      # This resource is for anyone who is navigating through any sort of grief. We welcome any and all in the area to join us!
+      ## This year's Alpha course begins on September 23rd, meeting weekly on Tuesdays at 6:30 PM at [Rock Hill Coffee](https://www.rockhill.coffee). 
 
 
-      ## For more information on the class and details on what Grief Share is please select one of the following times:
+      ### Come explore some of life's biggest questions about faith and meaning in a relaxed environment. Every week we will share a meal, watch a video introducing the topic for the night, and then have open discussion. 
 
 
-      ### [Thursday mornings at 10am](https://www.griefshare.org/groups/264489)
+      ### You're invited, no matter your background or beliefs. 
 
 
-      ### [Thursday evenings at 6pm](https://www.griefshare.org/groups/267965)
+      ### Try Alpha.
     opacity: 0.7
     image_url: ""
     include_line: false

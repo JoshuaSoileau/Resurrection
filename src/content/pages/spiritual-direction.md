@@ -4,6 +4,21 @@ slug: /spiritual-direction
 sections:
   - hide: false
     button_url: ""
+    left_text: ""
+    opacity: 1
+    image_url: img/summer_morning_on_the_at_d2afb96e-3668-4733-b3d3-0517a42b8173.jpg
+    right_url: ""
+    text: "**Beautiful Quote Here**"
+    right_text: ""
+    headline: Spiritual Direction
+    overlay_color: None
+    anchor: ""
+    left_url: ""
+    button_text: ""
+    type: Hero1
+    logo_url: ""
+  - hide: false
+    button_url: ""
     opacity: 0.5
     image_url: img/summer_morning_on_the_at_d2afb96e-3668-4733-b3d3-0517a42b8173.jpg
     text_alignment: Left

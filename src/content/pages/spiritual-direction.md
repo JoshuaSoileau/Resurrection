@@ -5,7 +5,7 @@ sections:
   - hide: false
     button_url: ""
     left_text: ""
-    opacity: 0.6
+    opacity: 0.8
     image_url: img/summer_morning_on_the_at_d2afb96e-3668-4733-b3d3-0517a42b8173.jpg
     right_url: ""
     text: "**Beautiful Quote Here**"
@@ -43,7 +43,7 @@ sections:
 
 
       Cost - absolutely nothing. We want to walk with anyone who has a desire to grow in their relationship with God or to learn to quiet themselves to hear the Spirit. But if you would like to donate to ensure that we can continue to do this much needed ministry.
-    opacity: 0.7
+    opacity: 0.8
     image_url: ""
     include_line: true
     padding: Tiny

@@ -56,16 +56,19 @@ sections:
       ![](img/alpha-logo.jpg)
 
 
-      ## This year's Alpha course begins on September 23rd, meeting weekly on Tuesdays at 6:30 PM at [Rock Hill Coffee](https://www.rockhill.coffee). 
+      ## This year's Alpha course begins on September 23rd, meeting weekly on Tuesdays at 6:30 PM at [Rock Hill Coffee](https://www.rockhill.coffee).
 
 
-      ### Come explore some of life's biggest questions about faith and meaning in a relaxed environment. Every week we will share a meal, watch a video introducing the topic for the night, and then have open discussion. 
+      ### Come explore some of life's biggest questions about faith and meaning in a relaxed environment. Every week we will share a meal, watch a video introducing the topic for the night, and then have open discussion.
 
 
-      ### You're invited, no matter your background or beliefs. 
+      ### You're invited, no matter your background or beliefs.
 
 
       ### Try Alpha.
+
+
+      #### Click [HERE](https://forms.gle/WBTd7FidyHRdenvL8) to register.
     opacity: 0.7
     image_url: ""
     include_line: false

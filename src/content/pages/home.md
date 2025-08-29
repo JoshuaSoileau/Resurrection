@@ -131,8 +131,6 @@ sections:
   - type: ImageInThreeColumnsWithSpace
     hide: false
     items:
-      - image_url: img/IMG_8582.jpeg
-        text: ""
       - image_url: img/62AA5018-27CD-4924-BDD6-F8BB5B2E682E_1_105_c.jpeg
         text: ""
       - image_url: img/243240976_4115467808580055_3709599852756987891_n.jpeg

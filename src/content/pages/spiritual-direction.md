@@ -5,7 +5,7 @@ sections:
   - hide: false
     button_url: ""
     left_text: ""
-    opacity: 1
+    opacity: 0.6
     image_url: img/summer_morning_on_the_at_d2afb96e-3668-4733-b3d3-0517a42b8173.jpg
     right_url: ""
     text: "**Beautiful Quote Here**"
@@ -17,17 +17,6 @@ sections:
     button_text: ""
     type: Hero1
     logo_url: ""
-  - hide: false
-    button_url: ""
-    opacity: 0.5
-    image_url: img/summer_morning_on_the_at_d2afb96e-3668-4733-b3d3-0517a42b8173.jpg
-    text_alignment: Left
-    subheadline: ""
-    headline: Spiritual Direction
-    overlay_color: Charcoal
-    anchor: ""
-    button_text: ""
-    type: BannerWithButton
   - type: Spacer
     hide: false
     anchor: ""
@@ -57,7 +46,7 @@ sections:
     opacity: 0.7
     image_url: ""
     include_line: true
-    padding: Large
+    padding: Tiny
     overlay_color: Charcoal
     anchor: ""
     type: TextCenteredPlusLine1

@@ -131,10 +131,13 @@ sections:
   - type: ImageInThreeColumnsWithSpace
     hide: false
     items:
-      - image_url: img/62AA5018-27CD-4924-BDD6-F8BB5B2E682E_1_105_c.jpeg
+      - image_url: img/img_0159.jpg
         text: ""
       - image_url: img/243240976_4115467808580055_3709599852756987891_n.jpeg
         text: ""
+      - image_url: img/img_0114.jpg
+        text: ""
+        link_url: https://google.com
   - hide: false
     alignment: right
     markdown_content: |-

@@ -5,7 +5,7 @@ sections:
   - button_url: ""
     left_text: New here?
     opacity: 0.5
-    image_url: img/IMG_8302.jpg
+    image_url: img/img_6012.jpg
     right_url: "#contact"
     text: ""
     right_text: Contact Us

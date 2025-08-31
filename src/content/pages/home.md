@@ -159,7 +159,7 @@ sections:
     url: https://resurrectionrh.churchcenter.com/calendar?embed=true&view=list
     include_line: true
     alignment: Image on left
-    image_url: img/IMG_8881.jpeg
+    image_url: img/img_6104.jpg
     background_color: White
     markdown_content: "# Current events"
   - type: ContactEmailSignup

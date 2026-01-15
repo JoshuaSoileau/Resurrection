@@ -60,11 +60,11 @@ sections:
 
       Nick Wimmer - Treasurer
 
-      Doyle Roach
+      Clinton Dix
 
-      Fred Shope
+      Lisa Massotti
 
-      Joshua Soileau
+      Cynthia Weston
     opacity: 0.7
     image_url: ""
     include_line: true

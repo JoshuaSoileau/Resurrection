@@ -17,20 +17,6 @@ sections:
     logo_url: img/z-logo-white-no-border.png
   - hide: false
     alignment: center
-    markdown_content: >-
-      # \*\*Please note\*\*
-
-
-      # Due to the current weather conditions and out of an abundance of caution, our regularly scheduled worship service for January 25th at 4pm has been cancelled.
-    opacity: 0.7
-    image_url: ""
-    include_line: false
-    padding: Medium
-    overlay_color: Red
-    anchor: ""
-    type: TextCenteredPlusLine1
-  - hide: false
-    alignment: center
     markdown_content: |-
       # An Anglican Parish 
 

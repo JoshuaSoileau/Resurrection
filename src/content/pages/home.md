@@ -17,6 +17,17 @@ sections:
     logo_url: img/z-logo-white-no-border.png
   - hide: false
     alignment: center
+    markdown_content: "# **Due to the current weather situation, all activities for
+      Sunday, February 1 have been canceled.**"
+    opacity: 0.7
+    image_url: ""
+    include_line: false
+    padding: Large
+    overlay_color: Red
+    anchor: ""
+    type: TextCenteredPlusLine1
+  - hide: false
+    alignment: center
     markdown_content: |-
       # An Anglican Parish 
 

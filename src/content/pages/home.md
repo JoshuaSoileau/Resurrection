@@ -18,7 +18,7 @@ sections:
   - hide: false
     alignment: center
     markdown_content: "# **Due to the current weather situation, all activities for
-      Sunday, February 1 have been canceled.**"
+      Sunday, February 1 have been cancelled.**"
     opacity: 0.7
     image_url: ""
     include_line: false
